@@ -1,0 +1,19 @@
+{
+  "name": "oxidio/constants",
+  "type": "library",
+  "description": "oxidio constants",
+  "license": "GPL-3.0",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "files": ["src/autoload-files.php"]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
