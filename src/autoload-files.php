@@ -4,5 +4,4 @@
  */
 
 require_once __DIR__ . '/constants-model.php';
-require_once __DIR__ . '/constants-setup.php';
 require_once __DIR__ . '/constants-theme.php';
