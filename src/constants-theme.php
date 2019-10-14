@@ -12,34 +12,40 @@ namespace OxidEsales\Eshop\Core\Theme
 {
 
     /**
+     * @deprecated
      */
     const CUSTOM_AJAX_ECONDA_RECOMMENDATIONS = 'custom/ajax_econda_recommendations.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_HTML_FOOTER = 'email/html/footer.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_FORGOTPWD = 'email/html/forgotpwd.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_HEADER\BLOCK
+     * @deprecated
      */
     const EMAIL_HTML_HEADER = 'email/html/header.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_INVITE = 'email/html/invite.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_NEWSLETTEROPTIN = 'email/html/newsletteroptin.tpl';
 
@@ -73,6 +79,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_CUST\BLOCK_DELIVERYINFO
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_CUST\BLOCK_PAYMENTINFO
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_CUST\BLOCK_ORDEREMAILEND
+     * @deprecated
      */
     const EMAIL_HTML_ORDER_CUST = 'email/html/order_cust.tpl';
 
@@ -103,6 +110,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_OWNER\BLOCK_PAYMENTINFO
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_OWNER\BLOCK_USERNAME
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_OWNER\BLOCK_DELIVERYINFO
+     * @deprecated
      */
     const EMAIL_HTML_ORDER_OWNER = 'email/html/order_owner.tpl';
 
@@ -117,24 +125,28 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDERSHIPPED\BLOCK_ORDERARTICLES
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDERSHIPPED\BLOCK_INFOFOOTER
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDERSHIPPED\BLOCK_SHIPMENTTRACKINGURL
+     * @deprecated
      */
     const EMAIL_HTML_ORDERSHIPPED = 'email/html/ordershipped.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_OWNER_REMINDER = 'email/html/owner_reminder.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_PRICEALARM_OWNER = 'email/html/pricealarm_owner.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_REGISTER = 'email/html/register.tpl';
 
@@ -147,30 +159,36 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_SENDDOWNLOADLINKS\BLOCK_DOWNLOAD_HEADER
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_SENDDOWNLOADLINKS\BLOCK_DOWNLOAD_LINK
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_HTML_SENDDOWNLOADLINKS\BLOCK_INFOFOOTER
+     * @deprecated
      */
     const EMAIL_HTML_SENDDOWNLOADLINKS = 'email/html/senddownloadlinks.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_SUGGEST = 'email/html/suggest.tpl';
 
     /**
      * includes:
      * @see EMAIL_HTML_FOOTER
+     * @deprecated
      */
     const EMAIL_HTML_WISHLIST = 'email/html/wishlist.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_PLAIN_FORGOTPWD = 'email/plain/forgotpwd.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_PLAIN_INVITE = 'email/plain/invite.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_PLAIN_NEWSLETTEROPTIN = 'email/plain/newsletteroptin.tpl';
 
@@ -201,6 +219,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_CUST\BLOCK_ADDRESS
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_CUST\BLOCK_DELIVERYINFO
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_CUST\BLOCK_ORDEREMAILEND
+     * @deprecated
      */
     const EMAIL_PLAIN_ORDER_CUST = 'email/plain/order_cust.tpl';
 
@@ -229,6 +248,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_OWNER\BLOCK_OWNERUSERNAME
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_OWNER\BLOCK_OWNERADDRESS
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_OWNER\BLOCK_OWNERDELIVERYINFO
+     * @deprecated
      */
     const EMAIL_PLAIN_ORDER_OWNER = 'email/plain/order_owner.tpl';
 
@@ -241,14 +261,17 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDERSHIPPED\BLOCK_ORDERARTICLES
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDERSHIPPED\BLOCK_INFOFOOTER
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDERSHIPPED\BLOCK_HTML_SHIPMENTTRACKINGURL
+     * @deprecated
      */
     const EMAIL_PLAIN_ORDERSHIPPED = 'email/plain/ordershipped.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_PLAIN_PRICEALARM_OWNER = 'email/plain/pricealarm_owner.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_PLAIN_REGISTER = 'email/plain/register.tpl';
 
@@ -259,18 +282,22 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_SENDDOWNLOADLINKS\BLOCK_HTML_DOWNLOAD_HEADER
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_SENDDOWNLOADLINKS\BLOCK_HTML_DOWNLOAD_LINK
      * @see \OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_SENDDOWNLOADLINKS\BLOCK_HTML_INFOFOOTER
+     * @deprecated
      */
     const EMAIL_PLAIN_SENDDOWNLOADLINKS = 'email/plain/senddownloadlinks.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_PLAIN_SUGGEST = 'email/plain/suggest.tpl';
 
     /**
+     * @deprecated
      */
     const EMAIL_PLAIN_WISHLIST = 'email/plain/wishlist.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_ACCOUNT_NEWSLETTER = 'form/account_newsletter.tpl';
 
@@ -279,6 +306,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\FORM_CONTACT\BLOCK_FIELDS
      * @see \OxidEsales\Eshop\Core\Theme\FORM_CONTACT\BLOCK_CAPTCHA
      * @see \OxidEsales\Eshop\Core\Theme\FORM_CONTACT\BLOCK_BUTTONS
+     * @deprecated
      */
     const FORM_CONTACT = 'form/contact.tpl';
 
@@ -288,24 +316,29 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_DELETE_SHIPPING_ADDRESS_MODAL\BLOCK_HEADER
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_DELETE_SHIPPING_ADDRESS_MODAL\BLOCK_CONTENTS
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_DELETE_SHIPPING_ADDRESS_MODAL\BLOCK_FOOTER
+     * @deprecated
      */
     const FORM_FIELDSET_DELETE_SHIPPING_ADDRESS_MODAL = 'form/fieldset/delete_shipping_address_modal.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_ORDER_NEWSLETTER\BLOCK_USER_BILLING
+     * @deprecated
      */
     const FORM_FIELDSET_ORDER_NEWSLETTER = 'form/fieldset/order_newsletter.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_FIELDSET_ORDER_REMARK = 'form/fieldset/order_remark.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_FIELDSET_SALUTATION = 'form/fieldset/salutation.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_FIELDSET_STATE = 'form/fieldset/state.tpl';
 
@@ -315,16 +348,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_ACCOUNT\BLOCK_PASSWORD
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_ACCOUNT\BLOCK_CONFIRMPWD
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_ACCOUNT\BLOCK_NEWSLETTER
+     * @deprecated
      */
     const FORM_FIELDSET_USER_ACCOUNT = 'form/fieldset/user_account.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_BILLING\BLOCK_COUNTRY
+     * @deprecated
      */
     const FORM_FIELDSET_USER_BILLING = 'form/fieldset/user_billing.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_FIELDSET_USER_EMAIL = 'form/fieldset/user_email.tpl';
 
@@ -332,6 +368,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_NOACCOUNT\BLOCK_EMAIL
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_NOACCOUNT\BLOCK_NEWSLETTER
+     * @deprecated
      */
     const FORM_FIELDSET_USER_NOACCOUNT = 'form/fieldset/user_noaccount.tpl';
 
@@ -339,62 +376,75 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_SHIPPING\BLOCK_ADDRESS_SELECT
      * @see \OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_SHIPPING\BLOCK_COUNTRY
+     * @deprecated
      */
     const FORM_FIELDSET_USER_SHIPPING = 'form/fieldset/user_shipping.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_FORGOTPWD_CHANGE_PWD = 'form/forgotpwd_change_pwd.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_FORGOTPWD_EMAIL = 'form/forgotpwd_email.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_FORMPARAMS = 'form/formparams.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_LOGIN\BLOCK_CHECKOUT_OPTIONS_TEXT
+     * @deprecated
      */
     const FORM_LOGIN = 'form/login.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_LOGIN_ACCOUNT = 'form/login_account.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_NEWSLETTER = 'form/newsletter.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_PRICEALARM\BLOCK_CAPTCHA
+     * @deprecated
      */
     const FORM_PRICEALARM = 'form/pricealarm.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_PRIVATESALES_ACCEPT_TERMS = 'form/privatesales/accept_terms.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_PRIVATESALES_BASKETEXCL = 'form/privatesales/basketexcl.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_PRIVATESALES_INVITE\BLOCK_CAPTCHA
+     * @deprecated
      */
     const FORM_PRIVATESALES_INVITE = 'form/privatesales/invite.tpl';
 
     /**
      * includes:
      * @see PAGE_ACCOUNT_LOGIN
+     * @deprecated
      */
     const FORM_RECOMMENDATION_ADD = 'form/recommendation_add.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_RECOMMENDATION_EDIT = 'form/recommendation_edit.tpl';
 
@@ -402,12 +452,14 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see FORM_FIELDSET_USER_ACCOUNT
      * @see FORM_FIELDSET_USER_BILLING
+     * @deprecated
      */
     const FORM_REGISTER = 'form/register.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\FORM_SUGGEST\BLOCK_CAPTCHA
+     * @deprecated
      */
     const FORM_SUGGEST = 'form/suggest.tpl';
 
@@ -424,6 +476,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER\BLOCK_SHIPPING_ADDRESS
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER\BLOCK_SHIPPING_ADDRESS_HEAD
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER\BLOCK_SHIPPING_ADDRESS_CHOICE
+     * @deprecated
      */
     const FORM_USER = 'form/user.tpl';
 
@@ -441,6 +494,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_CHANGE\BLOCK_SHIPPING_HEAD
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_CHANGE\BLOCK_SHIPPING_FEEDBACK
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_CHANGE\BLOCK_NEXT_STEP_BOTTOM
+     * @deprecated
      */
     const FORM_USER_CHECKOUT_CHANGE = 'form/user_checkout_change.tpl';
 
@@ -452,6 +506,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_NOREGISTRATION\BLOCK
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_NOREGISTRATION\BLOCK_NEXT_STEP_TOP
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_NOREGISTRATION\BLOCK_NEXT_STEP_BOTTOM
+     * @deprecated
      */
     const FORM_USER_CHECKOUT_NOREGISTRATION = 'form/user_checkout_noregistration.tpl';
 
@@ -463,26 +518,32 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_REGISTRATION\BLOCK
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_REGISTRATION\BLOCK_NEXT_STEP_TOP
      * @see \OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_REGISTRATION\BLOCK_NEXT_STEP_BOTTOM
+     * @deprecated
      */
     const FORM_USER_CHECKOUT_REGISTRATION = 'form/user_checkout_registration.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_USER_PASSWORD = 'form/user_password.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_WISHLIST_PUBLISH = 'form/wishlist_publish.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_WISHLIST_SEARCH = 'form/wishlist_search.tpl';
 
     /**
+     * @deprecated
      */
     const FORM_WISHLIST_SUGGEST = 'form/wishlist_suggest.tpl';
 
     /**
+     * @deprecated
      */
     const I18N_JS_VARS = 'i18n/js_vars.tpl';
 
@@ -506,6 +567,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_BASE\BLOCK_HEAD_HTML_NAMESPACE
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_BASE\BLOCK_THEME_SVG_ICONS
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_BASE\BLOCK_JS
+     * @deprecated
      */
     const LAYOUT_BASE = 'layout/base.tpl';
 
@@ -531,6 +593,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_FOOTER\BLOCK_PAGE_VATINCLUDE
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_FOOTER\BLOCK_DELIVERYINFO
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_FOOTER\BLOCK_DD_COPYRIGHT
+     * @deprecated
      */
     const LAYOUT_FOOTER = 'layout/footer.tpl';
 
@@ -546,6 +609,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_HEADER\BLOCK_DD_PAGE_ICON_MENU_ACCOUNT
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_HEADER\BLOCK_DD_PAGE_ICON_MENU_MINIBASKET
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_HEADER\BLOCK_BOTTOM
+     * @deprecated
      */
     const LAYOUT_HEADER = 'layout/header.tpl';
 
@@ -564,12 +628,14 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_PAGE\BLOCK_BREADCRUMB
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_PAGE\BLOCK_CONTENT_MAIN
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_PAGE\BLOCK_INIT_SOCIAL
+     * @deprecated
      */
     const LAYOUT_PAGE = 'layout/page.tpl';
 
     /**
      * includes:
      * @see LAYOUT_BASE
+     * @deprecated
      */
     const LAYOUT_POPUP = 'layout/popup.tpl';
 
@@ -587,62 +653,75 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_SIDEBAR\BLOCK_NEWS
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_SIDEBAR\BLOCK_SOCIAL
      * @see \OxidEsales\Eshop\Core\Theme\LAYOUT_SIDEBAR\BLOCK_SHOPLUPERATINGS
+     * @deprecated
      */
     const LAYOUT_SIDEBAR = 'layout/sidebar.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_ERR_404 = 'message/err_404.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_ERR_ACCESSDENIED = 'message/err_accessdenied.tpl';
 
     /**
      * includes:
      * @see LAYOUT_BASE
+     * @deprecated
      */
     const MESSAGE_ERR_SETUP = 'message/err_setup.tpl';
 
     /**
      * includes:
      * @see LAYOUT_BASE
+     * @deprecated
      */
     const MESSAGE_ERR_UNKNOWN = 'message/err_unknown.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_ERROR = 'message/error.tpl';
 
     /**
      * includes:
      * @see MESSAGE_ERRORS_MODAL
+     * @deprecated
      */
     const MESSAGE_ERRORS = 'message/errors.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_ERRORS_MODAL = 'message/errors_modal.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_EXCEPTION = 'message/exception.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_INPUTVALIDATION = 'message/inputvalidation.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_NOTICE = 'message/notice.tpl';
 
     /**
+     * @deprecated
      */
     const MESSAGE_SUCCESS = 'message/success.tpl';
 
     /**
      * includes:
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const MESSAGE_USER_BLOCKED = 'message/user_blocked.tpl';
 
@@ -654,6 +733,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DASHBOARD\BLOCK_COL1
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DASHBOARD\BLOCK_COL2
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DASHBOARD\BLOCK_DELETE_MY
+     * @deprecated
      */
     const PAGE_ACCOUNT_DASHBOARD = 'page/account/dashboard.tpl';
 
@@ -664,6 +744,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_MY_ACCOUNT_CONFIRMATION\BLOCK_WARNING_MESSAGE
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_MY_ACCOUNT_CONFIRMATION\BLOCK_FORM
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_MY_ACCOUNT_CONFIRMATION\BLOCK_FORM_BUTTON_SET
+     * @deprecated
      */
     const PAGE_ACCOUNT_DELETE_MY_ACCOUNT_CONFIRMATION = 'page/account/delete_my_account_confirmation.tpl';
 
@@ -674,12 +755,14 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_REVIEW_CONFIRMATION\BLOCK_MODAL_BODY
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_REVIEW_CONFIRMATION\BLOCK_MODAL_FORM
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_REVIEW_CONFIRMATION\BLOCK_MODAL_BUTTONS_SET
+     * @deprecated
      */
     const PAGE_ACCOUNT_DELETE_REVIEW_CONFIRMATION = 'page/account/delete_review_confirmation.tpl';
 
     /**
      * includes:
      * @see PAGE_ACCOUNT_INC_FILE_ATTRIBUTES
+     * @deprecated
      */
     const PAGE_ACCOUNT_DOWNLOADS = 'page/account/downloads.tpl';
 
@@ -689,16 +772,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see FORM_FORGOTPWD_EMAIL
      * @see LAYOUT_POPUP
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_ACCOUNT_FORGOTPWD = 'page/account/forgotpwd.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_INC_ACCOUNT_MENU\BLOCK
+     * @deprecated
      */
     const PAGE_ACCOUNT_INC_ACCOUNT_MENU = 'page/account/inc/account_menu.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_ACCOUNT_INC_FILE_ATTRIBUTES = 'page/account/inc/file_attributes.tpl';
 
@@ -706,16 +792,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see FORM_LOGIN_ACCOUNT
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_ACCOUNT_LOGIN = 'page/account/login.tpl';
 
     /**
      * includes:
      * @see FORM_ACCOUNT_NEWSLETTER
+     * @deprecated
      */
     const PAGE_ACCOUNT_NEWSLETTER = 'page/account/newsletter.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_ACCOUNT_NOTICELIST = 'page/account/noticelist.tpl';
 
@@ -723,20 +812,24 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_ORDER\BLOCK_HISTORY
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_ORDER\BLOCK_HISTORY_CART_ITEMS
+     * @deprecated
      */
     const PAGE_ACCOUNT_ORDER = 'page/account/order.tpl';
 
     /**
      * includes:
      * @see FORM_USER_PASSWORD
+     * @deprecated
      */
     const PAGE_ACCOUNT_PASSWORD = 'page/account/password.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_ACCOUNT_RECOMMENDATIONADD = 'page/account/recommendationadd.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_ACCOUNT_RECOMMENDATIONEDIT = 'page/account/recommendationedit.tpl';
 
@@ -745,6 +838,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see PAGE_RECOMMENDATIONS_INC_LIST
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_RECOMMENDATIONLIST\BLOCK_REDOMMENDATIONLIST_CONTENT
+     * @deprecated
      */
     const PAGE_ACCOUNT_RECOMMENDATIONLIST = 'page/account/recommendationlist.tpl';
 
@@ -753,16 +847,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see MESSAGE_ERRORS
      * @see FORM_REGISTER
      * @see LAYOUT_POPUP
+     * @deprecated
      */
     const PAGE_ACCOUNT_REGISTER = 'page/account/register.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_ACCOUNT_REGISTER_CONFIRM = 'page/account/register_confirm.tpl';
 
     /**
      * includes:
      * @see LAYOUT_POPUP
+     * @deprecated
      */
     const PAGE_ACCOUNT_REGISTER_SUCCESS = 'page/account/register_success.tpl';
 
@@ -774,6 +871,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_REVIEWS\BLOCK_REVIEWLIST_ITEM_ACTION
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_REVIEWS\BLOCK_REVIEWLIST_NO_AVAILABLE
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_REVIEWS\BLOCK_REVIEWLIST_LOCATOR
+     * @deprecated
      */
     const PAGE_ACCOUNT_REVIEWS = 'page/account/reviews.tpl';
 
@@ -782,6 +880,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see FORM_USER
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_USER\BLOCK_FORM
+     * @deprecated
      */
     const PAGE_ACCOUNT_USER = 'page/account/user.tpl';
 
@@ -789,6 +888,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see FORM_WISHLIST_PUBLISH
      * @see FORM_WISHLIST_SUGGEST
+     * @deprecated
      */
     const PAGE_ACCOUNT_WISHLIST = 'page/account/wishlist.tpl';
 
@@ -807,10 +907,12 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_BASKET\BLOCK_LOWORDERPRICE_BOTTOM
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_BASKET\BLOCK_BACKTOSHOP_BOTTOM
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_BASKET\BLOCK_BTN_NEXT_BOTTOM
+     * @deprecated
      */
     const PAGE_CHECKOUT_BASKET = 'page/checkout/basket.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_AGB = 'page/checkout/inc/agb.tpl';
 
@@ -836,6 +938,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS\BLOCK_PAYMENTCOSTS
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS\BLOCK_WRAPPINGCOSTS
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS\BLOCK_GRANDTOTAL
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_BASKETCONTENTS = 'page/checkout/inc/basketcontents.tpl';
 
@@ -858,6 +961,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_LIST\BLOCK_ITEMERROR
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_LIST\BLOCK_GIFTWRAPPING
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_LIST\BLOCK_BASKETFUNCTIONS
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_BASKETCONTENTS_LIST = 'page/checkout/inc/basketcontents_list.tpl';
 
@@ -881,6 +985,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_TABLE\BLOCK_ITEMERROR
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_TABLE\BLOCK_GIFTWRAPPING
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_TABLE\BLOCK_BASKETFUNCTIONS
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_BASKETCONTENTS_TABLE = 'page/checkout/inc/basketcontents_table.tpl';
 
@@ -894,30 +999,35 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_OPTIONS\BLOCK_REG
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_OPTIONS\BLOCK_REG_TEXT
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_OPTIONS\BLOCK_LOGIN
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_OPTIONS = 'page/checkout/inc/options.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OTHER\BLOCK_LONGDESC
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_PAYMENT_OTHER = 'page/checkout/inc/payment_other.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OXIDCASHONDEL\BLOCK_LONGDESC
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_PAYMENT_OXIDCASHONDEL = 'page/checkout/inc/payment_oxidcashondel.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OXIDCREDITCARD\BLOCK_LONGDESC
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_PAYMENT_OXIDCREDITCARD = 'page/checkout/inc/payment_oxidcreditcard.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OXIDDEBITNOTE\BLOCK_LONGDESC
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_PAYMENT_OXIDDEBITNOTE = 'page/checkout/inc/payment_oxiddebitnote.tpl';
 
@@ -929,6 +1039,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_STEPS\BLOCK_PAY
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_STEPS\BLOCK_ORDER
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_STEPS\BLOCK_LASTSTEP
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_STEPS = 'page/checkout/inc/steps.tpl';
 
@@ -940,6 +1051,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_WRAPPING\BLOCK_CARDS
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_WRAPPING\BLOCK_COMMENT
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_WRAPPING\BLOCK_SUBMIT
+     * @deprecated
      */
     const PAGE_CHECKOUT_INC_WRAPPING = 'page/checkout/inc/wrapping.tpl';
 
@@ -963,6 +1075,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_ORDER\BLOCK_LOWORDERPRICE_BOTTOM
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_ORDER\BLOCK_BTN_CONFIRM_BOTTOM
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_ORDER\BLOCK_BTN_SUBMIT_BOTTOM
+     * @deprecated
      */
     const PAGE_CHECKOUT_ORDER = 'page/checkout/order.tpl';
 
@@ -982,6 +1095,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_PAYMENT\BLOCK_SELECT
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_PAYMENT\BLOCK_NEXTSTEP
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_PAYMENT\BLOCK_NOPAYMENTSFOUND
+     * @deprecated
      */
     const PAGE_CHECKOUT_PAYMENT = 'page/checkout/payment.tpl';
 
@@ -993,6 +1107,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_THANKYOU\BLOCK_INFO
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_THANKYOU\BLOCK_PROCEED
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_THANKYOU\BLOCK_PARTNERS
+     * @deprecated
      */
     const PAGE_CHECKOUT_THANKYOU = 'page/checkout/thankyou.tpl';
 
@@ -1008,16 +1123,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_USER\BLOCK_NOREGISTRATION
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_USER\BLOCK_REGISTRATION
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_USER\BLOCK_CHANGE
+     * @deprecated
      */
     const PAGE_CHECKOUT_USER = 'page/checkout/user.tpl';
 
     /**
      * includes:
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_COMPARE_COMPARE = 'page/compare/compare.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_COMPARE_INC_COMPAREITEM = 'page/compare/inc/compareitem.tpl';
 
@@ -1026,6 +1144,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see PAGE_DETAILS_INC_FULLPRODUCTINFO
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_AJAX_FULLPRODUCTINFO\BLOCK_INIT
+     * @deprecated
      */
     const PAGE_DETAILS_AJAX_FULLPRODUCTINFO = 'page/details/ajax/fullproductinfo.tpl';
 
@@ -1034,6 +1153,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see PAGE_DETAILS_INC_PRODUCTMAIN
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_AJAX_PRODUCTMAIN\BLOCK_INIT
+     * @deprecated
      */
     const PAGE_DETAILS_AJAX_PRODUCTMAIN = 'page/details/ajax/productmain.tpl';
 
@@ -1041,18 +1161,22 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see LAYOUT_PAGE
      * @see PAGE_DETAILS_INC_FULLPRODUCTINFO
+     * @deprecated
      */
     const PAGE_DETAILS_DETAILS = 'page/details/details.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_DETAILS_INC_ATTRIBUTES = 'page/details/inc/attributes.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_DETAILS_INC_COMPARE_LINKS = 'page/details/inc/compare_links.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_DETAILS_INC_DELIVERYTIME = 'page/details/inc/deliverytime.tpl';
 
@@ -1062,24 +1186,29 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see PAGE_DETAILS_INC_TABS
      * @see WIDGET_REVIEWS_REVIEWS
      * @see PAGE_DETAILS_INC_RELATED_PRODUCTS
+     * @deprecated
      */
     const PAGE_DETAILS_INC_FULLPRODUCTINFO = 'page/details/inc/fullproductinfo.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_DETAILS_INC_MEDIA = 'page/details/inc/media.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_DETAILS_INC_MOREPICS = 'page/details/inc/morepics.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_DETAILS_INC_PHOTOSWIPE = 'page/details/inc/photoswipe.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_PRICEINFO\BLOCK_PRODUCTMAIN_PRICE
+     * @deprecated
      */
     const PAGE_DETAILS_INC_PRICEINFO = 'page/details/inc/priceinfo.tpl';
 
@@ -1112,6 +1241,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_PRODUCTMAIN\BLOCK_MANUFACTURERSICON
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_PRODUCTMAIN\BLOCK_PRODUCTLINKSSELECTOR
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_PRODUCTMAIN\BLOCK_PRODUCTLINKS
+     * @deprecated
      */
     const PAGE_DETAILS_INC_PRODUCTMAIN = 'page/details/inc/productmain.tpl';
 
@@ -1121,6 +1251,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_RELATED_PRODUCTS\BLOCK_RELATEDPRODUCTS_ACCESSOIRES
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_RELATED_PRODUCTS\BLOCK_RELATEDPRODUCTS_SIMILARPRODUCTS
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_RELATED_PRODUCTS\BLOCK_RELATEDPRODUCTS_CROSSSELLING
+     * @deprecated
      */
     const PAGE_DETAILS_INC_RELATED_PRODUCTS = 'page/details/inc/related_products.tpl';
 
@@ -1140,12 +1271,14 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_TABS\BLOCK_MAIN
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_TABS\BLOCK_SOCIAL_NAVIGATION
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_TABS\BLOCK_SOCIAL_CONTENT
+     * @deprecated
      */
     const PAGE_DETAILS_INC_TABS = 'page/details/inc/tabs.tpl';
 
     /**
      * includes:
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_INFO_CLEARCOOKIES = 'page/info/clearcookies.tpl';
 
@@ -1153,26 +1286,31 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see FORM_CONTACT
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_INFO_CONTACT = 'page/info/contact.tpl';
 
     /**
      * includes:
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_INFO_CONTENT = 'page/info/content.tpl';
 
     /**
      * includes:
      * @see LAYOUT_POPUP
+     * @deprecated
      */
     const PAGE_INFO_CONTENT_PLAIN = 'page/info/content_plain.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_INFO_LINKS = 'page/info/links.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_INFO_NEWS = 'page/info/news.tpl';
 
@@ -1180,12 +1318,14 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see FORM_NEWSLETTER
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_INFO_NEWSLETTER = 'page/info/newsletter.tpl';
 
     /**
      * includes:
      * @see FORM_SUGGEST
+     * @deprecated
      */
     const PAGE_INFO_SUGGEST = 'page/info/suggest.tpl';
 
@@ -1196,16 +1336,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_LIST_LIST\BLOCK_UPPERLOCATOR
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_LIST_LIST\BLOCK_PRODUCTLIST
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_LIST_LIST\BLOCK_BOTTOMLOCATOR
+     * @deprecated
      */
     const PAGE_LIST_LIST = 'page/list/list.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_LIST_MORECATEGORIES = 'page/list/morecategories.tpl';
 
     /**
      * includes:
      * @see FORM_PRIVATESALES_INVITE
+     * @deprecated
      */
     const PAGE_PRIVATESALES_INVITE = 'page/privatesales/invite.tpl';
 
@@ -1218,12 +1361,14 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see LAYOUT_POPUP
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_PRIVATESALES_LOGIN\BLOCK_DD_LAYOUT_HEADER_LOGO
+     * @deprecated
      */
     const PAGE_PRIVATESALES_LOGIN = 'page/privatesales/login.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_RECOMMENDATIONS_INC_LIST\BLOCK_REDOMMENDATIONS_CONTENT
+     * @deprecated
      */
     const PAGE_RECOMMENDATIONS_INC_LIST = 'page/recommendations/inc/list.tpl';
 
@@ -1233,12 +1378,14 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see PAGE_RECOMMENDATIONS_INC_LIST
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_RECOMMENDATIONS_RECOMMLIST\BLOCK_DESC
+     * @deprecated
      */
     const PAGE_RECOMMENDATIONS_RECOMMLIST = 'page/recommendations/recommlist.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_REVIEW_REVIEW\BLOCK_WIDGET_PRODUCT_LISTITEM_LINE_PICTUREBOX
+     * @deprecated
      */
     const PAGE_REVIEW_REVIEW = 'page/review/review.tpl';
 
@@ -1246,6 +1393,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see FORM_LOGIN_ACCOUNT
      * @see LAYOUT_PAGE
+     * @deprecated
      */
     const PAGE_REVIEW_REVIEW_LOGIN = 'page/review/review_login.tpl';
 
@@ -1255,6 +1403,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_SEARCH_SEARCH\BLOCK_RESULTS
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_SEARCH_SEARCH\BLOCK_TOP_LISTLOCATOR
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_SEARCH_SEARCH\BLOCK_BOTTOM_LISTLOCATOR
+     * @deprecated
      */
     const PAGE_SEARCH_SEARCH = 'page/search/search.tpl';
 
@@ -1262,6 +1411,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see WIDGET_HEADER_LANGUAGES
      * @see LAYOUT_BASE
+     * @deprecated
      */
     const PAGE_SHOP_MALLSTART = 'page/shop/mallstart.tpl';
 
@@ -1275,26 +1425,32 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_SHOP_START\BLOCK_MANUFACTURER_SLIDER
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_SHOP_START\BLOCK_NEWEST_ARTICLES
      * @see \OxidEsales\Eshop\Core\Theme\PAGE_SHOP_START\BLOCK_TOP_ARTICLES
+     * @deprecated
      */
     const PAGE_SHOP_START = 'page/shop/start.tpl';
 
     /**
+     * @deprecated
      */
     const PAGE_WISHLIST_WISHLIST = 'page/wishlist/wishlist.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_CONTENT_CONTENT = 'rdfa/content/content.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_CONTENT_INC_BUSINESS_ENTITY = 'rdfa/content/inc/business_entity.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_CONTENT_INC_DELIVERY_CHARGE = 'rdfa/content/inc/delivery_charge.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_CONTENT_INC_PAYMENT_CHARGE = 'rdfa/content/inc/payment_charge.tpl';
 
@@ -1303,22 +1459,27 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see RDFA_DETAILS_INC_OBJECT
      * @see RDFA_DETAILS_INC_PAYMENT
      * @see RDFA_DETAILS_INC_DELIVERY
+     * @deprecated
      */
     const RDFA_DETAILS_DETAILS = 'rdfa/details/details.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_DETAILS_INC_DELIVERY = 'rdfa/details/inc/delivery.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_DETAILS_INC_OBJECT = 'rdfa/details/inc/object.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_DETAILS_INC_PAYMENT = 'rdfa/details/inc/payment.tpl';
 
     /**
+     * @deprecated
      */
     const RDFA_DETAILS_INC_PRICE = 'rdfa/details/inc/price.tpl';
 
@@ -1326,14 +1487,17 @@ namespace OxidEsales\Eshop\Core\Theme
      * includes:
      * @see RDFA_DETAILS_DETAILS
      * @see RDFA_CONTENT_CONTENT
+     * @deprecated
      */
     const RDFA_RDFA = 'rdfa/rdfa.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_ADDRESS_BILLING_ADDRESS = 'widget/address/billing_address.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_ADDRESS_SHIPPING_ADDRESS = 'widget/address/shipping_address.tpl';
 
@@ -1342,28 +1506,33 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_BREADCRUMB\BLOCK_DD
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_BREADCRUMB\BLOCK_DD_LIST_INNER
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_BREADCRUMB\BLOCK_DD_LIST
+     * @deprecated
      */
     const WIDGET_BREADCRUMB = 'widget/breadcrumb.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_DYNSCRIPT = 'widget/dynscript.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_CATEGORYLIST\BLOCK_CATEGORIES
+     * @deprecated
      */
     const WIDGET_FOOTER_CATEGORYLIST = 'widget/footer/categorylist.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_INFO\BLOCK_INFORMATION
+     * @deprecated
      */
     const WIDGET_FOOTER_INFO = 'widget/footer/info.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_MANUFACTURERLIST\BLOCK_MANUFACTURERS
+     * @deprecated
      */
     const WIDGET_FOOTER_MANUFACTURERLIST = 'widget/footer/manufacturerlist.tpl';
 
@@ -1372,6 +1541,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_NEWSLETTER\BLOCK_DD_FORM
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_NEWSLETTER\BLOCK_DD_FORM_INNER
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_NEWSLETTER\BLOCK_DD_FORM_INNER_GROUP
+     * @deprecated
      */
     const WIDGET_FOOTER_NEWSLETTER = 'widget/footer/newsletter.tpl';
 
@@ -1379,16 +1549,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_SERVICES\BLOCK
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_SERVICES\BLOCK_ITEMS
+     * @deprecated
      */
     const WIDGET_FOOTER_SERVICES = 'widget/footer/services.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_VENDORLIST\BLOCK_VENDORS
+     * @deprecated
      */
     const WIDGET_FOOTER_VENDORLIST = 'widget/footer/vendorlist.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_HEADER_BETANOTE = 'widget/header/betanote.tpl';
 
@@ -1400,10 +1573,12 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_CATEGORYLIST\BLOCK_DD_NAVBAR
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_CATEGORYLIST\BLOCK_DD_NAVBAR_LIST
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_CATEGORYLIST\BLOCK_NAVBAR_MINIBASKET
+     * @deprecated
      */
     const WIDGET_HEADER_CATEGORYLIST = 'widget/header/categorylist.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_HEADER_COOKIENOTE = 'widget/header/cookienote.tpl';
 
@@ -1411,6 +1586,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_CURRENCIES\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_BUTTON
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_CURRENCIES\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_LIST
+     * @deprecated
      */
     const WIDGET_HEADER_CURRENCIES = 'widget/header/currencies.tpl';
 
@@ -1418,16 +1594,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_LANGUAGES\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_BUTTON
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_LANGUAGES\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_LIST
+     * @deprecated
      */
     const WIDGET_HEADER_LANGUAGES = 'widget/header/languages.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_LOGINBOX\BLOCK_THIRDPARTY_LOGIN
+     * @deprecated
      */
     const WIDGET_HEADER_LOGINBOX = 'widget/header/loginbox.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_HEADER_MENUBASKET = 'widget/header/menubasket.tpl';
 
@@ -1435,6 +1614,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_MINIBASKET\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_BUTTON
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_MINIBASKET\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_LIST
+     * @deprecated
      */
     const WIDGET_HEADER_MINIBASKET = 'widget/header/minibasket.tpl';
 
@@ -1444,6 +1624,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SEARCH\BLOCK_DD_FORM_INNER
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SEARCH\BLOCK_FIELD
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SEARCH\BLOCK_DD_BUTTON
+     * @deprecated
      */
     const WIDGET_HEADER_SEARCH = 'widget/header/search.tpl';
 
@@ -1451,6 +1632,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SERVICEBOX\BLOCK_FLYOUTBOX
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SERVICEBOX\BLOCK_ITEMS
+     * @deprecated
      */
     const WIDGET_HEADER_SERVICEBOX = 'widget/header/servicebox.tpl';
 
@@ -1461,20 +1643,24 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SERVICEMENU\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_ACCOUNT_BUTTON
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SERVICEMENU\BLOCK_DD_LAYOUT_PAGE_ICON_MENU_ACCOUNT_LIST
+     * @deprecated
      */
     const WIDGET_HEADER_SERVICEMENU = 'widget/header/servicemenu.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_LOCATOR_ATTRIBUTES\BLOCK
+     * @deprecated
      */
     const WIDGET_LOCATOR_ATTRIBUTES = 'widget/locator/attributes.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_LOCATOR_ITEMSPERPAGE = 'widget/locator/itemsperpage.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_LOCATOR_LISTDISPLAYTYPE = 'widget/locator/listdisplaytype.tpl';
 
@@ -1484,26 +1670,31 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see WIDGET_LOCATOR_SORT
      * @see WIDGET_LOCATOR_ITEMSPERPAGE
      * @see WIDGET_LOCATOR_ATTRIBUTES
+     * @deprecated
      */
     const WIDGET_LOCATOR_LISTLOCATOR = 'widget/locator/listlocator.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_LOCATOR_PAGING\BLOCK
+     * @deprecated
      */
     const WIDGET_LOCATOR_PAGING = 'widget/locator/paging.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_LOCATOR_SORT\BLOCK
+     * @deprecated
      */
     const WIDGET_LOCATOR_SORT = 'widget/locator/sort.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_MANUFACTURERSSLIDER = 'widget/manufacturersslider.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_MINIBASKET_COUNTDOWN = 'widget/minibasket/countdown.tpl';
 
@@ -1521,16 +1712,19 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_MINIBASKET_MINIBASKET\BLOCK_DD_LAYOUT_PAGE_HEADER_ICON_MENU_TABLE
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_MINIBASKET_MINIBASKET\BLOCK_DD_LAYOUT_PAGE_HEADER_ICON_MENU_FUNCTIONS
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_MINIBASKET_MINIBASKET\BLOCK_DD_LAYOUT_PAGE_HEADER_ICON_MENU_ALERT_EMPTY
+     * @deprecated
      */
     const WIDGET_MINIBASKET_MINIBASKET = 'widget/minibasket/minibasket.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_MINIBASKET_MINIBASKETMODAL = 'widget/minibasket/minibasketmodal.tpl';
 
     /**
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_MINIBASKET_NEWBASKETITEMMSG\BLOCK_DD_NEW_ITEM_MSG
+     * @deprecated
      */
     const WIDGET_MINIBASKET_NEWBASKETITEMMSG = 'widget/minibasket/newbasketitemmsg.tpl';
 
@@ -1538,18 +1732,22 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_BARGAINITEMS\BLOCK_BARGAINITEM_PRICE
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_BARGAINITEMS\BLOCK_BARGAINITEM_TOBASKET
+     * @deprecated
      */
     const WIDGET_PRODUCT_BARGAINITEMS = 'widget/product/bargainitems.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_PRODUCT_COMPARE_LINKS = 'widget/product/compare_links.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_PRODUCT_DETAILS = 'widget/product/details.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_PRODUCT_LIST = 'widget/product/list.tpl';
 
@@ -1561,6 +1759,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_GRID\BLOCK_PRICE
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_GRID\BLOCK_PRICE_VALUE
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_GRID\BLOCK_TOBASKET
+     * @deprecated
      */
     const WIDGET_PRODUCT_LISTITEM_GRID = 'widget/product/listitem_grid.tpl';
 
@@ -1574,6 +1773,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_INFOGRID\BLOCK_PRICE
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_INFOGRID\BLOCK_PRICE_VALUE
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_INFOGRID\BLOCK_TOBASKET
+     * @deprecated
      */
     const WIDGET_PRODUCT_LISTITEM_INFOGRID = 'widget/product/listitem_infogrid.tpl';
 
@@ -1588,10 +1788,12 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_LINE\BLOCK_PRICE_VALUE
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_LINE\BLOCK_SELECTIONS
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_LINE\BLOCK_TOBASKET
+     * @deprecated
      */
     const WIDGET_PRODUCT_LISTITEM_LINE = 'widget/product/listitem_line.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_PRODUCT_SELECTBOX = 'widget/product/selectbox.tpl';
 
@@ -1599,10 +1801,12 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PROMOSLIDER\BLOCK_DD
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_PROMOSLIDER\BLOCK_DD_LIST
+     * @deprecated
      */
     const WIDGET_PROMOSLIDER = 'widget/promoslider.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_REVIEWS_RATING = 'widget/reviews/rating.tpl';
 
@@ -1613,10 +1817,12 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_REVIEWS_REVIEWS\BLOCK_FORM_FIELDS
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_REVIEWS_REVIEWS\BLOCK_FORM_BUTTONS
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_REVIEWS_REVIEWS\BLOCK_RECORD
+     * @deprecated
      */
     const WIDGET_REVIEWS_REVIEWS = 'widget/reviews/reviews.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_RSS = 'widget/rss.tpl';
 
@@ -1624,10 +1830,12 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SHOPLUPE_RATINGS\BLOCK_DD_SIDEBAR
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SHOPLUPE_RATINGS\BLOCK_DD_SIDEBAR_INNER
+     * @deprecated
      */
     const WIDGET_SHOPLUPE_RATINGS = 'widget/shoplupe/ratings.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_SIDEBAR_ADMINBANNER = 'widget/sidebar/adminbanner.tpl';
 
@@ -1636,6 +1844,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_CATEGORYTREE\BLOCK_DD
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_CATEGORYTREE\BLOCK_DD_INNER
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_CATEGORYTREE\BLOCK_DD_LIST
+     * @deprecated
      */
     const WIDGET_SIDEBAR_CATEGORYTREE = 'widget/sidebar/categorytree.tpl';
 
@@ -1644,6 +1853,7 @@ namespace OxidEsales\Eshop\Core\Theme
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_NEWS\BLOCK_DD
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_NEWS\BLOCK_DD_INNER
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_NEWS\BLOCK_DD_LIST
+     * @deprecated
      */
     const WIDGET_SIDEBAR_NEWS = 'widget/sidebar/news.tpl';
 
@@ -1651,10 +1861,12 @@ namespace OxidEsales\Eshop\Core\Theme
      * blocks:
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_PARTNERS\BLOCK_DD
      * @see \OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_PARTNERS\BLOCK_PARTNER_LOGOS
+     * @deprecated
      */
     const WIDGET_SIDEBAR_PARTNERS = 'widget/sidebar/partners.tpl';
 
     /**
+     * @deprecated
      */
     const WIDGET_SIDEBAR_RECOMMENDATION = 'widget/sidebar/recommendation.tpl';
 }
@@ -1666,6 +1878,7 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_HTML_HEADER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'email_html_header';
 }
@@ -1677,30 +1890,37 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDERSHIPPED
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_SENDEMAIL = 'email_html_ordershipped_sendemail';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOHEADER = 'email_html_ordershipped_infoheader';
 
     /**
+     * @deprecated
      */
     const BLOCK_ADDRESS = 'email_html_ordershipped_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_OXORDERNR = 'email_html_ordershipped_oxordernr';
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDERARTICLES = 'email_html_ordershipped_orderarticles';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOFOOTER = 'email_html_ordershipped_infofooter';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPMENTTRACKINGURL = 'email_html_ordershipped_shipmenttrackingurl';
 }
@@ -1712,106 +1932,132 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_CUST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDEREMAIL = 'email_html_order_cust_orderemail';
 
     /**
+     * @deprecated
      */
     const BLOCK_ADDRESS = 'email_html_order_cust_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM = 'email_html_order_cust_basketitem';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT_TOP = 'email_html_order_cust_voucherdiscount_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALNET = 'email_html_order_cust_nodiscounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTPRODUCTVATS = 'email_html_order_cust_nodiscountproductvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALGROSS = 'email_html_order_cust_nodiscounttotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTTOTALNET = 'email_html_order_cust_discounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTTOTALGROSS = 'email_html_order_cust_discounttotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTS = 'email_html_order_cust_discounts';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOTALNET = 'email_html_order_cust_totalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTVATS = 'email_html_order_cust_productvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOTALBRUT = 'email_html_order_cust_totalbrut';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT = 'email_html_order_cust_voucherdiscount';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELCOSTS = 'email_html_order_cust_delcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTCOSTS = 'email_html_order_cust_paymentcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_WRAPPINGCOSTS = 'email_html_order_cust_wrappingcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_GIFTWRAPPING = 'email_html_order_cust_giftwrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_GRANDTOTAL = 'email_html_order_cust_grandtotal';
 
     /**
+     * @deprecated
      */
     const BLOCK_USERREMARK = 'email_html_order_cust_userremark';
 
     /**
+     * @deprecated
      */
     const BLOCK_DOWNLOAD_LINK = 'email_html_order_cust_download_link';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTINFO_TOP = 'email_html_order_cust_paymentinfo_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_USERNAME = 'email_html_order_cust_username';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELIVERYINFO = 'email_html_order_cust_deliveryinfo';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTINFO = 'email_html_order_cust_paymentinfo';
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDEREMAILEND = 'email_html_order_cust_orderemailend';
 }
@@ -1823,94 +2069,117 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_HTML_ORDER_OWNER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDEREMAIL = 'email_html_order_owner_orderemail';
 
     /**
+     * @deprecated
      */
     const BLOCK_ADDRESS = 'email_html_order_owner_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM = 'email_html_order_owner_basketitem';
 
     /**
+     * @deprecated
      */
     const BLOCK_GIFTWRAPPING = 'email_html_order_owner_giftwrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT_TOP = 'email_html_order_owner_voucherdiscount_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALNET = 'email_html_order_owner_nodiscounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTPRODUCTVATS = 'email_html_order_owner_nodiscountproductvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALGROSS = 'email_html_order_owner_nodiscounttotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_CUST_DISCOUNTTOTALNET = 'email_html_order_cust_discounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_CUST_DISCOUNTTOTALGROSS = 'email_html_order_cust_discounttotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTS = 'email_html_order_owner_discounts';
 
     /**
+     * @deprecated
      */
     const BLOCK_CUST_TOTALNET = 'email_html_order_cust_totalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTVATS = 'email_html_order_owner_productvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_CUST_TOTALBRUT = 'email_html_order_cust_totalbrut';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT = 'email_html_order_owner_voucherdiscount';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELCOSTS = 'email_html_order_owner_delcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTCOSTS = 'email_html_order_owner_paymentcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_WRAPPINGCOSTS = 'email_html_order_owner_wrappingcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_GRANDTOTAL = 'email_html_order_owner_grandtotal';
 
     /**
+     * @deprecated
      */
     const BLOCK_USERREMARK = 'email_html_order_owner_userremark';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTINFO = 'email_html_order_owner_paymentinfo';
 
     /**
+     * @deprecated
      */
     const BLOCK_USERNAME = 'email_html_order_owner_username';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELIVERYINFO = 'email_html_order_owner_deliveryinfo';
 }
@@ -1922,22 +2191,27 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_HTML_SENDDOWNLOADLINKS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOHEADER = 'email_html_senddownloadlinks_infoheader';
 
     /**
+     * @deprecated
      */
     const BLOCK_OXORDERNR = 'email_html_senddownloadlinks_oxordernr';
 
     /**
+     * @deprecated
      */
     const BLOCK_DOWNLOAD_HEADER = 'email_html_senddownloadlinks_download_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_DOWNLOAD_LINK = 'email_html_senddownloadlinks_download_link';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOFOOTER = 'email_html_senddownloadlinks_infofooter';
 }
@@ -1949,30 +2223,37 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDERSHIPPED
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_SENDEMAIL = 'email_plain_ordershipped_sendemail';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOHEADER = 'email_plain_ordershipped_infoheader';
 
     /**
+     * @deprecated
      */
     const BLOCK_ADDRESS = 'email_plain_ordershipped_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_OXORDERNR = 'email_plain_ordershipped_oxordernr';
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDERARTICLES = 'email_plain_ordershipped_orderarticles';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOFOOTER = 'email_plain_ordershipped_infofooter';
 
     /**
+     * @deprecated
      */
     const BLOCK_HTML_SHIPMENTTRACKINGURL = 'email_html_ordershipped_shipmenttrackingurl';
 }
@@ -1984,102 +2265,127 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_CUST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDEREMAIL = 'email_plain_order_cust_orderemail';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT_TOP = 'email_plain_order_cust_voucherdiscount_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM = 'email_plain_order_cust_basketitem';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALNET = 'email_plain_order_cust_nodiscounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTPRODUCTVATS = 'email_plain_order_cust_nodiscountproductvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALGROSS = 'email_plain_order_cust_nodiscounttotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERDISCOUNTTOTALNET = 'email_plain_order_ownerdiscounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTOWNERTOTALGROSS = 'email_plain_order_discountownertotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTS = 'email_plain_order_cust_discounts';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOTALNET = 'email_plain_order_cust_totalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTVATS = 'email_plain_order_cust_productvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERTOTALGROSS = 'email_plain_order_ownertotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT = 'email_plain_order_cust_voucherdiscount';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELCOSTS = 'email_plain_order_cust_delcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTCOSTS = 'email_plain_order_cust_paymentcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_WRAPPINGCOSTS = 'email_plain_order_cust_wrappingcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_GIFTWRAPPING = 'email_plain_order_cust_giftwrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_GRANDTOTAL = 'email_plain_order_cust_grandtotal';
 
     /**
+     * @deprecated
      */
     const BLOCK_USERREMARK = 'email_plain_order_cust_userremark';
 
     /**
+     * @deprecated
      */
     const BLOCK_DOWNLOAD_LINK = 'email_plain_order_cust_download_link';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTINFO = 'email_plain_order_cust_paymentinfo';
 
     /**
+     * @deprecated
      */
     const BLOCK_USERNAME = 'email_plain_order_cust_username';
 
     /**
+     * @deprecated
      */
     const BLOCK_ADDRESS = 'email_plain_order_cust_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELIVERYINFO = 'email_plain_order_cust_deliveryinfo';
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDEREMAILEND = 'email_plain_order_cust_orderemailend';
 }
@@ -2091,94 +2397,117 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_ORDER_OWNER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDEREMAIL = 'email_plain_order_owner_orderemail';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT_TOP = 'email_plain_order_owner_voucherdiscount_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERBASKETITEM = 'email_plain_order_ownerbasketitem';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERNODISCOUNTTOTALNET = 'email_plain_order_ownernodiscounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERNODISCOUNTPRODUCTVATS = 'email_plain_order_ownernodiscountproductvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTOWNERTOTALGROSS = 'email_plain_order_nodiscountownertotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERDISCOUNTTOTALNET = 'email_plain_order_ownerdiscounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTOWNERTOTALGROSS = 'email_plain_order_discountownertotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERDISCOUNTS = 'email_plain_order_ownerdiscounts';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERTOTALNET = 'email_plain_order_ownertotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERPRODUCTVATS = 'email_plain_order_ownerproductvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERTOTALGROSS = 'email_plain_order_ownertotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT = 'email_plain_order_owner_voucherdiscount';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERDELCOSTS = 'email_plain_order_ownerdelcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERPAYMENTCOSTS = 'email_plain_order_ownerpaymentcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_GIFTWRAPPING = 'email_plain_order_giftwrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_CUST_GREETINGCARD = 'email_plain_order_cust_greetingcard';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERGRANDTOTAL = 'email_plain_order_ownergrandtotal';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERUSERREMARK = 'email_plain_order_owneruserremark';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERPAYMENTINFO = 'email_plain_order_ownerpaymentinfo';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERUSERNAME = 'email_plain_order_ownerusername';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERADDRESS = 'email_plain_order_owneraddress';
 
     /**
+     * @deprecated
      */
     const BLOCK_OWNERDELIVERYINFO = 'email_plain_order_ownerdeliveryinfo';
 }
@@ -2190,22 +2519,27 @@ namespace OxidEsales\Eshop\Core\Theme\EMAIL_PLAIN_SENDDOWNLOADLINKS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_HTML_INFOHEADER = 'email_html_senddownloadlinks_infoheader';
 
     /**
+     * @deprecated
      */
     const BLOCK_HTML_SENDEDNOW_OXORDERNR = 'email_html_sendednow_oxordernr';
 
     /**
+     * @deprecated
      */
     const BLOCK_HTML_DOWNLOAD_HEADER = 'email_html_senddownloadlinks_download_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_HTML_DOWNLOAD_LINK = 'email_html_senddownloadlinks_download_link';
 
     /**
+     * @deprecated
      */
     const BLOCK_HTML_INFOFOOTER = 'email_html_senddownloadlinks_infofooter';
 }
@@ -2217,14 +2551,17 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_CONTACT
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_FIELDS = 'contact_form_fields';
 
     /**
+     * @deprecated
      */
     const BLOCK_CAPTCHA = 'captcha_form';
 
     /**
+     * @deprecated
      */
     const BLOCK_BUTTONS = 'contact_form_buttons';
 }
@@ -2236,18 +2573,22 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_DELETE_SHIPPING_ADDRESS_MODA
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'delete_shipping_address_modal';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEADER = 'delete_shipping_address_modal_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_CONTENTS = 'delete_shipping_address_modal_contents';
 
     /**
+     * @deprecated
      */
     const BLOCK_FOOTER = 'delete_shipping_address_modal_footer';
 }
@@ -2259,6 +2600,7 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_ORDER_NEWSLETTER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_USER_BILLING = 'user_billing_newsletter';
 }
@@ -2270,18 +2612,22 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_ACCOUNT
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_USERNAME = 'user_account_username';
 
     /**
+     * @deprecated
      */
     const BLOCK_PASSWORD = 'user_account_password';
 
     /**
+     * @deprecated
      */
     const BLOCK_CONFIRMPWD = 'user_account_confirmpwd';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEWSLETTER = 'user_account_newsletter';
 }
@@ -2293,6 +2639,7 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_BILLING
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_COUNTRY = 'form_user_billing_country';
 }
@@ -2304,10 +2651,12 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_NOACCOUNT
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_EMAIL = 'user_noaccount_email';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEWSLETTER = 'user_noaccount_newsletter';
 }
@@ -2319,10 +2668,12 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_FIELDSET_USER_SHIPPING
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_ADDRESS_SELECT = 'form_user_shipping_address_select';
 
     /**
+     * @deprecated
      */
     const BLOCK_COUNTRY = 'form_user_shipping_country';
 }
@@ -2334,6 +2685,7 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_LOGIN
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_CHECKOUT_OPTIONS_TEXT = 'checkout_options_login_text';
 }
@@ -2345,6 +2697,7 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_PRICEALARM
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_CAPTCHA = 'captcha_form';
 }
@@ -2356,6 +2709,7 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_PRIVATESALES_INVITE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_CAPTCHA = 'captcha_form';
 }
@@ -2367,6 +2721,7 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_SUGGEST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_CAPTCHA = 'captcha_form';
 }
@@ -2378,30 +2733,37 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_USER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'user';
 
     /**
+     * @deprecated
      */
     const BLOCK_BILLING_ADDRESS_HEAD = 'user_billing_address_head';
 
     /**
+     * @deprecated
      */
     const BLOCK_BILLING_ADDRESS = 'user_billing_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_BILLING_ADDRESS_TEXT = 'user_billing_address_text';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPPING_ADDRESS = 'user_shipping_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPPING_ADDRESS_HEAD = 'user_shipping_address_head';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPPING_ADDRESS_CHOICE = 'user_shipping_address_choice';
 }
@@ -2413,38 +2775,47 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_CHANGE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'user_checkout_change';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_TOP = 'user_checkout_change_next_step_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_BILLING = 'user_checkout_billing';
 
     /**
+     * @deprecated
      */
     const BLOCK_BILLING_HEAD = 'user_checkout_billing_head';
 
     /**
+     * @deprecated
      */
     const BLOCK_BILLING_FEEDBACK = 'user_checkout_billing_feedback';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPPING = 'user_checkout_shipping';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPPING_HEAD = 'user_checkout_shipping_head';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPPING_FEEDBACK = 'user_checkout_shipping_feedback';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_BOTTOM = 'user_checkout_change_next_step_bottom';
 }
@@ -2456,14 +2827,17 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_NOREGISTRATION
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'user_checkout_noregistration';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_TOP = 'user_checkout_noregistration_next_step_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_BOTTOM = 'user_checkout_noregistration_next_step_bottom';
 }
@@ -2475,14 +2849,17 @@ namespace OxidEsales\Eshop\Core\Theme\FORM_USER_CHECKOUT_REGISTRATION
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'user_checkout_registration';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_TOP = 'user_checkout_registration_next_step_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_BOTTOM = 'user_checkout_registration_next_step_bottom';
 }
@@ -2494,62 +2871,77 @@ namespace OxidEsales\Eshop\Core\Theme\LAYOUT_BASE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_TITLE = 'head_title';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_META_ROBOTS = 'head_meta_robots';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_META_DESCRIPTION = 'head_meta_description';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_META_KEYWORDS = 'head_meta_keywords';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_META_OPEN_GRAPH = 'head_meta_open_graph';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_LINK_CANONICAL = 'head_link_canonical';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_LINK_HREFLANG = 'head_link_hreflang';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_LINK_FAVICON = 'head_link_favicon';
 
     /**
+     * @deprecated
      */
     const BLOCK_STYLE = 'base_style';
 
     /**
+     * @deprecated
      */
     const BLOCK_FONTS = 'base_fonts';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_LINK_RSS = 'head_link_rss';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_CSS = 'head_css';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEAD_HTML_NAMESPACE = 'head_html_namespace';
 
     /**
+     * @deprecated
      */
     const BLOCK_THEME_SVG_ICONS = 'theme_svg_icons';
 
     /**
+     * @deprecated
      */
     const BLOCK_JS = 'base_js';
 }
@@ -2561,70 +2953,87 @@ namespace OxidEsales\Eshop\Core\Theme\LAYOUT_FOOTER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'footer_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_SERVICELIST = 'dd_footer_servicelist';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_SERVICELIST_INNER = 'dd_footer_servicelist_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_INFORMATION = 'dd_footer_information';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_INFORMATION_INNER = 'dd_footer_information_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_MANUFACTURERLIST = 'dd_footer_manufacturerlist';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_MANUFACTURERLIST_INNER = 'dd_footer_manufacturerlist_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_CATEGORYTREE = 'dd_footer_categorytree';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_CATEGORYTREE_INNER = 'dd_footer_categorytree_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_NEWSLETTER = 'dd_footer_newsletter';
 
     /**
+     * @deprecated
      */
     const BLOCK_SOCIAL = 'footer_social';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_SOCIAL_LINKS = 'dd_footer_social_links';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_SOCIAL_LINKS_INNER = 'dd_footer_social_links_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_SOCIAL_LINKS_LIST = 'dd_footer_social_links_list';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAGE_VATINCLUDE = 'layout_page_vatinclude';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELIVERYINFO = 'footer_deliveryinfo';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_COPYRIGHT = 'dd_footer_copyright';
 }
@@ -2636,34 +3045,42 @@ namespace OxidEsales\Eshop\Core\Theme\LAYOUT_HEADER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'header_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_LOGO = 'layout_header_logo';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOP = 'layout_header_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_PAGE_ICON_MENU_LANGUAGES = 'dd_layout_page_header_icon_menu_languages';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_PAGE_ICON_MENU_CURRENCIES = 'dd_layout_page_header_icon_menu_currencies';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_PAGE_ICON_MENU_ACCOUNT = 'dd_layout_page_header_icon_menu_account';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_PAGE_ICON_MENU_MINIBASKET = 'dd_layout_page_header_icon_menu_minibasket';
 
     /**
+     * @deprecated
      */
     const BLOCK_BOTTOM = 'layout_header_bottom';
 }
@@ -2675,18 +3092,22 @@ namespace OxidEsales\Eshop\Core\Theme\LAYOUT_PAGE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_HEADER = 'layout_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_BREADCRUMB = 'layout_breadcrumb';
 
     /**
+     * @deprecated
      */
     const BLOCK_CONTENT_MAIN = 'content_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_INIT_SOCIAL = 'layout_init_social';
 }
@@ -2698,38 +3119,47 @@ namespace OxidEsales\Eshop\Core\Theme\LAYOUT_SIDEBAR
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'sidebar';
 
     /**
+     * @deprecated
      */
     const BLOCK_CATEGORIESTREE = 'sidebar_categoriestree';
 
     /**
+     * @deprecated
      */
     const BLOCK_TAGS = 'sidebar_tags';
 
     /**
+     * @deprecated
      */
     const BLOCK_PARTNERS = 'sidebar_partners';
 
     /**
+     * @deprecated
      */
     const BLOCK_BOXPRODUCTS = 'sidebar_boxproducts';
 
     /**
+     * @deprecated
      */
     const BLOCK_RECOMMENDATION = 'sidebar_recommendation';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEWS = 'sidebar_news';
 
     /**
+     * @deprecated
      */
     const BLOCK_SOCIAL = 'sidebar_social';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHOPLUPERATINGS = 'sidebar_shopluperatings';
 }
@@ -2741,14 +3171,17 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DASHBOARD
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_COL1 = 'account_dashboard_col1';
 
     /**
+     * @deprecated
      */
     const BLOCK_COL2 = 'account_dashboard_col2';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELETE_MY = 'account_dashboard_delete_my_account';
 }
@@ -2760,22 +3193,27 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_MY_ACCOUNT_CONFIRMATIO
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'account_delete_my_account_confirmation';
 
     /**
+     * @deprecated
      */
     const BLOCK_HEADER_MESSAGE = 'account_delete_my_account_confirmation_header_message';
 
     /**
+     * @deprecated
      */
     const BLOCK_WARNING_MESSAGE = 'account_delete_my_account_confirmation_warning_message';
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM = 'account_delete_my_account_confirmation_form';
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM_BUTTON_SET = 'account_delete_my_account_confirmation_form_button_set';
 }
@@ -2787,22 +3225,27 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_DELETE_REVIEW_CONFIRMATION
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL = 'delete_review_confirmation_modal';
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL_HEADER = 'delete_review_confirmation_modal_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL_BODY = 'delete_review_confirmation_modal_body';
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL_FORM = 'delete_review_confirmation_modal_form';
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL_BUTTONS_SET = 'delete_review_confirmation_modal_buttons_set';
 }
@@ -2814,6 +3257,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_INC_ACCOUNT_MENU
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'account_menu';
 }
@@ -2825,10 +3269,12 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_ORDER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_HISTORY = 'account_order_history';
 
     /**
+     * @deprecated
      */
     const BLOCK_HISTORY_CART_ITEMS = 'account_order_history_cart_items';
 }
@@ -2840,6 +3286,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_RECOMMENDATIONLIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_REDOMMENDATIONLIST_CONTENT = 'account_redommendationlist_content';
 }
@@ -2851,26 +3298,32 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_REVIEWS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_REVIEWLIST_HEADER = 'account_reviewlist_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_REVIEWLIST_LIST = 'account_reviewlist_list';
 
     /**
+     * @deprecated
      */
     const BLOCK_REVIEWLIST_ITEM = 'account_reviewlist_item';
 
     /**
+     * @deprecated
      */
     const BLOCK_REVIEWLIST_ITEM_ACTION = 'account_reviewlist_item_action';
 
     /**
+     * @deprecated
      */
     const BLOCK_REVIEWLIST_NO_AVAILABLE = 'account_reviewlist_no_reviews_available';
 
     /**
+     * @deprecated
      */
     const BLOCK_REVIEWLIST_LOCATOR = 'account_reviewlist_locator';
 }
@@ -2882,6 +3335,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_ACCOUNT_USER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM = 'account_user_form';
 }
@@ -2893,42 +3347,52 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_BASKET
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'checkout_basket_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_LOWORDERPRICE_TOP = 'checkout_basket_loworderprice_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_EMPTYSHIPPINGCART = 'checkout_basket_emptyshippingcart';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_TOP = 'checkout_basket_next_step_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_BACKTOSHOP_TOP = 'checkout_basket_backtoshop_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_BTN_NEXT_TOP = 'basket_btn_next_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_BOTTOM = 'checkout_basket_next_step_bottom';
 
     /**
+     * @deprecated
      */
     const BLOCK_LOWORDERPRICE_BOTTOM = 'checkout_basket_loworderprice_bottom';
 
     /**
+     * @deprecated
      */
     const BLOCK_BACKTOSHOP_BOTTOM = 'checkout_basket_backtoshop_bottom';
 
     /**
+     * @deprecated
      */
     const BLOCK_BTN_NEXT_BOTTOM = 'basket_btn_next_bottom';
 }
@@ -2940,70 +3404,87 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKET_VOUCHERS = 'checkout_basket_vouchers';
 
     /**
+     * @deprecated
      */
     const BLOCK_SUMMARY = 'checkout_basketcontents_summary';
 
     /**
+     * @deprecated
      */
     const BLOCK_SUMMARY_TABLE_INNER = 'checkout_basketcontents_summary_table_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALNET = 'checkout_basketcontents_nodiscounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTPRODUCTVATS = 'checkout_basketcontents_nodiscountproductvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_NODISCOUNTTOTALGROSS = 'checkout_basketcontents_nodiscounttotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTTOTALNET = 'checkout_basketcontents_discounttotalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTTOTALGROSS = 'checkout_basketcontents_discounttotalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_DISCOUNTS = 'checkout_basketcontents_discounts';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOTALNET = 'checkout_basketcontents_totalnet';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTVATS = 'checkout_basketcontents_productvats';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOTALGROSS = 'checkout_basketcontents_totalgross';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERDISCOUNT = 'checkout_basketcontents_voucherdiscount';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELCOSTS = 'checkout_basketcontents_delcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAYMENTCOSTS = 'checkout_basketcontents_paymentcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_WRAPPINGCOSTS = 'checkout_basketcontents_wrappingcosts';
 
     /**
+     * @deprecated
      */
     const BLOCK_GRANDTOTAL = 'checkout_basketcontents_grandtotal';
 }
@@ -3015,70 +3496,87 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_LIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM = 'checkout_basketcontents_basketitem';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_IMAGE = 'checkout_basketcontents_basketitem_image';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_TITLENUMBER = 'checkout_basketcontents_basketitem_titlenumber';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_TITLE = 'checkout_basketcontents_basketitem_title';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_ARTNUM = 'checkout_basketcontents_basketitem_artnum';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_ATTRIBUTES = 'checkout_basketcontents_basketitem_attributes';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_SELECTLISTS = 'checkout_basketcontents_basketitem_selectlists';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_PERSPARAMS = 'checkout_basketcontents_basketitem_persparams';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_WRAPPING = 'checkout_basketcontents_basketitem_wrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_UNITPRICE = 'checkout_basketcontents_basketitem_unitprice';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_AMOUNT = 'checkout_basketcontents_basketitem_amount';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_TOTALPRICE = 'checkout_basketcontents_basketitem_totalprice';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_REMOVECHECKBOX = 'checkout_basketcontents_basketitem_removecheckbox';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_QUANTITY = 'checkout_basketcontents_basketitem_quantity';
 
     /**
+     * @deprecated
      */
     const BLOCK_ITEMERROR = 'checkout_basketcontents_itemerror';
 
     /**
+     * @deprecated
      */
     const BLOCK_GIFTWRAPPING = 'checkout_basketcontents_giftwrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETFUNCTIONS = 'checkout_basketcontents_basketfunctions';
 }
@@ -3090,74 +3588,92 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_BASKETCONTENTS_TABLE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM = 'checkout_basketcontents_basketitem';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_REMOVECHECKBOX = 'checkout_basketcontents_basketitem_removecheckbox';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_TITLENUMBER = 'checkout_basketcontents_basketitem_titlenumber';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_IMAGE = 'checkout_basketcontents_basketitem_image';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_ITEM_DESC = 'dd_checkout_inc_basketcontents_table_item_desc';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_TITLE = 'checkout_basketcontents_basketitem_title';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_ARTNUM = 'checkout_basketcontents_basketitem_artnum';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_ATTRIBUTES = 'checkout_basketcontents_basketitem_attributes';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_SELECTLISTS = 'checkout_basketcontents_basketitem_selectlists';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_PERSPARAMS = 'checkout_basketcontents_basketitem_persparams';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_WRAPPING = 'checkout_basketcontents_basketitem_wrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_QUANTITY = 'checkout_basketcontents_basketitem_quantity';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_UNITPRICE = 'checkout_basketcontents_basketitem_unitprice';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_VAT = 'checkout_basketcontents_basketitem_vat';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETITEM_TOTALPRICE = 'checkout_basketcontents_basketitem_totalprice';
 
     /**
+     * @deprecated
      */
     const BLOCK_ITEMERROR = 'checkout_basketcontents_itemerror';
 
     /**
+     * @deprecated
      */
     const BLOCK_GIFTWRAPPING = 'checkout_basketcontents_giftwrapping';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKETFUNCTIONS = 'checkout_basketcontents_basketfunctions';
 }
@@ -3169,26 +3685,32 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_OPTIONS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_USER = 'checkout_user_options';
 
     /**
+     * @deprecated
      */
     const BLOCK_NOREG = 'checkout_options_noreg';
 
     /**
+     * @deprecated
      */
     const BLOCK_NOREG_TEXT = 'checkout_options_noreg_text';
 
     /**
+     * @deprecated
      */
     const BLOCK_REG = 'checkout_options_reg';
 
     /**
+     * @deprecated
      */
     const BLOCK_REG_TEXT = 'checkout_options_reg_text';
 
     /**
+     * @deprecated
      */
     const BLOCK_LOGIN = 'checkout_options_login';
 }
@@ -3200,6 +3722,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OTHER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_LONGDESC = 'checkout_payment_longdesc';
 }
@@ -3211,6 +3734,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OXIDCASHONDEL
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_LONGDESC = 'checkout_payment_longdesc';
 }
@@ -3222,6 +3746,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OXIDCREDITCARD
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_LONGDESC = 'checkout_payment_longdesc';
 }
@@ -3233,6 +3758,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_PAYMENT_OXIDDEBITNOTE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_LONGDESC = 'checkout_payment_longdesc';
 }
@@ -3244,26 +3770,32 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_STEPS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'checkout_steps_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKET = 'checkout_steps_basket';
 
     /**
+     * @deprecated
      */
     const BLOCK_SEND = 'checkout_steps_send';
 
     /**
+     * @deprecated
      */
     const BLOCK_PAY = 'checkout_steps_pay';
 
     /**
+     * @deprecated
      */
     const BLOCK_ORDER = 'checkout_steps_order';
 
     /**
+     * @deprecated
      */
     const BLOCK_LASTSTEP = 'checkout_steps_laststep';
 }
@@ -3275,26 +3807,32 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_INC_WRAPPING
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_HEADER = 'checkout_wrapping_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_CONTENTS = 'checkout_wrapping_contents';
 
     /**
+     * @deprecated
      */
     const BLOCK_ITEM = 'checkout_wrapping_item';
 
     /**
+     * @deprecated
      */
     const BLOCK_CARDS = 'checkout_wrapping_cards';
 
     /**
+     * @deprecated
      */
     const BLOCK_COMMENT = 'checkout_wrapping_comment';
 
     /**
+     * @deprecated
      */
     const BLOCK_SUBMIT = 'checkout_wrapping_submit';
 }
@@ -3306,62 +3844,77 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_ORDER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_ERRORS = 'checkout_order_errors';
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'checkout_order_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_DETAILS = 'checkout_order_details';
 
     /**
+     * @deprecated
      */
     const BLOCK_EMPTYSHIPPINGCART = 'checkout_order_emptyshippingcart';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_TOP = 'checkout_order_next_step_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_LOWORDERPRICE_TOP = 'checkout_order_loworderprice_top';
 
     /**
+     * @deprecated
      */
     const BLOCK_VOUCHERS = 'checkout_order_vouchers';
 
     /**
+     * @deprecated
      */
     const BLOCK_ADDRESS = 'checkout_order_address';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHIPPINGANDPAYMENT = 'shippingAndPayment';
 
     /**
+     * @deprecated
      */
     const BLOCK_REMARK = 'checkout_order_remark';
 
     /**
+     * @deprecated
      */
     const BLOCK_BASKET = 'order_basket';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXT_STEP_BOTTOM = 'checkout_order_next_step_bottom';
 
     /**
+     * @deprecated
      */
     const BLOCK_LOWORDERPRICE_BOTTOM = 'checkout_order_loworderprice_bottom';
 
     /**
+     * @deprecated
      */
     const BLOCK_BTN_CONFIRM_BOTTOM = 'checkout_order_btn_confirm_bottom';
 
     /**
+     * @deprecated
      */
     const BLOCK_BTN_SUBMIT_BOTTOM = 'checkout_order_btn_submit_bottom';
 }
@@ -3373,34 +3926,42 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_PAYMENT
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'checkout_payment_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_CHANGE_SHIPPING = 'change_shipping';
 
     /**
+     * @deprecated
      */
     const BLOCK_ACT_SHIPPING = 'act_shipping';
 
     /**
+     * @deprecated
      */
     const BLOCK_ERRORS = 'checkout_payment_errors';
 
     /**
+     * @deprecated
      */
     const BLOCK_CHANGE = 'change_payment';
 
     /**
+     * @deprecated
      */
     const BLOCK_SELECT = 'select_payment';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEXTSTEP = 'checkout_payment_nextstep';
 
     /**
+     * @deprecated
      */
     const BLOCK_NOPAYMENTSFOUND = 'checkout_payment_nopaymentsfound';
 }
@@ -3412,18 +3973,22 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_THANKYOU
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'checkout_thankyou_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFO = 'checkout_thankyou_info';
 
     /**
+     * @deprecated
      */
     const BLOCK_PROCEED = 'checkout_thankyou_proceed';
 
     /**
+     * @deprecated
      */
     const BLOCK_PARTNERS = 'checkout_thankyou_partners';
 }
@@ -3435,18 +4000,22 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_CHECKOUT_USER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'checkout_user_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_NOREGISTRATION = 'checkout_user_noregistration';
 
     /**
+     * @deprecated
      */
     const BLOCK_REGISTRATION = 'checkout_user_registration';
 
     /**
+     * @deprecated
      */
     const BLOCK_CHANGE = 'checkout_user_change';
 }
@@ -3458,6 +4027,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_AJAX_FULLPRODUCTINFO
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_INIT = 'fullproductinfo_init_details_page';
 }
@@ -3469,6 +4039,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_AJAX_PRODUCTMAIN
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_INIT = 'productmain_init_details_page';
 }
@@ -3480,6 +4051,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_PRICEINFO
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTMAIN_PRICE = 'details_productmain_price';
 }
@@ -3491,94 +4063,117 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_PRODUCTMAIN
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_ZOOM = 'details_productmain_zoom';
 
     /**
+     * @deprecated
      */
     const BLOCK_MOREPICS = 'details_productmain_morepics';
 
     /**
+     * @deprecated
      */
     const BLOCK_TITLE = 'details_productmain_title';
 
     /**
+     * @deprecated
      */
     const BLOCK_ARTNUMBER = 'details_productmain_artnumber';
 
     /**
+     * @deprecated
      */
     const BLOCK_RATINGS = 'details_productmain_ratings';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHORTDESC = 'details_productmain_shortdesc';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICEPERUNIT = 'details_productmain_priceperunit';
 
     /**
+     * @deprecated
      */
     const BLOCK_WEIGHT = 'details_productmain_weight';
 
     /**
+     * @deprecated
      */
     const BLOCK_VPE = 'details_productmain_vpe';
 
     /**
+     * @deprecated
      */
     const BLOCK_VARIANTSELECTIONS = 'details_productmain_variantselections';
 
     /**
+     * @deprecated
      */
     const BLOCK_SELECTLISTS = 'details_productmain_selectlists';
 
     /**
+     * @deprecated
      */
     const BLOCK_TPRICE = 'details_productmain_tprice';
 
     /**
+     * @deprecated
      */
     const BLOCK_WATCHLIST = 'details_productmain_watchlist';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE = 'details_productmain_price';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE_VALUE = 'details_productmain_price_value';
 
     /**
+     * @deprecated
      */
     const BLOCK_PERSPARAMS = 'details_productmain_persparams';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOBASKET = 'details_productmain_tobasket';
 
     /**
+     * @deprecated
      */
     const BLOCK_STOCKSTATUS = 'details_productmain_stockstatus';
 
     /**
+     * @deprecated
      */
     const BLOCK_DELIVERYTIME = 'details_productmain_deliverytime';
 
     /**
+     * @deprecated
      */
     const BLOCK_SOCIAL = 'details_productmain_social';
 
     /**
+     * @deprecated
      */
     const BLOCK_MANUFACTURERSICON = 'details_productmain_manufacturersicon';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTLINKSSELECTOR = 'details_productmain_productlinksselector';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTLINKS = 'details_productmain_productlinks';
 }
@@ -3590,18 +4185,22 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_RELATED_PRODUCTS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_RELATEDPRODUCTS_ALSO_BOUGHT = 'details_relatedproducts_also_bought';
 
     /**
+     * @deprecated
      */
     const BLOCK_RELATEDPRODUCTS_ACCESSOIRES = 'details_relatedproducts_accessoires';
 
     /**
+     * @deprecated
      */
     const BLOCK_RELATEDPRODUCTS_SIMILARPRODUCTS = 'details_relatedproducts_similarproducts';
 
     /**
+     * @deprecated
      */
     const BLOCK_RELATEDPRODUCTS_CROSSSELLING = 'details_relatedproducts_crossselling';
 }
@@ -3613,42 +4212,52 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_DETAILS_INC_TABS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_LONGDESCRIPTION = 'details_tabs_longdescription';
 
     /**
+     * @deprecated
      */
     const BLOCK_ATTRIBUTES = 'details_tabs_attributes';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICEALARM = 'details_tabs_pricealarm';
 
     /**
+     * @deprecated
      */
     const BLOCK_TAGS = 'details_tabs_tags';
 
     /**
+     * @deprecated
      */
     const BLOCK_MEDIA = 'details_tabs_media';
 
     /**
+     * @deprecated
      */
     const BLOCK_COMMENTS = 'details_tabs_comments';
 
     /**
+     * @deprecated
      */
     const BLOCK_INVITE = 'details_tabs_invite';
 
     /**
+     * @deprecated
      */
     const BLOCK_MAIN = 'details_tabs_main';
 
     /**
+     * @deprecated
      */
     const BLOCK_SOCIAL_NAVIGATION = 'details_tabs_social_navigation';
 
     /**
+     * @deprecated
      */
     const BLOCK_SOCIAL_CONTENT = 'details_tabs_social_content';
 }
@@ -3660,22 +4269,27 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_LIST_LIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_LISTHEAD = 'page_list_listhead';
 
     /**
+     * @deprecated
      */
     const BLOCK_LISTBODY = 'page_list_listbody';
 
     /**
+     * @deprecated
      */
     const BLOCK_UPPERLOCATOR = 'page_list_upperlocator';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCTLIST = 'page_list_productlist';
 
     /**
+     * @deprecated
      */
     const BLOCK_BOTTOMLOCATOR = 'page_list_bottomlocator';
 }
@@ -3687,6 +4301,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_PRIVATESALES_LOGIN
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_HEADER_LOGO = 'dd_layout_page_header_logo';
 }
@@ -3698,6 +4313,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_RECOMMENDATIONS_INC_LIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_REDOMMENDATIONS_CONTENT = 'redommendations_list_content';
 }
@@ -3709,6 +4325,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_RECOMMENDATIONS_RECOMMLIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DESC = 'recommendations_desc';
 }
@@ -3720,6 +4337,7 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_REVIEW_REVIEW
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_WIDGET_PRODUCT_LISTITEM_LINE_PICTUREBOX = 'widget_product_listitem_line_picturebox';
 }
@@ -3731,18 +4349,22 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_SEARCH_SEARCH
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_HEADER = 'search_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_RESULTS = 'search_results';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOP_LISTLOCATOR = 'search_top_listlocator';
 
     /**
+     * @deprecated
      */
     const BLOCK_BOTTOM_LISTLOCATOR = 'search_bottom_listlocator';
 }
@@ -3754,22 +4376,27 @@ namespace OxidEsales\Eshop\Core\Theme\PAGE_SHOP_START
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_WELCOME_TEXT = 'start_welcome_text';
 
     /**
+     * @deprecated
      */
     const BLOCK_BARGAIN_ARTICLES = 'start_bargain_articles';
 
     /**
+     * @deprecated
      */
     const BLOCK_MANUFACTURER_SLIDER = 'start_manufacturer_slider';
 
     /**
+     * @deprecated
      */
     const BLOCK_NEWEST_ARTICLES = 'start_newest_articles';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOP_ARTICLES = 'start_top_articles';
 }
@@ -3781,14 +4408,17 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_BREADCRUMB
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD = 'dd_widget_breadcrumb';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LIST_INNER = 'dd_widget_breadcrumb_list_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LIST = 'dd_widget_breadcrumb_list';
 }
@@ -3800,6 +4430,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_CATEGORYLIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_CATEGORIES = 'footer_categories';
 }
@@ -3811,6 +4442,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_INFO
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_INFORMATION = 'footer_information';
 }
@@ -3822,6 +4454,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_MANUFACTURERLIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_MANUFACTURERS = 'footer_manufacturers';
 }
@@ -3833,14 +4466,17 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_NEWSLETTER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_FORM = 'dd_footer_newsletter_form';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_FORM_INNER = 'dd_footer_newsletter_form_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_FORM_INNER_GROUP = 'dd_footer_newsletter_form_inner_group';
 }
@@ -3852,10 +4488,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_SERVICES
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'footer_services';
 
     /**
+     * @deprecated
      */
     const BLOCK_ITEMS = 'footer_services_items';
 }
@@ -3867,6 +4505,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_FOOTER_VENDORLIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_VENDORS = 'footer_vendors';
 }
@@ -3878,18 +4517,22 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_CATEGORYLIST
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD = 'dd_widget_header_categorylist';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_NAVBAR = 'dd_widget_header_categorylist_navbar';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_NAVBAR_LIST = 'dd_widget_header_categorylist_navbar_list';
 
     /**
+     * @deprecated
      */
     const BLOCK_NAVBAR_MINIBASKET = 'categorylist_navbar_minibasket';
 }
@@ -3901,10 +4544,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_CURRENCIES
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_BUTTON = 'dd_layout_page_header_icon_menu_currencies_button';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_LIST = 'dd_layout_page_header_icon_menu_currencies_list';
 }
@@ -3916,10 +4561,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_LANGUAGES
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_BUTTON = 'dd_layout_page_header_icon_menu_languages_button';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_LIST = 'dd_layout_page_header_icon_menu_languages_list';
 }
@@ -3931,6 +4578,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_LOGINBOX
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_THIRDPARTY_LOGIN = 'thirdparty_login';
 }
@@ -3942,10 +4590,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_MINIBASKET
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_BUTTON = 'dd_layout_page_header_icon_menu_minibasket_button';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_LIST = 'dd_layout_page_header_icon_menu_minibasket_list';
 }
@@ -3957,18 +4607,22 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SEARCH
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM = 'widget_header_search_form';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_FORM_INNER = 'dd_widget_header_search_form_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_FIELD = 'header_search_field';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_BUTTON = 'dd_header_search_button';
 }
@@ -3980,10 +4634,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SERVICEBOX
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_FLYOUTBOX = 'widget_header_servicebox_flyoutbox';
 
     /**
+     * @deprecated
      */
     const BLOCK_ITEMS = 'widget_header_servicebox_items';
 }
@@ -3995,10 +4651,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_HEADER_SERVICEMENU
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_ACCOUNT_BUTTON = 'dd_layout_page_header_icon_menu_account_button';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_ICON_MENU_ACCOUNT_LIST = 'dd_layout_page_header_icon_menu_account_list';
 }
@@ -4010,6 +4668,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_LOCATOR_ATTRIBUTES
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'widget_locator_attributes';
 }
@@ -4021,6 +4680,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_LOCATOR_PAGING
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'widget_locator_paging';
 }
@@ -4032,6 +4692,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_LOCATOR_SORT
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'widget_locator_sort';
 }
@@ -4043,42 +4704,52 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_MINIBASKET_MINIBASKET
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'widget_minibasket';
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL_HEADER = 'widget_minibasket_modal_header';
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL_CONTENT = 'widget_minibasket_modal_content';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRODUCT = 'widget_minibasket_product';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOTAL = 'widget_minibasket_total';
 
     /**
+     * @deprecated
      */
     const BLOCK_MODAL_FOOTER = 'widget_minibasket_modal_footer';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_HEADER_ICON_MENU_TITLE = 'dd_layout_page_header_icon_menu_minibasket_title';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_HEADER_ICON_MENU_TABLE = 'dd_layout_page_header_icon_menu_minibasket_table';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_HEADER_ICON_MENU_FUNCTIONS = 'dd_layout_page_header_icon_menu_minibasket_functions';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LAYOUT_PAGE_HEADER_ICON_MENU_ALERT_EMPTY = 'dd_layout_page_header_icon_menu_minibasket_alert_empty';
 }
@@ -4090,6 +4761,7 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_MINIBASKET_NEWBASKETITEMMSG
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_NEW_ITEM_MSG = 'dd_widget_minibasket_new_item_msg';
 }
@@ -4101,10 +4773,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_BARGAINITEMS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_BARGAINITEM_PRICE = 'widget_product_bargainitem_price';
 
     /**
+     * @deprecated
      */
     const BLOCK_BARGAINITEM_TOBASKET = 'widget_product_bargainitem_tobasket';
 }
@@ -4116,26 +4790,32 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_GRID
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'widget_product_listitem_grid';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOGRID_GRIDPICTURE = 'widget_product_listitem_infogrid_gridpicture';
 
     /**
+     * @deprecated
      */
     const BLOCK_INFOGRID_TITLEBOX = 'widget_product_listitem_infogrid_titlebox';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE = 'widget_product_listitem_grid_price';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE_VALUE = 'widget_product_listitem_grid_price_value';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOBASKET = 'widget_product_listitem_grid_tobasket';
 }
@@ -4147,34 +4827,42 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_INFOGRID
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'widget_product_listitem_infogrid';
 
     /**
+     * @deprecated
      */
     const BLOCK_GRIDPICTURE = 'widget_product_listitem_infogrid_gridpicture';
 
     /**
+     * @deprecated
      */
     const BLOCK_TITLEBOX = 'widget_product_listitem_infogrid_titlebox';
 
     /**
+     * @deprecated
      */
     const BLOCK_SHORTDESC = 'widget_product_listitem_infogrid_shortdesc';
 
     /**
+     * @deprecated
      */
     const BLOCK_SELECTIONS = 'widget_product_listitem_infogrid_selections';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE = 'widget_product_listitem_infogrid_price';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE_VALUE = 'widget_product_listitem_infogrid_price_value';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOBASKET = 'widget_product_listitem_infogrid_tobasket';
 }
@@ -4186,38 +4874,47 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_PRODUCT_LISTITEM_LINE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK = 'widget_product_listitem_line';
 
     /**
+     * @deprecated
      */
     const BLOCK_PICTUREBOX = 'widget_product_listitem_line_picturebox';
 
     /**
+     * @deprecated
      */
     const BLOCK_TITLEBOX = 'widget_product_listitem_line_titlebox';
 
     /**
+     * @deprecated
      */
     const BLOCK_DESCRIPTION = 'widget_product_listitem_line_description';
 
     /**
+     * @deprecated
      */
     const BLOCK_ATTRIBUTES = 'widget_product_listitem_line_attributes';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE = 'widget_product_listitem_line_price';
 
     /**
+     * @deprecated
      */
     const BLOCK_PRICE_VALUE = 'widget_product_listitem_line_price_value';
 
     /**
+     * @deprecated
      */
     const BLOCK_SELECTIONS = 'widget_product_listitem_line_selections';
 
     /**
+     * @deprecated
      */
     const BLOCK_TOBASKET = 'widget_product_listitem_line_tobasket';
 }
@@ -4229,10 +4926,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_PROMOSLIDER
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD = 'dd_widget_promoslider';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LIST = 'dd_widget_promoslider_list';
 }
@@ -4244,22 +4943,27 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_REVIEWS_REVIEWS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM = 'widget_reviews_form';
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM_RATING = 'widget_reviews_form_rating';
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM_FIELDS = 'widget_reviews_form_fields';
 
     /**
+     * @deprecated
      */
     const BLOCK_FORM_BUTTONS = 'widget_reviews_form_buttons';
 
     /**
+     * @deprecated
      */
     const BLOCK_RECORD = 'widget_reviews_record';
 }
@@ -4271,10 +4975,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_SHOPLUPE_RATINGS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_SIDEBAR = 'dd_widget_sidebar_shoplupe_ratings';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_SIDEBAR_INNER = 'dd_widget_sidebar_shoplupe_ratings_inner';
 }
@@ -4286,14 +4992,17 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_CATEGORYTREE
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD = 'dd_widget_sidebar_categorytree';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_INNER = 'dd_widget_sidebar_categorytree_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LIST = 'dd_widget_sidebar_categorytree_list';
 }
@@ -4305,14 +5014,17 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_NEWS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD = 'dd_widget_sidebar_news';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_INNER = 'dd_widget_sidebar_news_inner';
 
     /**
+     * @deprecated
      */
     const BLOCK_DD_LIST = 'dd_widget_sidebar_news_list';
 }
@@ -4324,10 +5036,12 @@ namespace OxidEsales\Eshop\Core\Theme\WIDGET_SIDEBAR_PARTNERS
 {
 
     /**
+     * @deprecated
      */
     const BLOCK_DD = 'dd_widget_sidebar_partners';
 
     /**
+     * @deprecated
      */
     const BLOCK_PARTNER_LOGOS = 'partner_logos';
 }

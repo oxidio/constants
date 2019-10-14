@@ -16,6 +16,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXACTIONS\*
      * @see \OxidEsales\Eshop\Application\Model\Actions::__construct
+     * @deprecated
      */
     const OXACTIONS = 'oxactions';
 
@@ -24,6 +25,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXADDRESS\*
      * @see \OxidEsales\Eshop\Application\Model\Address::__construct
+     * @deprecated
      */
     const OXADDRESS = 'oxaddress';
 
@@ -33,6 +35,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * @see OXARTICLES\*
      * @see \OxidEsales\Eshop\Application\Model\Article::__construct
      * @see \OxidEsales\Eshop\Application\Model\SimpleVariant::__construct
+     * @deprecated
      */
     const OXARTICLES = 'oxarticles';
 
@@ -41,6 +44,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXATTRIBUTE\*
      * @see \OxidEsales\Eshop\Application\Model\Attribute::__construct
+     * @deprecated
      */
     const OXATTRIBUTE = 'oxattribute';
 
@@ -49,6 +53,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXCATEGORIES\*
      * @see \OxidEsales\Eshop\Application\Model\Category::__construct
+     * @deprecated
      */
     const OXCATEGORIES = 'oxcategories';
 
@@ -57,6 +62,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXCONTENTS\*
      * @see \OxidEsales\Eshop\Application\Model\Content::__construct
+     * @deprecated
      */
     const OXCONTENTS = 'oxcontents';
 
@@ -65,6 +71,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXCOUNTRY\*
      * @see \OxidEsales\Eshop\Application\Model\Country::__construct
+     * @deprecated
      */
     const OXCOUNTRY = 'oxcountry';
 
@@ -73,6 +80,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXDELIVERY\*
      * @see \OxidEsales\Eshop\Application\Model\Delivery::__construct
+     * @deprecated
      */
     const OXDELIVERY = 'oxdelivery';
 
@@ -81,6 +89,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXDELIVERYSET\*
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet::__construct
+     * @deprecated
      */
     const OXDELIVERYSET = 'oxdeliveryset';
 
@@ -89,6 +98,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXDISCOUNT\*
      * @see \OxidEsales\Eshop\Application\Model\Discount::__construct
+     * @deprecated
      */
     const OXDISCOUNT = 'oxdiscount';
 
@@ -97,6 +107,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXFILES\*
      * @see \OxidEsales\Eshop\Application\Model\File::__construct
+     * @deprecated
      */
     const OXFILES = 'oxfiles';
 
@@ -105,6 +116,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXGROUPS\*
      * @see \OxidEsales\Eshop\Application\Model\Groups::__construct
+     * @deprecated
      */
     const OXGROUPS = 'oxgroups';
 
@@ -113,6 +125,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXLINKS\*
      * @see \OxidEsales\Eshop\Application\Model\Links::__construct
+     * @deprecated
      */
     const OXLINKS = 'oxlinks';
 
@@ -121,6 +134,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXMANUFACTURERS\*
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer::__construct
+     * @deprecated
      */
     const OXMANUFACTURERS = 'oxmanufacturers';
 
@@ -129,6 +143,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXMEDIAURLS\*
      * @see \OxidEsales\Eshop\Application\Model\MediaUrl::__construct
+     * @deprecated
      */
     const OXMEDIAURLS = 'oxmediaurls';
 
@@ -137,6 +152,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXNEWS\*
      * @see \OxidEsales\Eshop\Application\Model\News::__construct
+     * @deprecated
      */
     const OXNEWS = 'oxnews';
 
@@ -145,6 +161,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXNEWSSUBSCRIBED\*
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed::__construct
+     * @deprecated
      */
     const OXNEWSSUBSCRIBED = 'oxnewssubscribed';
 
@@ -153,6 +170,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXNEWSLETTER\*
      * @see \OxidEsales\Eshop\Application\Model\Newsletter::__construct
+     * @deprecated
      */
     const OXNEWSLETTER = 'oxnewsletter';
 
@@ -161,6 +179,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXOBJECT2CATEGORY\*
      * @see \OxidEsales\Eshop\Application\Model\Object2Category::__construct
+     * @deprecated
      */
     const OXOBJECT2CATEGORY = 'oxobject2category';
 
@@ -169,6 +188,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXOBJECT2GROUP\*
      * @see \OxidEsales\Eshop\Application\Model\Object2Group::__construct
+     * @deprecated
      */
     const OXOBJECT2GROUP = 'oxobject2group';
 
@@ -177,6 +197,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXORDER\*
      * @see \OxidEsales\Eshop\Application\Model\Order::__construct
+     * @deprecated
      */
     const OXORDER = 'oxorder';
 
@@ -185,6 +206,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXORDERARTICLES\*
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle::__construct
+     * @deprecated
      */
     const OXORDERARTICLES = 'oxorderarticles';
 
@@ -193,6 +215,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXORDERFILES\*
      * @see \OxidEsales\Eshop\Application\Model\OrderFile::__construct
+     * @deprecated
      */
     const OXORDERFILES = 'oxorderfiles';
 
@@ -201,6 +224,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXPAYMENTS\*
      * @see \OxidEsales\Eshop\Application\Model\Payment::__construct
+     * @deprecated
      */
     const OXPAYMENTS = 'oxpayments';
 
@@ -209,6 +233,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXPRICEALARM\*
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm::__construct
+     * @deprecated
      */
     const OXPRICEALARM = 'oxpricealarm';
 
@@ -217,6 +242,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXRATINGS\*
      * @see \OxidEsales\Eshop\Application\Model\Rating::__construct
+     * @deprecated
      */
     const OXRATINGS = 'oxratings';
 
@@ -225,6 +251,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXRECOMMLISTS\*
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList::__construct
+     * @deprecated
      */
     const OXRECOMMLISTS = 'oxrecommlists';
 
@@ -233,6 +260,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXREMARK\*
      * @see \OxidEsales\Eshop\Application\Model\Remark::__construct
+     * @deprecated
      */
     const OXREMARK = 'oxremark';
 
@@ -241,6 +269,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXREVIEWS\*
      * @see \OxidEsales\Eshop\Application\Model\Review::__construct
+     * @deprecated
      */
     const OXREVIEWS = 'oxreviews';
 
@@ -249,6 +278,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXSELECTLIST\*
      * @see \OxidEsales\Eshop\Application\Model\SelectList::__construct
+     * @deprecated
      */
     const OXSELECTLIST = 'oxselectlist';
 
@@ -257,6 +287,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXSHOPS\*
      * @see \OxidEsales\Eshop\Application\Model\Shop::__construct
+     * @deprecated
      */
     const OXSHOPS = 'oxshops';
 
@@ -265,6 +296,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXSTATES\*
      * @see \OxidEsales\Eshop\Application\Model\State::__construct
+     * @deprecated
      */
     const OXSTATES = 'oxstates';
 
@@ -273,6 +305,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXUSER\*
      * @see \OxidEsales\Eshop\Application\Model\User::__construct
+     * @deprecated
      */
     const OXUSER = 'oxuser';
 
@@ -281,6 +314,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXUSERBASKETS\*
      * @see \OxidEsales\Eshop\Application\Model\UserBasket::__construct
+     * @deprecated
      */
     const OXUSERBASKETS = 'oxuserbaskets';
 
@@ -289,6 +323,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXUSERBASKETITEMS\*
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem::__construct
+     * @deprecated
      */
     const OXUSERBASKETITEMS = 'oxuserbasketitems';
 
@@ -297,6 +332,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXUSERPAYMENTS\*
      * @see \OxidEsales\Eshop\Application\Model\UserPayment::__construct
+     * @deprecated
      */
     const OXUSERPAYMENTS = 'oxuserpayments';
 
@@ -305,6 +341,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXVENDOR\*
      * @see \OxidEsales\Eshop\Application\Model\Vendor::__construct
+     * @deprecated
      */
     const OXVENDOR = 'oxvendor';
 
@@ -313,6 +350,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXVOUCHERS\*
      * @see \OxidEsales\Eshop\Application\Model\Voucher::__construct
+     * @deprecated
      */
     const OXVOUCHERS = 'oxvouchers';
 
@@ -321,6 +359,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXVOUCHERSERIES\*
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie::__construct
+     * @deprecated
      */
     const OXVOUCHERSERIES = 'oxvoucherseries';
 
@@ -329,6 +368,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      *
      * @see OXWRAPPING\*
      * @see \OxidEsales\Eshop\Application\Model\Wrapping::__construct
+     * @deprecated
      */
     const OXWRAPPING = 'oxwrapping';
 
@@ -336,6 +376,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows which users has accepted shop terms [InnoDB]
      *
      * @see OXACCEPTEDTERMS\*
+     * @deprecated
      */
     const OXACCEPTEDTERMS = 'oxacceptedterms';
 
@@ -343,6 +384,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between article and its accessory articles [InnoDB]
      *
      * @see OXACCESSOIRE2ARTICLE\*
+     * @deprecated
      */
     const OXACCESSOIRE2ARTICLE = 'oxaccessoire2article';
 
@@ -350,6 +392,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between actions and articles [InnoDB]
      *
      * @see OXACTIONS2ARTICLE\*
+     * @deprecated
      */
     const OXACTIONS2ARTICLE = 'oxactions2article';
 
@@ -357,6 +400,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Logs admin actions [InnoDB]
      *
      * @see OXADMINLOG\*
+     * @deprecated
      */
     const OXADMINLOG = 'oxadminlog';
 
@@ -364,6 +408,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Additional information for articles [InnoDB]
      *
      * @see OXARTEXTENDS\*
+     * @deprecated
      */
     const OXARTEXTENDS = 'oxartextends';
 
@@ -371,6 +416,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between categories and attributes [InnoDB]
      *
      * @see OXCATEGORY2ATTRIBUTE\*
+     * @deprecated
      */
     const OXCATEGORY2ATTRIBUTE = 'oxcategory2attribute';
 
@@ -378,6 +424,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shop configuration values [InnoDB]
      *
      * @see OXCONFIG\*
+     * @deprecated
      */
     const OXCONFIG = 'oxconfig';
 
@@ -385,6 +432,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Additional configuraion fields [InnoDB]
      *
      * @see OXCONFIGDISPLAY\*
+     * @deprecated
      */
     const OXCONFIGDISPLAY = 'oxconfigdisplay';
 
@@ -392,6 +440,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shop counters [InnoDB]
      *
      * @see OXCOUNTERS\*
+     * @deprecated
      */
     const OXCOUNTERS = 'oxcounters';
 
@@ -399,6 +448,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between Shipping cost rules (oxdelivery) and delivery methods (oxdeliveryset) [InnoDB]
      *
      * @see OXDEL2DELSET\*
+     * @deprecated
      */
     const OXDEL2DELSET = 'oxdel2delset';
 
@@ -406,6 +456,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * User sent invitations [InnoDB]
      *
      * @see OXINVITATIONS\*
+     * @deprecated
      */
     const OXINVITATIONS = 'oxinvitations';
 
@@ -413,6 +464,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * [InnoDB]
      *
      * @see OXMIGRATIONS_CE\*
+     * @deprecated
      */
     const OXMIGRATIONS_CE = 'oxmigrations_ce';
 
@@ -420,6 +472,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between actions (oxactions) and objects (table set by oxclass) [InnoDB]
      *
      * @see OXOBJECT2ACTION\*
+     * @deprecated
      */
     const OXOBJECT2ACTION = 'oxobject2action';
 
@@ -427,6 +480,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between cross-selling articles [InnoDB]
      *
      * @see OXOBJECT2ARTICLE\*
+     * @deprecated
      */
     const OXOBJECT2ARTICLE = 'oxobject2article';
 
@@ -434,6 +488,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between articles and attributes [InnoDB]
      *
      * @see OXOBJECT2ATTRIBUTE\*
+     * @deprecated
      */
     const OXOBJECT2ATTRIBUTE = 'oxobject2attribute';
 
@@ -441,6 +496,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between delivery cost rules and objects (table determined by oxtype) [InnoDB]
      *
      * @see OXOBJECT2DELIVERY\*
+     * @deprecated
      */
     const OXOBJECT2DELIVERY = 'oxobject2delivery';
 
@@ -448,6 +504,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between discounts and objects (table determined by oxtype) [InnoDB]
      *
      * @see OXOBJECT2DISCOUNT\*
+     * @deprecated
      */
     const OXOBJECT2DISCOUNT = 'oxobject2discount';
 
@@ -455,6 +512,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between articles and listmania lists [InnoDB]
      *
      * @see OXOBJECT2LIST\*
+     * @deprecated
      */
     const OXOBJECT2LIST = 'oxobject2list';
 
@@ -462,6 +520,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between payments and objects (table determined by oxtype) [InnoDB]
      *
      * @see OXOBJECT2PAYMENT\*
+     * @deprecated
      */
     const OXOBJECT2PAYMENT = 'oxobject2payment';
 
@@ -469,6 +528,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Shows many-to-many relationship between articles and selection lists [InnoDB]
      *
      * @see OXOBJECT2SELECTLIST\*
+     * @deprecated
      */
     const OXOBJECT2SELECTLIST = 'oxobject2selectlist';
 
@@ -476,6 +536,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Seo entries [InnoDB]
      *
      * @see OXOBJECT2SEODATA\*
+     * @deprecated
      */
     const OXOBJECT2SEODATA = 'oxobject2seodata';
 
@@ -483,6 +544,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Article scale prices [InnoDB]
      *
      * @see OXPRICE2ARTICLE\*
+     * @deprecated
      */
     const OXPRICE2ARTICLE = 'oxprice2article';
 
@@ -490,6 +552,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Seo urls information [InnoDB]
      *
      * @see OXSEO\*
+     * @deprecated
      */
     const OXSEO = 'oxseo';
 
@@ -497,6 +560,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Seo urls history. If url does not exists in oxseo, then checks here and redirects [InnoDB]
      *
      * @see OXSEOHISTORY\*
+     * @deprecated
      */
     const OXSEOHISTORY = 'oxseohistory';
 
@@ -504,6 +568,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Seo logging. Logs bad requests [InnoDB]
      *
      * @see OXSEOLOGS\*
+     * @deprecated
      */
     const OXSEOLOGS = 'oxseologs';
 
@@ -511,6 +576,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE
      * Module template blocks [InnoDB]
      *
      * @see OXTPLBLOCKS\*
+     * @deprecated
      */
     const OXTPLBLOCKS = 'oxtplblocks';
 }
@@ -525,6 +591,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCEPTEDTERMS
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -532,6 +599,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCEPTEDTERMS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -539,6 +607,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCEPTEDTERMS
      * Terms version
      *
      * char(32)
+     * @deprecated
      */
     const OXTERMVERSION = 'oxtermversion';
 
@@ -546,6 +615,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCEPTEDTERMS
      * Time, when terms were accepted
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACCEPTEDTIME = 'oxacceptedtime';
 
@@ -553,6 +623,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCEPTEDTERMS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -567,6 +638,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCESSOIRE2ARTICLE
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -574,6 +646,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCESSOIRE2ARTICLE
      * Accessory Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -581,6 +654,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCESSOIRE2ARTICLE
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTICLENID = 'oxarticlenid';
 
@@ -588,6 +662,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCESSOIRE2ARTICLE
      * Sorting
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -595,6 +670,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACCESSOIRE2ARTICLE
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -609,6 +685,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS2ARTICLE
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -616,6 +693,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS2ARTICLE
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -623,6 +701,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS2ARTICLE
      * Action id (oxactions)
      *
      * char(32)
+     * @deprecated
      */
     const OXACTIONID = 'oxactionid';
 
@@ -630,6 +709,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS2ARTICLE
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTID = 'oxartid';
 
@@ -637,6 +717,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS2ARTICLE
      * Sorting
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -644,6 +725,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS2ARTICLE
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -658,6 +740,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Action id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -665,6 +748,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -672,6 +756,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Action type: 0 or 1 - action, 2 - promotion, 3 - banner
      *
      * tinyint(1)
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -679,6 +764,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Title (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -686,6 +772,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Long description, used for promotion (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXLONGDESC = 'oxlongdesc';
 
@@ -693,6 +780,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -700,6 +788,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Active from specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVEFROM = 'oxactivefrom';
 
@@ -707,6 +796,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Active to specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVETO = 'oxactiveto';
 
@@ -714,6 +804,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Picture filename, used for banner (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXPIC = 'oxpic';
 
@@ -721,6 +812,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Link, used on banner (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXLINK = 'oxlink';
 
@@ -728,6 +820,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Sorting
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -735,6 +828,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXACTIONS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -749,6 +843,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Address id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -756,6 +851,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -763,6 +859,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * User id (oxuser)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXADDRESSUSERID = 'oxaddressuserid';
 
@@ -770,6 +867,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Company name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXCOMPANY = 'oxcompany';
 
@@ -777,6 +875,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * First name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXFNAME = 'oxfname';
 
@@ -784,6 +883,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Last name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXLNAME = 'oxlname';
 
@@ -791,6 +891,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Street
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSTREET = 'oxstreet';
 
@@ -798,6 +899,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * House number
      *
      * varchar(16)
+     * @deprecated
      */
     const OXSTREETNR = 'oxstreetnr';
 
@@ -805,6 +907,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Additional info
      *
      * varchar(255)
+     * @deprecated
      */
     const OXADDINFO = 'oxaddinfo';
 
@@ -812,6 +915,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * City
      *
      * varchar(255)
+     * @deprecated
      */
     const OXCITY = 'oxcity';
 
@@ -819,6 +923,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Country name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXCOUNTRY = 'oxcountry';
 
@@ -826,6 +931,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Country id (oxcountry)
      *
      * char(32)
+     * @deprecated
      */
     const OXCOUNTRYID = 'oxcountryid';
 
@@ -833,6 +939,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * State id (oxstate)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXSTATEID = 'oxstateid';
 
@@ -840,6 +947,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Zip code
      *
      * varchar(50)
+     * @deprecated
      */
     const OXZIP = 'oxzip';
 
@@ -847,6 +955,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Phone number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFON = 'oxfon';
 
@@ -854,6 +963,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Fax number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFAX = 'oxfax';
 
@@ -861,6 +971,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * User title prefix (Mr/Mrs)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXSAL = 'oxsal';
 
@@ -868,6 +979,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADDRESS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -882,6 +994,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADMINLOG
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 
@@ -889,6 +1002,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADMINLOG
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -896,6 +1010,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXADMINLOG
      * Logged sql
      *
      * text
+     * @deprecated
      */
     const OXSQL = 'oxsql';
 }
@@ -910,6 +1025,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTEXTENDS
      * Article id (extends oxarticles article with this id)
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -917,6 +1033,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTEXTENDS
      * Long description (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXLONGDESC = 'oxlongdesc';
 
@@ -924,6 +1041,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTEXTENDS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -938,6 +1056,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -945,6 +1064,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -952,6 +1072,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Parent article id
      *
      * char(32)
+     * @deprecated
      */
     const OXPARENTID = 'oxparentid';
 
@@ -959,6 +1080,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -966,6 +1088,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Hidden
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXHIDDEN = 'oxhidden';
 
@@ -973,6 +1096,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Active from specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVEFROM = 'oxactivefrom';
 
@@ -980,6 +1104,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Active to specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVETO = 'oxactiveto';
 
@@ -987,6 +1112,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article number
      *
      * varchar(255)
+     * @deprecated
      */
     const OXARTNUM = 'oxartnum';
 
@@ -994,6 +1120,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * International Article Number (EAN)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXEAN = 'oxean';
 
@@ -1001,6 +1128,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Manufacture International Article Number (Man. EAN)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXDISTEAN = 'oxdistean';
 
@@ -1008,6 +1136,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Manufacture Part Number (MPN)
      *
      * varchar(100)
+     * @deprecated
      */
     const OXMPN = 'oxmpn';
 
@@ -1015,6 +1144,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Title (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -1022,6 +1152,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Short description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSHORTDESC = 'oxshortdesc';
 
@@ -1029,6 +1160,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article Price
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICE = 'oxprice';
 
@@ -1036,6 +1168,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * No Promotions (Price Alert)
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXBLFIXEDPRICE = 'oxblfixedprice';
 
@@ -1043,6 +1176,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Price A
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICEA = 'oxpricea';
 
@@ -1050,6 +1184,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Price B
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICEB = 'oxpriceb';
 
@@ -1057,6 +1192,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Price C
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICEC = 'oxpricec';
 
@@ -1064,6 +1200,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Purchase Price
      *
      * double = 0
+     * @deprecated
      */
     const OXBPRICE = 'oxbprice';
 
@@ -1071,6 +1208,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Recommended Retail Price (RRP)
      *
      * double = 0
+     * @deprecated
      */
     const OXTPRICE = 'oxtprice';
 
@@ -1078,6 +1216,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Unit name (kg,g,l,cm etc), used in setting price per quantity unit calculation
      *
      * varchar(32)
+     * @deprecated
      */
     const OXUNITNAME = 'oxunitname';
 
@@ -1085,6 +1224,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article quantity, used in setting price per quantity unit calculation
      *
      * double = 0
+     * @deprecated
      */
     const OXUNITQUANTITY = 'oxunitquantity';
 
@@ -1092,6 +1232,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * External URL to other information about the article
      *
      * varchar(255)
+     * @deprecated
      */
     const OXEXTURL = 'oxexturl';
 
@@ -1099,6 +1240,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Text for external URL (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXURLDESC = 'oxurldesc';
 
@@ -1106,6 +1248,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * External URL image
      *
      * varchar(128)
+     * @deprecated
      */
     const OXURLIMG = 'oxurlimg';
 
@@ -1113,6 +1256,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Value added tax. If specified, used in all calculations instead of global vat
      *
      * float
+     * @deprecated
      */
     const OXVAT = 'oxvat';
 
@@ -1120,6 +1264,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Thumbnail filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXTHUMB = 'oxthumb';
 
@@ -1127,6 +1272,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Icon filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXICON = 'oxicon';
 
@@ -1134,6 +1280,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 1# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC1 = 'oxpic1';
 
@@ -1141,6 +1288,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 2# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC2 = 'oxpic2';
 
@@ -1148,6 +1296,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 3# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC3 = 'oxpic3';
 
@@ -1155,6 +1304,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 4# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC4 = 'oxpic4';
 
@@ -1162,6 +1312,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 5# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC5 = 'oxpic5';
 
@@ -1169,6 +1320,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 6# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC6 = 'oxpic6';
 
@@ -1176,6 +1328,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 7# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC7 = 'oxpic7';
 
@@ -1183,6 +1336,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 8# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC8 = 'oxpic8';
 
@@ -1190,6 +1344,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 9# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC9 = 'oxpic9';
 
@@ -1197,6 +1352,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 10# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC10 = 'oxpic10';
 
@@ -1204,6 +1360,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 11# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC11 = 'oxpic11';
 
@@ -1211,6 +1368,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * 12# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC12 = 'oxpic12';
 
@@ -1218,6 +1376,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Weight (kg)
      *
      * double = 0
+     * @deprecated
      */
     const OXWEIGHT = 'oxweight';
 
@@ -1225,6 +1384,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article quantity in stock
      *
      * double = 0
+     * @deprecated
      */
     const OXSTOCK = 'oxstock';
 
@@ -1232,6 +1392,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Delivery Status: 1 - Standard, 2 - If out of Stock, offline, 3 - If out of Stock, not orderable, 4 - External Storehouse
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXSTOCKFLAG = 'oxstockflag';
 
@@ -1239,6 +1400,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Message, which is shown if the article is in stock (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSTOCKTEXT = 'oxstocktext';
 
@@ -1246,6 +1408,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Message, which is shown if the article is off stock (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXNOSTOCKTEXT = 'oxnostocktext';
 
@@ -1253,6 +1416,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Date, when the product will be available again if it is sold out
      *
      * date = 0000-00-00
+     * @deprecated
      */
     const OXDELIVERY = 'oxdelivery';
 
@@ -1260,6 +1424,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Creation time
      *
      * date = 0000-00-00
+     * @deprecated
      */
     const OXINSERT = 'oxinsert';
 
@@ -1267,6 +1432,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 
@@ -1274,6 +1440,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article dimensions: Length
      *
      * double = 0
+     * @deprecated
      */
     const OXLENGTH = 'oxlength';
 
@@ -1281,6 +1448,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article dimensions: Width
      *
      * double = 0
+     * @deprecated
      */
     const OXWIDTH = 'oxwidth';
 
@@ -1288,6 +1456,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article dimensions: Height
      *
      * double = 0
+     * @deprecated
      */
     const OXHEIGHT = 'oxheight';
 
@@ -1295,6 +1464,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * File, shown in article media list
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFILE = 'oxfile';
 
@@ -1302,6 +1472,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Search terms (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSEARCHKEYS = 'oxsearchkeys';
 
@@ -1309,6 +1480,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Alternative template filename (if empty, default is used)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXTEMPLATE = 'oxtemplate';
 
@@ -1316,6 +1488,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * E-mail for question
      *
      * varchar(255)
+     * @deprecated
      */
     const OXQUESTIONEMAIL = 'oxquestionemail';
 
@@ -1323,6 +1496,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Should article be shown in search
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXISSEARCH = 'oxissearch';
 
@@ -1330,6 +1504,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Can article be customized
      *
      * tinyint(4) = 0
+     * @deprecated
      */
     const OXISCONFIGURABLE = 'oxisconfigurable';
 
@@ -1337,6 +1512,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Name of variants selection lists (different lists are separated by | ) (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXVARNAME = 'oxvarname';
 
@@ -1344,6 +1520,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Sum of active article variants stock quantity
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXVARSTOCK = 'oxvarstock';
 
@@ -1351,6 +1528,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Total number of variants that article has (active and inactive)
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXVARCOUNT = 'oxvarcount';
 
@@ -1358,6 +1536,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Variant article selections (separated by | ) (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXVARSELECT = 'oxvarselect';
 
@@ -1365,6 +1544,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Lowest price in active article variants
      *
      * double = 0
+     * @deprecated
      */
     const OXVARMINPRICE = 'oxvarminprice';
 
@@ -1372,6 +1552,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Highest price in active article variants
      *
      * double = 0
+     * @deprecated
      */
     const OXVARMAXPRICE = 'oxvarmaxprice';
 
@@ -1379,6 +1560,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Bundled article id
      *
      * varchar(32)
+     * @deprecated
      */
     const OXBUNDLEID = 'oxbundleid';
 
@@ -1386,6 +1568,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Folder
      *
      * varchar(32)
+     * @deprecated
      */
     const OXFOLDER = 'oxfolder';
 
@@ -1393,6 +1576,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Subclass
      *
      * varchar(32)
+     * @deprecated
      */
     const OXSUBCLASS = 'oxsubclass';
 
@@ -1400,6 +1584,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Sorting
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -1407,6 +1592,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Amount of sold articles including variants (used only for parent articles)
      *
      * double = 0
+     * @deprecated
      */
     const OXSOLDAMOUNT = 'oxsoldamount';
 
@@ -1414,6 +1600,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Intangible article, free shipping is used (variants inherits parent setting)
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXNONMATERIAL = 'oxnonmaterial';
 
@@ -1421,6 +1608,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Free shipping (variants inherits parent setting)
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXFREESHIPPING = 'oxfreeshipping';
 
@@ -1428,6 +1616,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Enables sending of notification email when oxstock field value falls below oxremindamount value
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXREMINDACTIVE = 'oxremindactive';
 
@@ -1435,6 +1624,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Defines the amount, below which notification email will be sent if oxremindactive is set to 1
      *
      * double = 0
+     * @deprecated
      */
     const OXREMINDAMOUNT = 'oxremindamount';
 
@@ -1442,6 +1632,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      *
      *
      * varchar(32)
+     * @deprecated
      */
     const OXAMITEMID = 'oxamitemid';
 
@@ -1449,6 +1640,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      *
      *
      * varchar(16) = 0
+     * @deprecated
      */
     const OXAMTASKID = 'oxamtaskid';
 
@@ -1456,6 +1648,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Vendor id (oxvendor)
      *
      * char(32)
+     * @deprecated
      */
     const OXVENDORID = 'oxvendorid';
 
@@ -1463,6 +1656,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Manufacturer id (oxmanufacturers)
      *
      * char(32)
+     * @deprecated
      */
     const OXMANUFACTURERID = 'oxmanufacturerid';
 
@@ -1470,6 +1664,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Skips all negative Discounts (Discounts, Vouchers, Delivery ...)
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXSKIPDISCOUNTS = 'oxskipdiscounts';
 
@@ -1477,6 +1672,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Article rating
      *
      * double = 0
+     * @deprecated
      */
     const OXRATING = 'oxrating';
 
@@ -1484,6 +1680,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Rating votes count
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXRATINGCNT = 'oxratingcnt';
 
@@ -1491,6 +1688,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Minimal delivery time (unit is set in oxdeltimeunit)
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXMINDELTIME = 'oxmindeltime';
 
@@ -1498,6 +1696,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Maximum delivery time (unit is set in oxdeltimeunit)
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXMAXDELTIME = 'oxmaxdeltime';
 
@@ -1505,6 +1704,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Delivery time unit: DAY, WEEK, MONTH
      *
      * varchar(255)
+     * @deprecated
      */
     const OXDELTIMEUNIT = 'oxdeltimeunit';
 
@@ -1512,6 +1712,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * If not 0, oxprice will be updated to this value on oxupdatepricetime date
      *
      * double = 0
+     * @deprecated
      */
     const OXUPDATEPRICE = 'oxupdateprice';
 
@@ -1519,6 +1720,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * If not 0, oxpricea will be updated to this value on oxupdatepricetime date
      *
      * double = 0
+     * @deprecated
      */
     const OXUPDATEPRICEA = 'oxupdatepricea';
 
@@ -1526,6 +1728,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * If not 0, oxpriceb will be updated to this value on oxupdatepricetime date
      *
      * double = 0
+     * @deprecated
      */
     const OXUPDATEPRICEB = 'oxupdatepriceb';
 
@@ -1533,6 +1736,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * If not 0, oxpricec will be updated to this value on oxupdatepricetime date
      *
      * double = 0
+     * @deprecated
      */
     const OXUPDATEPRICEC = 'oxupdatepricec';
 
@@ -1540,6 +1744,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Date, when oxprice[a,b,c] should be updated to oxupdateprice[a,b,c] values
      *
      * timestamp = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXUPDATEPRICETIME = 'oxupdatepricetime';
 
@@ -1547,6 +1752,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Enable download of files for this product
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXISDOWNLOADABLE = 'oxisdownloadable';
 
@@ -1554,6 +1760,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXARTICLES
      * Show custom agreement check in checkout
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXSHOWCUSTOMAGREEMENT = 'oxshowcustomagreement';
 }
@@ -1568,6 +1775,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXATTRIBUTE
      * Attribute id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -1575,6 +1783,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXATTRIBUTE
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -1582,6 +1791,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXATTRIBUTE
      * Title (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -1589,6 +1799,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXATTRIBUTE
      * Sorting
      *
      * int(11) = 9999
+     * @deprecated
      */
     const OXPOS = 'oxpos';
 
@@ -1596,6 +1807,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXATTRIBUTE
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 
@@ -1603,6 +1815,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXATTRIBUTE
      * Display attribute`s value for articles in checkout
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXDISPLAYINBASKET = 'oxdisplayinbasket';
 }
@@ -1617,6 +1830,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Category id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -1624,6 +1838,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Parent category id
      *
      * char(32) = oxrootid
+     * @deprecated
      */
     const OXPARENTID = 'oxparentid';
 
@@ -1631,6 +1846,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Used for building category tree
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXLEFT = 'oxleft';
 
@@ -1638,6 +1854,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Used for building category tree
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXRIGHT = 'oxright';
 
@@ -1645,6 +1862,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Root category id
      *
      * char(32)
+     * @deprecated
      */
     const OXROOTID = 'oxrootid';
 
@@ -1652,6 +1870,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Sorting
      *
      * int(11) = 9999
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -1659,6 +1878,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Active (multilanguage)
      *
      * tinyint-i18n(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -1666,6 +1886,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Hidden (Can be accessed by direct link, but is not visible in lists and menu)
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXHIDDEN = 'oxhidden';
 
@@ -1673,6 +1894,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -1680,6 +1902,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Title (multilanguage)
      *
      * varchar-i18n(254)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -1687,6 +1910,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXDESC = 'oxdesc';
 
@@ -1694,6 +1918,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Long description (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXLONGDESC = 'oxlongdesc';
 
@@ -1701,6 +1926,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Thumbnail filename (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXTHUMB = 'oxthumb';
 
@@ -1708,6 +1934,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * External link, that if specified is opened instead of category content
      *
      * varchar(255)
+     * @deprecated
      */
     const OXEXTLINK = 'oxextlink';
 
@@ -1715,6 +1942,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Alternative template filename (if empty, default is used)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXTEMPLATE = 'oxtemplate';
 
@@ -1722,6 +1950,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Default field for sorting of articles in this category (most of oxarticles fields)
      *
      * varchar(64)
+     * @deprecated
      */
     const OXDEFSORT = 'oxdefsort';
 
@@ -1729,6 +1958,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Default mode of sorting of articles in this category (0 - asc, 1 - desc)
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXDEFSORTMODE = 'oxdefsortmode';
 
@@ -1736,6 +1966,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * If specified, all articles, with price higher than specified, will be shown in this category
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICEFROM = 'oxpricefrom';
 
@@ -1743,6 +1974,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * If specified, all articles, with price lower than specified, will be shown in this category
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICETO = 'oxpriceto';
 
@@ -1750,6 +1982,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Icon filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXICON = 'oxicon';
 
@@ -1757,6 +1990,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Promotion icon filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPROMOICON = 'oxpromoicon';
 
@@ -1764,6 +1998,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * VAT, used for articles in this category (only if oxarticles.oxvat is not set)
      *
      * float
+     * @deprecated
      */
     const OXVAT = 'oxvat';
 
@@ -1771,6 +2006,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Skip all negative Discounts for articles in this category (Discounts, Vouchers, Delivery ...)
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXSKIPDISCOUNTS = 'oxskipdiscounts';
 
@@ -1778,6 +2014,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Show SEO Suffix in Category
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXSHOWSUFFIX = 'oxshowsuffix';
 
@@ -1785,6 +2022,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORIES
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -1799,6 +2037,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORY2ATTRIBUTE
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -1806,6 +2045,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORY2ATTRIBUTE
      * Category id (oxcategories)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -1813,6 +2053,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORY2ATTRIBUTE
      * Attribute id (oxattributes)
      *
      * char(32)
+     * @deprecated
      */
     const OXATTRID = 'oxattrid';
 
@@ -1820,6 +2061,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORY2ATTRIBUTE
      * Sorting
      *
      * int(11) = 9999
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -1827,6 +2069,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCATEGORY2ATTRIBUTE
      * Creation time
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -1841,6 +2084,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIGDISPLAY
      * Config id (extends oxconfig record with this id)
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -1848,6 +2092,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIGDISPLAY
      * Module or theme specific config (theme:themename, module:modulename)
      *
      * varchar(100)
+     * @deprecated
      */
     const OXCFGMODULE = 'oxcfgmodule';
 
@@ -1855,6 +2100,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIGDISPLAY
      * Variable name
      *
      * varchar(100)
+     * @deprecated
      */
     const OXCFGVARNAME = 'oxcfgvarname';
 
@@ -1862,6 +2108,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIGDISPLAY
      * Grouping (groups config fields to array with specified value as key)
      *
      * varchar(255)
+     * @deprecated
      */
     const OXGROUPING = 'oxgrouping';
 
@@ -1869,6 +2116,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIGDISPLAY
      * Serialized constraints
      *
      * varchar(255)
+     * @deprecated
      */
     const OXVARCONSTRAINT = 'oxvarconstraint';
 
@@ -1876,6 +2124,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIGDISPLAY
      * Sorting
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXPOS = 'oxpos';
 
@@ -1883,6 +2132,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIGDISPLAY
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -1897,6 +2147,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIG
      * Config id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -1904,6 +2155,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIG
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -1911,6 +2163,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIG
      * Module or theme specific config (theme:themename, module:modulename)
      *
      * varchar(100)
+     * @deprecated
      */
     const OXMODULE = 'oxmodule';
 
@@ -1918,6 +2171,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIG
      * Variable name
      *
      * varchar(100)
+     * @deprecated
      */
     const OXVARNAME = 'oxvarname';
 
@@ -1925,6 +2179,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIG
      * Variable type
      *
      * varchar(16)
+     * @deprecated
      */
     const OXVARTYPE = 'oxvartype';
 
@@ -1932,6 +2187,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIG
      * Variable value
      *
      * mediumblob
+     * @deprecated
      */
     const OXVARVALUE = 'oxvarvalue';
 
@@ -1939,6 +2195,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONFIG
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -1953,6 +2210,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Content id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -1960,6 +2218,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Id, specified by admin and can be used instead of oxid
      *
      * char(32)
+     * @deprecated
      */
     const OXLOADID = 'oxloadid';
 
@@ -1967,6 +2226,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -1974,6 +2234,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Snippet (can be included to other oxcontents records)
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXSNIPPET = 'oxsnippet';
 
@@ -1981,6 +2242,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Type: 0 - Snippet, 1 - Upper Menu, 2 - Category, 3 - Manual
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -1988,6 +2250,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Active (multilanguage)
      *
      * tinyint-i18n(1) = 0
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -1995,6 +2258,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Position
      *
      * varchar(32)
+     * @deprecated
      */
     const OXPOSITION = 'oxposition';
 
@@ -2002,6 +2266,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Title (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2009,6 +2274,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Content (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXCONTENT = 'oxcontent';
 
@@ -2016,6 +2282,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Category id (oxcategories), used only when type = 2
      *
      * varchar(32)
+     * @deprecated
      */
     const OXCATID = 'oxcatid';
 
@@ -2023,6 +2290,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Content Folder (available options at oxconfig.OXVARNAME = aCMSfolder)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXFOLDER = 'oxfolder';
 
@@ -2030,6 +2298,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Term and Conditions version (used only when OXLOADID = oxagb)
      *
      * char(32)
+     * @deprecated
      */
     const OXTERMVERSION = 'oxtermversion';
 
@@ -2037,6 +2306,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCONTENTS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2051,6 +2321,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTERS
      * Counter id
      *
      * char(32)
+     * @deprecated
      */
     const OXIDENT = 'oxident';
 
@@ -2058,6 +2329,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTERS
      * Counted number
      *
      * int(11)
+     * @deprecated
      */
     const OXCOUNT = 'oxcount';
 
@@ -2065,6 +2337,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTERS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2079,6 +2352,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Country id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2086,6 +2360,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Active
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -2093,6 +2368,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Title (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2100,6 +2376,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * ISO 3166-1 alpha-2
      *
      * char(2)
+     * @deprecated
      */
     const OXISOALPHA2 = 'oxisoalpha2';
 
@@ -2107,6 +2384,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * ISO 3166-1 alpha-3
      *
      * char(3)
+     * @deprecated
      */
     const OXISOALPHA3 = 'oxisoalpha3';
 
@@ -2114,6 +2392,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * ISO 3166-1 numeric
      *
      * char(3)
+     * @deprecated
      */
     const OXUNNUM3 = 'oxunnum3';
 
@@ -2121,6 +2400,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * VAT identification number prefix
      *
      * char(2)
+     * @deprecated
      */
     const OXVATINPREFIX = 'oxvatinprefix';
 
@@ -2128,6 +2408,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Sorting
      *
      * int(11) = 9999
+     * @deprecated
      */
     const OXORDER = 'oxorder';
 
@@ -2135,6 +2416,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Short description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSHORTDESC = 'oxshortdesc';
 
@@ -2142,6 +2424,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Long description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXLONGDESC = 'oxlongdesc';
 
@@ -2149,6 +2432,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Vat status: 0 - Do not bill VAT, 1 - Do not bill VAT only if provided valid VAT ID
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXVATSTATUS = 'oxvatstatus';
 
@@ -2156,6 +2440,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXCOUNTRY
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2170,6 +2455,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDEL2DELSET
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2177,6 +2463,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDEL2DELSET
      * Shipping cost rule id (oxdelivery)
      *
      * char(32)
+     * @deprecated
      */
     const OXDELID = 'oxdelid';
 
@@ -2184,6 +2471,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDEL2DELSET
      * Delivery method id (oxdeliveryset)
      *
      * char(32)
+     * @deprecated
      */
     const OXDELSETID = 'oxdelsetid';
 
@@ -2191,6 +2479,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDEL2DELSET
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2205,6 +2494,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Delivery method id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2212,6 +2502,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -2219,6 +2510,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Active
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -2226,6 +2518,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Active from specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVEFROM = 'oxactivefrom';
 
@@ -2233,6 +2526,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Active to specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVETO = 'oxactiveto';
 
@@ -2240,6 +2534,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Title (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2247,6 +2542,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Sorting
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXPOS = 'oxpos';
 
@@ -2254,6 +2550,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERYSET
      * Creation time
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2268,6 +2565,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Delivery shipping cost rule id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2275,6 +2573,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -2282,6 +2581,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Active
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -2289,6 +2589,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Active from specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVEFROM = 'oxactivefrom';
 
@@ -2296,6 +2597,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Active to specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVETO = 'oxactiveto';
 
@@ -2303,6 +2605,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Title (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2310,6 +2613,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Price Surcharge/Reduction type (abs|%)
      *
      * enum(3) = abs
+     * @deprecated
      */
     const OXADDSUMTYPE = 'oxaddsumtype';
 
@@ -2317,6 +2621,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Price Surcharge/Reduction amount
      *
      * double = 0
+     * @deprecated
      */
     const OXADDSUM = 'oxaddsum';
 
@@ -2324,6 +2629,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Condition type: a - Amount, s - Size, w - Weight, p - Price
      *
      * enum(1) = a
+     * @deprecated
      */
     const OXDELTYPE = 'oxdeltype';
 
@@ -2331,6 +2637,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Condition param from (e.g. amount from 1)
      *
      * double = 0
+     * @deprecated
      */
     const OXPARAM = 'oxparam';
 
@@ -2338,6 +2645,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Condition param to (e.g. amount to 10)
      *
      * double = 0
+     * @deprecated
      */
     const OXPARAMEND = 'oxparamend';
 
@@ -2345,6 +2653,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Calculation Rules: 0 - Once per Cart, 1 - Once for each different product, 2 - For each product
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXFIXED = 'oxfixed';
 
@@ -2352,6 +2661,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Order of Rules Processing
      *
      * int(11) = 9999
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -2359,6 +2669,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Do not run further rules if this rule is valid and is being run
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXFINALIZE = 'oxfinalize';
 
@@ -2366,6 +2677,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDELIVERY
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2380,6 +2692,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Discount id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2387,6 +2700,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -2394,6 +2708,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Active
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -2401,6 +2716,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Active from specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVEFROM = 'oxactivefrom';
 
@@ -2408,6 +2724,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Active to specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVETO = 'oxactiveto';
 
@@ -2415,6 +2732,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Title (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2422,6 +2740,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Valid from specified amount of articles
      *
      * double = 0
+     * @deprecated
      */
     const OXAMOUNT = 'oxamount';
 
@@ -2429,6 +2748,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Valid to specified amount of articles
      *
      * double = 999999
+     * @deprecated
      */
     const OXAMOUNTTO = 'oxamountto';
 
@@ -2436,6 +2756,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Valid to specified purchase price
      *
      * double = 999999
+     * @deprecated
      */
     const OXPRICETO = 'oxpriceto';
 
@@ -2443,6 +2764,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Valid from specified purchase price
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICE = 'oxprice';
 
@@ -2450,6 +2772,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Discount type (%,abs,itm)
      *
      * enum(3) = %
+     * @deprecated
      */
     const OXADDSUMTYPE = 'oxaddsumtype';
 
@@ -2457,6 +2780,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Magnitude of the discount
      *
      * double = 0
+     * @deprecated
      */
     const OXADDSUM = 'oxaddsum';
 
@@ -2464,6 +2788,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Free article id, that will be added as a discount
      *
      * char(32)
+     * @deprecated
      */
     const OXITMARTID = 'oxitmartid';
 
@@ -2471,6 +2796,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * The quantity of free article that will be added to basket with discounted article
      *
      * double = 1
+     * @deprecated
      */
     const OXITMAMOUNT = 'oxitmamount';
 
@@ -2478,6 +2804,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Should free article amount be multiplied by discounted item quantity in basket
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXITMMULTIPLE = 'oxitmmultiple';
 
@@ -2485,6 +2812,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Defines the order discounts are applied to basket or product
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -2492,6 +2820,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXDISCOUNT
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2506,6 +2835,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * File id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2513,6 +2843,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTID = 'oxartid';
 
@@ -2520,6 +2851,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFILENAME = 'oxfilename';
 
@@ -2527,6 +2859,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Hashed filename, used for file directory path creation
      *
      * char(32)
+     * @deprecated
      */
     const OXSTOREHASH = 'oxstorehash';
 
@@ -2534,6 +2867,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Download is available only after purchase
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXPURCHASEDONLY = 'oxpurchasedonly';
 
@@ -2541,6 +2875,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Maximum count of downloads after order
      *
      * int(11) = -1
+     * @deprecated
      */
     const OXMAXDOWNLOADS = 'oxmaxdownloads';
 
@@ -2548,6 +2883,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Maximum count of downloads for not registered users after order
      *
      * int(11) = -1
+     * @deprecated
      */
     const OXMAXUNREGDOWNLOADS = 'oxmaxunregdownloads';
 
@@ -2555,6 +2891,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Expiration time of download link in hours
      *
      * int(11) = -1
+     * @deprecated
      */
     const OXLINKEXPTIME = 'oxlinkexptime';
 
@@ -2562,6 +2899,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Expiration time of download link after the first download in hours
      *
      * int(11) = -1
+     * @deprecated
      */
     const OXDOWNLOADEXPTIME = 'oxdownloadexptime';
 
@@ -2569,6 +2907,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXFILES
      * Creation time
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2583,6 +2922,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXGROUPS
      * Group id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2590,6 +2930,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXGROUPS
      * Active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -2597,6 +2938,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXGROUPS
      * Title (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2604,6 +2946,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXGROUPS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2618,6 +2961,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXINVITATIONS
      * User id (oxuser), who sent invitation
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -2625,6 +2969,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXINVITATIONS
      * Creation time
      *
      * date
+     * @deprecated
      */
     const OXDATE = 'oxdate';
 
@@ -2632,6 +2977,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXINVITATIONS
      * Recipient email
      *
      * varchar(255)
+     * @deprecated
      */
     const OXEMAIL = 'oxemail';
 
@@ -2639,6 +2985,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXINVITATIONS
      * Has recipient user registered
      *
      * mediumint(9)
+     * @deprecated
      */
     const OXPENDING = 'oxpending';
 
@@ -2646,6 +2993,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXINVITATIONS
      * Is recipient user accepted
      *
      * mediumint(9)
+     * @deprecated
      */
     const OXACCEPTED = 'oxaccepted';
 
@@ -2653,6 +3001,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXINVITATIONS
      * Invitation type
      *
      * tinyint(4) = 1
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -2660,6 +3009,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXINVITATIONS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2674,6 +3024,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXLINKS
      * Link id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2681,6 +3032,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXLINKS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -2688,6 +3040,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXLINKS
      * Active
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -2695,6 +3048,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXLINKS
      * Link url
      *
      * varchar(255)
+     * @deprecated
      */
     const OXURL = 'oxurl';
 
@@ -2702,6 +3056,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXLINKS
      * Description (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXURLDESC = 'oxurldesc';
 
@@ -2709,6 +3064,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXLINKS
      * Creation time (set by user)
      *
      * datetime
+     * @deprecated
      */
     const OXINSERT = 'oxinsert';
 
@@ -2716,6 +3072,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXLINKS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2730,6 +3087,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Manufacturer id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2737,6 +3095,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -2744,6 +3103,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Is active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -2751,6 +3111,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Icon filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXICON = 'oxicon';
 
@@ -2758,6 +3119,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Title (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2765,6 +3127,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Short description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSHORTDESC = 'oxshortdesc';
 
@@ -2772,6 +3135,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Show SEO Suffix in Category
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXSHOWSUFFIX = 'oxshowsuffix';
 
@@ -2779,6 +3143,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMANUFACTURERS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2793,6 +3158,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMEDIAURLS
      * Media id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2800,6 +3166,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMEDIAURLS
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -2807,6 +3174,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMEDIAURLS
      * Media url or filename
      *
      * varchar(255)
+     * @deprecated
      */
     const OXURL = 'oxurl';
 
@@ -2814,6 +3182,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMEDIAURLS
      * Description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXDESC = 'oxdesc';
 
@@ -2821,6 +3190,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMEDIAURLS
      * Is oxurl field used for filename or url
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXISUPLOADED = 'oxisuploaded';
 
@@ -2828,6 +3198,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMEDIAURLS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2842,6 +3213,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXMIGRATIONS_CE
      *
      *
      * varchar(255)
+     * @deprecated
      */
     const VERSION = 'version';
 }
@@ -2856,6 +3228,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSLETTER
      * Newsletter id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2863,6 +3236,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSLETTER
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -2870,6 +3244,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSLETTER
      * Title
      *
      * varchar(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -2877,6 +3252,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSLETTER
      * HTML template
      *
      * mediumtext
+     * @deprecated
      */
     const OXTEMPLATE = 'oxtemplate';
 
@@ -2884,6 +3260,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSLETTER
      * Plain template
      *
      * mediumtext
+     * @deprecated
      */
     const OXPLAINTEMPLATE = 'oxplaintemplate';
 
@@ -2891,6 +3268,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSLETTER
      * Subject
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSUBJECT = 'oxsubject';
 
@@ -2898,6 +3276,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSLETTER
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -2912,6 +3291,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Subscription id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -2919,6 +3299,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -2926,6 +3307,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * User title prefix (Mr/Mrs)
      *
      * varchar(64)
+     * @deprecated
      */
     const OXSAL = 'oxsal';
 
@@ -2933,6 +3315,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * First name
      *
      * char(128)
+     * @deprecated
      */
     const OXFNAME = 'oxfname';
 
@@ -2940,6 +3323,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Last name
      *
      * char(128)
+     * @deprecated
      */
     const OXLNAME = 'oxlname';
 
@@ -2947,6 +3331,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Email
      *
      * char(128)
+     * @deprecated
      */
     const OXEMAIL = 'oxemail';
 
@@ -2954,6 +3339,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Subscription status: 0 - not subscribed, 1 - subscribed, 2 - not confirmed
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXDBOPTIN = 'oxdboptin';
 
@@ -2961,6 +3347,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Subscription email sending status
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXEMAILFAILED = 'oxemailfailed';
 
@@ -2968,6 +3355,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Subscription date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXSUBSCRIBED = 'oxsubscribed';
 
@@ -2975,6 +3363,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Unsubscription date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXUNSUBSCRIBED = 'oxunsubscribed';
 
@@ -2982,6 +3371,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 
@@ -2989,6 +3379,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWSSUBSCRIBED
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 }
@@ -3003,6 +3394,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * News id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3010,6 +3402,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -3017,6 +3410,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Is active
      *
      * tinyint-i18n(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -3024,6 +3418,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Active from specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVEFROM = 'oxactivefrom';
 
@@ -3031,6 +3426,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Active to specified date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXACTIVETO = 'oxactiveto';
 
@@ -3038,6 +3434,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Creation date (entered by user)
      *
      * date = 0000-00-00
+     * @deprecated
      */
     const OXDATE = 'oxdate';
 
@@ -3045,6 +3442,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Short description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSHORTDESC = 'oxshortdesc';
 
@@ -3052,6 +3450,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Long description (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXLONGDESC = 'oxlongdesc';
 
@@ -3059,6 +3458,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXNEWS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3073,6 +3473,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ACTION
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3080,6 +3481,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ACTION
      * Action id (oxactions)
      *
      * char(32)
+     * @deprecated
      */
     const OXACTIONID = 'oxactionid';
 
@@ -3087,6 +3489,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ACTION
      * Object id (table set by oxclass)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3094,6 +3497,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ACTION
      * Object table name
      *
      * char(32)
+     * @deprecated
      */
     const OXCLASS = 'oxclass';
 
@@ -3101,6 +3505,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ACTION
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3115,6 +3520,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ARTICLE
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3122,6 +3528,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ARTICLE
      * Cross-selling Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3129,6 +3536,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ARTICLE
      * Main Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTICLENID = 'oxarticlenid';
 
@@ -3136,6 +3544,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ARTICLE
      * Sorting
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -3143,6 +3552,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ARTICLE
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3157,6 +3567,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ATTRIBUTE
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3164,6 +3575,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ATTRIBUTE
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3171,6 +3583,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ATTRIBUTE
      * Attribute id (oxattributes)
      *
      * char(32)
+     * @deprecated
      */
     const OXATTRID = 'oxattrid';
 
@@ -3178,6 +3591,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ATTRIBUTE
      * Attribute value (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXVALUE = 'oxvalue';
 
@@ -3185,6 +3599,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ATTRIBUTE
      * Sorting
      *
      * int(11) = 9999
+     * @deprecated
      */
     const OXPOS = 'oxpos';
 
@@ -3192,6 +3607,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2ATTRIBUTE
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3206,6 +3622,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2CATEGORY
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3213,6 +3630,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2CATEGORY
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3220,6 +3638,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2CATEGORY
      * Category id (oxcategory)
      *
      * char(32)
+     * @deprecated
      */
     const OXCATNID = 'oxcatnid';
 
@@ -3227,6 +3646,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2CATEGORY
      * Sorting
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXPOS = 'oxpos';
 
@@ -3234,6 +3654,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2CATEGORY
      * Creation time
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXTIME = 'oxtime';
 
@@ -3241,6 +3662,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2CATEGORY
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3255,6 +3677,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DELIVERY
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3262,6 +3685,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DELIVERY
      * Delivery id (oxdelivery)
      *
      * char(32)
+     * @deprecated
      */
     const OXDELIVERYID = 'oxdeliveryid';
 
@@ -3269,6 +3693,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DELIVERY
      * Object id (table determined by oxtype)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3276,6 +3701,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DELIVERY
      * Record type
      *
      * char(32)
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -3283,6 +3709,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DELIVERY
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3297,6 +3724,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DISCOUNT
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3304,6 +3732,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DISCOUNT
      * Discount id (oxdiscount)
      *
      * char(32)
+     * @deprecated
      */
     const OXDISCOUNTID = 'oxdiscountid';
 
@@ -3311,6 +3740,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DISCOUNT
      * Object id (table determined by oxtype)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3318,6 +3748,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DISCOUNT
      * Record type
      *
      * char(32)
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -3325,6 +3756,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2DISCOUNT
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3339,6 +3771,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2GROUP
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3346,6 +3779,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2GROUP
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -3353,6 +3787,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2GROUP
      * User id
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3360,6 +3795,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2GROUP
      * Group id
      *
      * char(32)
+     * @deprecated
      */
     const OXGROUPSID = 'oxgroupsid';
 
@@ -3367,6 +3803,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2GROUP
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3381,6 +3818,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2LIST
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3388,6 +3826,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2LIST
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3395,6 +3834,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2LIST
      * Listmania id (oxrecommlists)
      *
      * char(32)
+     * @deprecated
      */
     const OXLISTID = 'oxlistid';
 
@@ -3402,6 +3842,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2LIST
      * Description
      *
      * text
+     * @deprecated
      */
     const OXDESC = 'oxdesc';
 
@@ -3409,6 +3850,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2LIST
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3423,6 +3865,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2PAYMENT
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3430,6 +3873,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2PAYMENT
      * Payment id (oxpayments)
      *
      * char(32)
+     * @deprecated
      */
     const OXPAYMENTID = 'oxpaymentid';
 
@@ -3437,6 +3881,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2PAYMENT
      * Object id (table determined by oxtype)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3444,6 +3889,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2PAYMENT
      * Record type
      *
      * char(32)
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -3451,6 +3897,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2PAYMENT
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3465,6 +3912,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SELECTLIST
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3472,6 +3920,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SELECTLIST
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3479,6 +3928,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SELECTLIST
      * Selection list id (oxselectlist)
      *
      * char(32)
+     * @deprecated
      */
     const OXSELNID = 'oxselnid';
 
@@ -3486,6 +3936,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SELECTLIST
      * Sorting
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -3493,6 +3944,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SELECTLIST
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3507,6 +3959,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SEODATA
      * Objects id
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -3514,6 +3967,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SEODATA
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -3521,6 +3975,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SEODATA
      * Language id
      *
      * int(2) = 0
+     * @deprecated
      */
     const OXLANG = 'oxlang';
 
@@ -3528,6 +3983,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SEODATA
      * Keywords
      *
      * text
+     * @deprecated
      */
     const OXKEYWORDS = 'oxkeywords';
 
@@ -3535,6 +3991,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SEODATA
      * Description
      *
      * text
+     * @deprecated
      */
     const OXDESCRIPTION = 'oxdescription';
 
@@ -3542,6 +3999,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXOBJECT2SEODATA
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3556,6 +4014,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Order article id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3563,6 +4022,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Order id (oxorder)
      *
      * char(32)
+     * @deprecated
      */
     const OXORDERID = 'oxorderid';
 
@@ -3570,6 +4030,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Amount
      *
      * double = 0
+     * @deprecated
      */
     const OXAMOUNT = 'oxamount';
 
@@ -3577,6 +4038,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTID = 'oxartid';
 
@@ -3584,6 +4046,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Article number
      *
      * varchar(255)
+     * @deprecated
      */
     const OXARTNUM = 'oxartnum';
 
@@ -3591,6 +4054,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Title
      *
      * varchar(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -3598,6 +4062,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Short description
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSHORTDESC = 'oxshortdesc';
 
@@ -3605,6 +4070,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Selected variant
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSELVARIANT = 'oxselvariant';
 
@@ -3612,6 +4078,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Full netto price (oxnprice * oxamount)
      *
      * double = 0
+     * @deprecated
      */
     const OXNETPRICE = 'oxnetprice';
 
@@ -3619,6 +4086,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Full brutto price (oxbprice * oxamount)
      *
      * double = 0
+     * @deprecated
      */
     const OXBRUTPRICE = 'oxbrutprice';
 
@@ -3626,6 +4094,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Calculated VAT price
      *
      * double = 0
+     * @deprecated
      */
     const OXVATPRICE = 'oxvatprice';
 
@@ -3633,6 +4102,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * VAT
      *
      * double = 0
+     * @deprecated
      */
     const OXVAT = 'oxvat';
 
@@ -3640,6 +4110,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Serialized persistent parameters
      *
      * text
+     * @deprecated
      */
     const OXPERSPARAM = 'oxpersparam';
 
@@ -3647,6 +4118,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Base price
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICE = 'oxprice';
 
@@ -3654,6 +4126,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Brutto price for one item
      *
      * double = 0
+     * @deprecated
      */
     const OXBPRICE = 'oxbprice';
 
@@ -3661,6 +4134,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Netto price for one item
      *
      * double = 0
+     * @deprecated
      */
     const OXNPRICE = 'oxnprice';
 
@@ -3668,6 +4142,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Wrapping id (oxwrapping)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXWRAPID = 'oxwrapid';
 
@@ -3675,6 +4150,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * External URL to other information about the article
      *
      * varchar(255)
+     * @deprecated
      */
     const OXEXTURL = 'oxexturl';
 
@@ -3682,6 +4158,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Text for external URL
      *
      * varchar(255)
+     * @deprecated
      */
     const OXURLDESC = 'oxurldesc';
 
@@ -3689,6 +4166,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * External URL image
      *
      * varchar(128)
+     * @deprecated
      */
     const OXURLIMG = 'oxurlimg';
 
@@ -3696,6 +4174,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Thumbnail filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXTHUMB = 'oxthumb';
 
@@ -3703,6 +4182,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * 1# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC1 = 'oxpic1';
 
@@ -3710,6 +4190,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * 2# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC2 = 'oxpic2';
 
@@ -3717,6 +4198,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * 3# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC3 = 'oxpic3';
 
@@ -3724,6 +4206,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * 4# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC4 = 'oxpic4';
 
@@ -3731,6 +4214,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * 5# Picture filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC5 = 'oxpic5';
 
@@ -3738,6 +4222,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Weight (kg)
      *
      * double = 0
+     * @deprecated
      */
     const OXWEIGHT = 'oxweight';
 
@@ -3745,6 +4230,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Articles quantity in stock
      *
      * double = -1
+     * @deprecated
      */
     const OXSTOCK = 'oxstock';
 
@@ -3752,6 +4238,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Date, when the product will be available again if it is sold out
      *
      * date = 0000-00-00
+     * @deprecated
      */
     const OXDELIVERY = 'oxdelivery';
 
@@ -3759,6 +4246,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Creation time
      *
      * date = 0000-00-00
+     * @deprecated
      */
     const OXINSERT = 'oxinsert';
 
@@ -3766,6 +4254,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 
@@ -3773,6 +4262,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Article dimensions: Length
      *
      * double = 0
+     * @deprecated
      */
     const OXLENGTH = 'oxlength';
 
@@ -3780,6 +4270,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Article dimensions: Width
      *
      * double = 0
+     * @deprecated
      */
     const OXWIDTH = 'oxwidth';
 
@@ -3787,6 +4278,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Article dimensions: Height
      *
      * double = 0
+     * @deprecated
      */
     const OXHEIGHT = 'oxheight';
 
@@ -3794,6 +4286,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * File, shown in article media list
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFILE = 'oxfile';
 
@@ -3801,6 +4294,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Search terms
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSEARCHKEYS = 'oxsearchkeys';
 
@@ -3808,6 +4302,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Alternative template filename (use default, if empty)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXTEMPLATE = 'oxtemplate';
 
@@ -3815,6 +4310,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * E-mail for question
      *
      * varchar(255)
+     * @deprecated
      */
     const OXQUESTIONEMAIL = 'oxquestionemail';
 
@@ -3822,6 +4318,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Is article shown in search
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXISSEARCH = 'oxissearch';
 
@@ -3829,6 +4326,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Folder: ORDERFOLDER_FINISHED, ORDERFOLDER_NEW, ORDERFOLDER_PROBLEMS
      *
      * varchar(32)
+     * @deprecated
      */
     const OXFOLDER = 'oxfolder';
 
@@ -3836,6 +4334,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Subclass
      *
      * varchar(32)
+     * @deprecated
      */
     const OXSUBCLASS = 'oxsubclass';
 
@@ -3843,6 +4342,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Order cancelled
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXSTORNO = 'oxstorno';
 
@@ -3850,6 +4350,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Shop id (oxshops), in which order was done
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXORDERSHOPID = 'oxordershopid';
 
@@ -3857,6 +4358,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERARTICLES
      * Bundled article
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXISBUNDLE = 'oxisbundle';
 }
@@ -3871,6 +4373,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Order file id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3878,6 +4381,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Order id (oxorder)
      *
      * char(32)
+     * @deprecated
      */
     const OXORDERID = 'oxorderid';
 
@@ -3885,6 +4389,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFILENAME = 'oxfilename';
 
@@ -3892,6 +4397,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * File id (oxfiles)
      *
      * char(32)
+     * @deprecated
      */
     const OXFILEID = 'oxfileid';
 
@@ -3899,6 +4405,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -3906,6 +4413,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Ordered article id (oxorderarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXORDERARTICLEID = 'oxorderarticleid';
 
@@ -3913,6 +4421,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * First time downloaded time
      *
      * timestamp = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXFIRSTDOWNLOAD = 'oxfirstdownload';
 
@@ -3920,6 +4429,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Last time downloaded time
      *
      * timestamp = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXLASTDOWNLOAD = 'oxlastdownload';
 
@@ -3927,6 +4437,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Downloads count
      *
      * int(10)
+     * @deprecated
      */
     const OXDOWNLOADCOUNT = 'oxdownloadcount';
 
@@ -3934,6 +4445,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Maximum count of downloads
      *
      * int(10)
+     * @deprecated
      */
     const OXMAXDOWNLOADCOUNT = 'oxmaxdownloadcount';
 
@@ -3941,6 +4453,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Download expiration time in hours
      *
      * int(10)
+     * @deprecated
      */
     const OXDOWNLOADEXPIRATIONTIME = 'oxdownloadexpirationtime';
 
@@ -3948,6 +4461,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Link expiration time in hours
      *
      * int(10)
+     * @deprecated
      */
     const OXLINKEXPIRATIONTIME = 'oxlinkexpirationtime';
 
@@ -3955,6 +4469,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Count of resets
      *
      * int(10)
+     * @deprecated
      */
     const OXRESETCOUNT = 'oxresetcount';
 
@@ -3962,6 +4477,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Download is valid until time specified
      *
      * datetime
+     * @deprecated
      */
     const OXVALIDUNTIL = 'oxvaliduntil';
 
@@ -3969,6 +4485,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDERFILES
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -3983,6 +4500,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Order id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -3990,6 +4508,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -3997,6 +4516,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -4004,6 +4524,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Order date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXORDERDATE = 'oxorderdate';
 
@@ -4011,6 +4532,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Order number
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXORDERNR = 'oxordernr';
 
@@ -4018,6 +4540,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Company name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLCOMPANY = 'oxbillcompany';
 
@@ -4025,6 +4548,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Email
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLEMAIL = 'oxbillemail';
 
@@ -4032,6 +4556,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: First name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLFNAME = 'oxbillfname';
 
@@ -4039,6 +4564,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Last name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLLNAME = 'oxbilllname';
 
@@ -4046,6 +4572,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Street name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLSTREET = 'oxbillstreet';
 
@@ -4053,6 +4580,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: House number
      *
      * varchar(16)
+     * @deprecated
      */
     const OXBILLSTREETNR = 'oxbillstreetnr';
 
@@ -4060,6 +4588,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Additional info
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLADDINFO = 'oxbilladdinfo';
 
@@ -4067,6 +4596,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: VAT ID No.
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLUSTID = 'oxbillustid';
 
@@ -4074,6 +4604,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: City
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBILLCITY = 'oxbillcity';
 
@@ -4081,6 +4612,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Country id (oxcountry)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXBILLCOUNTRYID = 'oxbillcountryid';
 
@@ -4088,6 +4620,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: US State id (oxstates)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXBILLSTATEID = 'oxbillstateid';
 
@@ -4095,6 +4628,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Zip code
      *
      * varchar(16)
+     * @deprecated
      */
     const OXBILLZIP = 'oxbillzip';
 
@@ -4102,6 +4636,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Phone number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXBILLFON = 'oxbillfon';
 
@@ -4109,6 +4644,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: Fax number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXBILLFAX = 'oxbillfax';
 
@@ -4116,6 +4652,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Billing info: User title prefix (Mr/Mrs)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXBILLSAL = 'oxbillsal';
 
@@ -4123,6 +4660,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Company name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXDELCOMPANY = 'oxdelcompany';
 
@@ -4130,6 +4668,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: First name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXDELFNAME = 'oxdelfname';
 
@@ -4137,6 +4676,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Last name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXDELLNAME = 'oxdellname';
 
@@ -4144,6 +4684,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Street name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXDELSTREET = 'oxdelstreet';
 
@@ -4151,6 +4692,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: House number
      *
      * varchar(16)
+     * @deprecated
      */
     const OXDELSTREETNR = 'oxdelstreetnr';
 
@@ -4158,6 +4700,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Additional info
      *
      * varchar(255)
+     * @deprecated
      */
     const OXDELADDINFO = 'oxdeladdinfo';
 
@@ -4165,6 +4708,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: City
      *
      * varchar(255)
+     * @deprecated
      */
     const OXDELCITY = 'oxdelcity';
 
@@ -4172,6 +4716,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Country id (oxcountry)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXDELCOUNTRYID = 'oxdelcountryid';
 
@@ -4179,6 +4724,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: US State id (oxstates)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXDELSTATEID = 'oxdelstateid';
 
@@ -4186,6 +4732,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Zip code
      *
      * varchar(16)
+     * @deprecated
      */
     const OXDELZIP = 'oxdelzip';
 
@@ -4193,6 +4740,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Phone number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXDELFON = 'oxdelfon';
 
@@ -4200,6 +4748,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: Fax number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXDELFAX = 'oxdelfax';
 
@@ -4207,6 +4756,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Shipping info: User title prefix (Mr/Mrs)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXDELSAL = 'oxdelsal';
 
@@ -4214,6 +4764,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * User payment id (oxuserpayments)
      *
      * char(32)
+     * @deprecated
      */
     const OXPAYMENTID = 'oxpaymentid';
 
@@ -4221,6 +4772,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Payment id (oxpayments)
      *
      * char(32)
+     * @deprecated
      */
     const OXPAYMENTTYPE = 'oxpaymenttype';
 
@@ -4228,6 +4780,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Total net sum
      *
      * double = 0
+     * @deprecated
      */
     const OXTOTALNETSUM = 'oxtotalnetsum';
 
@@ -4235,6 +4788,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Total brut sum
      *
      * double = 0
+     * @deprecated
      */
     const OXTOTALBRUTSUM = 'oxtotalbrutsum';
 
@@ -4242,6 +4796,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Total order sum
      *
      * double = 0
+     * @deprecated
      */
     const OXTOTALORDERSUM = 'oxtotalordersum';
 
@@ -4249,6 +4804,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * First VAT
      *
      * double = 0
+     * @deprecated
      */
     const OXARTVAT1 = 'oxartvat1';
 
@@ -4256,6 +4812,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * First calculated VAT price
      *
      * double = 0
+     * @deprecated
      */
     const OXARTVATPRICE1 = 'oxartvatprice1';
 
@@ -4263,6 +4820,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Second VAT
      *
      * double = 0
+     * @deprecated
      */
     const OXARTVAT2 = 'oxartvat2';
 
@@ -4270,6 +4828,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Second calculated VAT price
      *
      * double = 0
+     * @deprecated
      */
     const OXARTVATPRICE2 = 'oxartvatprice2';
 
@@ -4277,6 +4836,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Delivery price
      *
      * double = 0
+     * @deprecated
      */
     const OXDELCOST = 'oxdelcost';
 
@@ -4284,6 +4844,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Delivery VAT
      *
      * double = 0
+     * @deprecated
      */
     const OXDELVAT = 'oxdelvat';
 
@@ -4291,6 +4852,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Payment cost
      *
      * double = 0
+     * @deprecated
      */
     const OXPAYCOST = 'oxpaycost';
 
@@ -4298,6 +4860,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Payment VAT
      *
      * double = 0
+     * @deprecated
      */
     const OXPAYVAT = 'oxpayvat';
 
@@ -4305,6 +4868,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Wrapping cost
      *
      * double = 0
+     * @deprecated
      */
     const OXWRAPCOST = 'oxwrapcost';
 
@@ -4312,6 +4876,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Wrapping VAT
      *
      * double = 0
+     * @deprecated
      */
     const OXWRAPVAT = 'oxwrapvat';
 
@@ -4319,6 +4884,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Giftcard cost
      *
      * double = 0
+     * @deprecated
      */
     const OXGIFTCARDCOST = 'oxgiftcardcost';
 
@@ -4326,6 +4892,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Giftcard VAT
      *
      * double = 0
+     * @deprecated
      */
     const OXGIFTCARDVAT = 'oxgiftcardvat';
 
@@ -4333,6 +4900,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Gift card id (oxwrapping)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXCARDID = 'oxcardid';
 
@@ -4340,6 +4908,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Gift card text
      *
      * text
+     * @deprecated
      */
     const OXCARDTEXT = 'oxcardtext';
 
@@ -4347,6 +4916,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Additional discount for order (abs)
      *
      * double = 0
+     * @deprecated
      */
     const OXDISCOUNT = 'oxdiscount';
 
@@ -4354,6 +4924,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Is exported
      *
      * tinyint(4) = 0
+     * @deprecated
      */
     const OXEXPORT = 'oxexport';
 
@@ -4361,6 +4932,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Invoice No.
      *
      * varchar(128)
+     * @deprecated
      */
     const OXBILLNR = 'oxbillnr';
 
@@ -4368,6 +4940,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Invoice sent date
      *
      * date = 0000-00-00
+     * @deprecated
      */
     const OXBILLDATE = 'oxbilldate';
 
@@ -4375,6 +4948,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Tracking code
      *
      * varchar(128)
+     * @deprecated
      */
     const OXTRACKCODE = 'oxtrackcode';
 
@@ -4382,6 +4956,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Order shipping date
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXSENDDATE = 'oxsenddate';
 
@@ -4389,6 +4964,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * User remarks
      *
      * text
+     * @deprecated
      */
     const OXREMARK = 'oxremark';
 
@@ -4396,6 +4972,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Coupon (voucher) discount price
      *
      * double = 0
+     * @deprecated
      */
     const OXVOUCHERDISCOUNT = 'oxvoucherdiscount';
 
@@ -4403,6 +4980,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Currency
      *
      * varchar(32)
+     * @deprecated
      */
     const OXCURRENCY = 'oxcurrency';
 
@@ -4410,6 +4988,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Currency rate
      *
      * double = 0
+     * @deprecated
      */
     const OXCURRATE = 'oxcurrate';
 
@@ -4417,6 +4996,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Folder: ORDERFOLDER_FINISHED, ORDERFOLDER_NEW, ORDERFOLDER_PROBLEMS
      *
      * varchar(32)
+     * @deprecated
      */
     const OXFOLDER = 'oxfolder';
 
@@ -4424,6 +5004,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Paypal: Transaction id
      *
      * varchar(64)
+     * @deprecated
      */
     const OXTRANSID = 'oxtransid';
 
@@ -4431,6 +5012,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      *
      *
      * varchar(64)
+     * @deprecated
      */
     const OXPAYID = 'oxpayid';
 
@@ -4438,6 +5020,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      *
      *
      * varchar(64)
+     * @deprecated
      */
     const OXXID = 'oxxid';
 
@@ -4445,6 +5028,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Time, when order was paid
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXPAID = 'oxpaid';
 
@@ -4452,6 +5036,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Order cancelled
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXSTORNO = 'oxstorno';
 
@@ -4459,6 +5044,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * User ip address
      *
      * varchar(39)
+     * @deprecated
      */
     const OXIP = 'oxip';
 
@@ -4466,6 +5052,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Order status: NOT_FINISHED, OK, ERROR
      *
      * varchar(30)
+     * @deprecated
      */
     const OXTRANSSTATUS = 'oxtransstatus';
 
@@ -4473,6 +5060,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Language id
      *
      * int(2) = 0
+     * @deprecated
      */
     const OXLANG = 'oxlang';
 
@@ -4480,6 +5068,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Invoice number
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXINVOICENR = 'oxinvoicenr';
 
@@ -4487,6 +5076,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Delivery id (oxdeliveryset)
      *
      * char(32)
+     * @deprecated
      */
     const OXDELTYPE = 'oxdeltype';
 
@@ -4494,6 +5084,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 
@@ -4501,6 +5092,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXORDER
      * Order created in netto mode
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXISNETTOMODE = 'oxisnettomode';
 }
@@ -4515,6 +5107,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Payment id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -4522,6 +5115,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -4529,6 +5123,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Description (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXDESC = 'oxdesc';
 
@@ -4536,6 +5131,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Price Surcharge/Reduction amount
      *
      * double = 0
+     * @deprecated
      */
     const OXADDSUM = 'oxaddsum';
 
@@ -4543,6 +5139,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Price Surcharge/Reduction type (abs|%)
      *
      * enum(3) = abs
+     * @deprecated
      */
     const OXADDSUMTYPE = 'oxaddsumtype';
 
@@ -4550,6 +5147,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Base of price surcharge/reduction: 1 - Value of all goods in cart, 2 - Discounts, 4 - Vouchers, 8 - Shipping costs, 16 - Gift Wrapping/Greeting Card
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXADDSUMRULES = 'oxaddsumrules';
 
@@ -4557,6 +5155,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Minimal Credit Rating
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXFROMBONI = 'oxfromboni';
 
@@ -4564,6 +5163,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Purchase Price: From
      *
      * double = 0
+     * @deprecated
      */
     const OXFROMAMOUNT = 'oxfromamount';
 
@@ -4571,6 +5171,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Purchase Price: To
      *
      * double = 0
+     * @deprecated
      */
     const OXTOAMOUNT = 'oxtoamount';
 
@@ -4578,6 +5179,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Payment additional fields, separated by "field1__@@field2" (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXVALDESC = 'oxvaldesc';
 
@@ -4585,6 +5187,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Selected as the default method
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXCHECKED = 'oxchecked';
 
@@ -4592,6 +5195,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Long description (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXLONGDESC = 'oxlongdesc';
 
@@ -4599,6 +5203,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Sorting
      *
      * int(5) = 0
+     * @deprecated
      */
     const OXSORT = 'oxsort';
 
@@ -4606,6 +5211,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPAYMENTS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -4620,6 +5226,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -4627,6 +5234,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -4634,6 +5242,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTID = 'oxartid';
 
@@ -4641,6 +5250,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Price, that will be used for specified article if basket amount is between oxamount and oxamountto
      *
      * double = 0
+     * @deprecated
      */
     const OXADDABS = 'oxaddabs';
 
@@ -4648,6 +5258,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Discount, that will be used for specified article if basket amount is between oxamount and oxamountto
      *
      * double = 0
+     * @deprecated
      */
     const OXADDPERC = 'oxaddperc';
 
@@ -4655,6 +5266,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Quantity: From
      *
      * double = 0
+     * @deprecated
      */
     const OXAMOUNT = 'oxamount';
 
@@ -4662,6 +5274,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Quantity: To
      *
      * double = 0
+     * @deprecated
      */
     const OXAMOUNTTO = 'oxamountto';
 
@@ -4669,6 +5282,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICE2ARTICLE
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -4683,6 +5297,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Price alarm id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -4690,6 +5305,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -4697,6 +5313,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -4704,6 +5321,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Recipient email
      *
      * varchar(128)
+     * @deprecated
      */
     const OXEMAIL = 'oxemail';
 
@@ -4711,6 +5329,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTID = 'oxartid';
 
@@ -4718,6 +5337,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Expected (user) price, when notification email should be sent
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICE = 'oxprice';
 
@@ -4725,6 +5345,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Currency
      *
      * varchar(32)
+     * @deprecated
      */
     const OXCURRENCY = 'oxcurrency';
 
@@ -4732,6 +5353,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Language id
      *
      * int(2) = 0
+     * @deprecated
      */
     const OXLANG = 'oxlang';
 
@@ -4739,6 +5361,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Creation time
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXINSERT = 'oxinsert';
 
@@ -4746,6 +5369,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Time, when notification was sent
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXSENDED = 'oxsended';
 
@@ -4753,6 +5377,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXPRICEALARM
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -4767,6 +5392,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRATINGS
      * Rating id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -4774,6 +5400,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRATINGS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -4781,6 +5408,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRATINGS
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -4788,6 +5416,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRATINGS
      * Rating type (oxarticle, oxrecommlist)
      *
      * enum(12)
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -4795,6 +5424,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRATINGS
      * Article or Listmania id (oxarticles or oxrecommlists)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -4802,6 +5432,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRATINGS
      * Rating
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXRATING = 'oxrating';
 
@@ -4809,6 +5440,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRATINGS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -4823,6 +5455,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Listmania id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -4830,6 +5463,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -4837,6 +5471,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -4844,6 +5479,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Author first and last name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXAUTHOR = 'oxauthor';
 
@@ -4851,6 +5487,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Title
      *
      * varchar(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -4858,6 +5495,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Description
      *
      * text
+     * @deprecated
      */
     const OXDESC = 'oxdesc';
 
@@ -4865,6 +5503,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Rating votes count
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXRATINGCNT = 'oxratingcnt';
 
@@ -4872,6 +5511,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Rating
      *
      * double = 0
+     * @deprecated
      */
     const OXRATING = 'oxrating';
 
@@ -4879,6 +5519,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXRECOMMLISTS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -4893,6 +5534,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREMARK
      * Record id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -4900,6 +5542,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREMARK
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXPARENTID = 'oxparentid';
 
@@ -4907,6 +5550,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREMARK
      * Record type: o - order, r - remark, n - newsletter, c - registration
      *
      * enum(1) = r
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -4914,6 +5558,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREMARK
      * Header (default: Creation time)
      *
      * varchar(255)
+     * @deprecated
      */
     const OXHEADER = 'oxheader';
 
@@ -4921,6 +5566,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREMARK
      * Remark text
      *
      * text
+     * @deprecated
      */
     const OXTEXT = 'oxtext';
 
@@ -4928,6 +5574,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREMARK
      * Creation time
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXCREATE = 'oxcreate';
 
@@ -4935,6 +5582,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREMARK
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -4949,6 +5597,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Review id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -4956,6 +5605,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Active
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -4963,6 +5613,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Article or Listmania id (oxarticles or oxrecommlist)
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -4970,6 +5621,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Review type (oxarticle, oxrecommlist)
      *
      * enum(12)
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -4977,6 +5629,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Review text
      *
      * text
+     * @deprecated
      */
     const OXTEXT = 'oxtext';
 
@@ -4984,6 +5637,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -4991,6 +5645,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Creation time
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXCREATE = 'oxcreate';
 
@@ -4998,6 +5653,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Language id
      *
      * tinyint(3) = 0
+     * @deprecated
      */
     const OXLANG = 'oxlang';
 
@@ -5005,6 +5661,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Rating
      *
      * int(1) = 0
+     * @deprecated
      */
     const OXRATING = 'oxrating';
 
@@ -5012,6 +5669,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXREVIEWS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5026,6 +5684,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSELECTLIST
      * Selection list id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5033,6 +5692,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSELECTLIST
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -5040,6 +5700,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSELECTLIST
      * Title (multilanguage)
      *
      * varchar-i18n(254)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -5047,6 +5708,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSELECTLIST
      * Working Title
      *
      * varchar(255)
+     * @deprecated
      */
     const OXIDENT = 'oxident';
 
@@ -5054,6 +5716,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSELECTLIST
      * List fields, separated by "[field_name]!P![price]__@@[field_name]__@@" (multilanguage)
      *
      * text-i18n
+     * @deprecated
      */
     const OXVALDESC = 'oxvaldesc';
 
@@ -5061,6 +5724,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSELECTLIST
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5075,6 +5739,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOHISTORY
      * Object id
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -5082,6 +5747,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOHISTORY
      * Hashed url (md5)
      *
      * char(32)
+     * @deprecated
      */
     const OXIDENT = 'oxident';
 
@@ -5089,6 +5755,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOHISTORY
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -5096,6 +5763,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOHISTORY
      * Language id
      *
      * int(2) = 0
+     * @deprecated
      */
     const OXLANG = 'oxlang';
 
@@ -5103,6 +5771,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOHISTORY
      * Hits
      *
      * bigint(20) = 0
+     * @deprecated
      */
     const OXHITS = 'oxhits';
 
@@ -5110,6 +5779,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOHISTORY
      * Creation time
      *
      * timestamp
+     * @deprecated
      */
     const OXINSERT = 'oxinsert';
 
@@ -5117,6 +5787,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOHISTORY
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5131,6 +5802,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOLOGS
      * Primary url, not seo encoded
      *
      * text
+     * @deprecated
      */
     const OXSTDURL = 'oxstdurl';
 
@@ -5138,6 +5810,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOLOGS
      * Hashed seo url
      *
      * char(32)
+     * @deprecated
      */
     const OXIDENT = 'oxident';
 
@@ -5145,6 +5818,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOLOGS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -5152,6 +5826,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOLOGS
      * Language id
      *
      * int(11)
+     * @deprecated
      */
     const OXLANG = 'oxlang';
 
@@ -5159,6 +5834,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEOLOGS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5173,6 +5849,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Object id
      *
      * char(32)
+     * @deprecated
      */
     const OXOBJECTID = 'oxobjectid';
 
@@ -5180,6 +5857,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Hashed seo url (md5)
      *
      * char(32)
+     * @deprecated
      */
     const OXIDENT = 'oxident';
 
@@ -5187,6 +5865,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -5194,6 +5873,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Language id
      *
      * int(2) = 0
+     * @deprecated
      */
     const OXLANG = 'oxlang';
 
@@ -5201,6 +5881,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Primary url, not seo encoded
      *
      * varchar(2048)
+     * @deprecated
      */
     const OXSTDURL = 'oxstdurl';
 
@@ -5208,6 +5889,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Old seo url
      *
      * varchar(2048)
+     * @deprecated
      */
     const OXSEOURL = 'oxseourl';
 
@@ -5215,6 +5897,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Record type
      *
      * enum(14)
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -5222,6 +5905,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Fixed
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXFIXED = 'oxfixed';
 
@@ -5229,6 +5913,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Expired
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXEXPIRED = 'oxexpired';
 
@@ -5236,6 +5921,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Params
      *
      * char(32)
+     * @deprecated
      */
     const OXPARAMS = 'oxparams';
 
@@ -5243,6 +5929,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSEO
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5257,6 +5944,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Shop id
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5264,6 +5952,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -5271,6 +5960,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Productive Mode (if 0, debug info displayed)
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXPRODUCTIVE = 'oxproductive';
 
@@ -5278,6 +5968,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Default currency
      *
      * varchar(32)
+     * @deprecated
      */
     const OXDEFCURRENCY = 'oxdefcurrency';
 
@@ -5285,6 +5976,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Default language id
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXDEFLANGUAGE = 'oxdeflanguage';
 
@@ -5292,6 +5984,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Shop name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXNAME = 'oxname';
 
@@ -5299,6 +5992,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Seo title prefix (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLEPREFIX = 'oxtitleprefix';
 
@@ -5306,6 +6000,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Seo title suffix (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLESUFFIX = 'oxtitlesuffix';
 
@@ -5313,6 +6008,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Start page title (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSTARTTITLE = 'oxstarttitle';
 
@@ -5320,6 +6016,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Informational email address
      *
      * varchar(255)
+     * @deprecated
      */
     const OXINFOEMAIL = 'oxinfoemail';
 
@@ -5327,6 +6024,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Order email address
      *
      * varchar(255)
+     * @deprecated
      */
     const OXORDEREMAIL = 'oxorderemail';
 
@@ -5334,6 +6032,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Owner email address
      *
      * varchar(255)
+     * @deprecated
      */
     const OXOWNEREMAIL = 'oxowneremail';
 
@@ -5341,6 +6040,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Order email subject (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXORDERSUBJECT = 'oxordersubject';
 
@@ -5348,6 +6048,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Registration email subject (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXREGISTERSUBJECT = 'oxregistersubject';
 
@@ -5355,6 +6056,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Forgot password email subject (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXFORGOTPWDSUBJECT = 'oxforgotpwdsubject';
 
@@ -5362,6 +6064,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Order sent email subject (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSENDEDNOWSUBJECT = 'oxsendednowsubject';
 
@@ -5369,6 +6072,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * SMTP server
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSMTP = 'oxsmtp';
 
@@ -5376,6 +6080,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * SMTP user
      *
      * varchar(128)
+     * @deprecated
      */
     const OXSMTPUSER = 'oxsmtpuser';
 
@@ -5383,6 +6088,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * SMTP password
      *
      * varchar(128)
+     * @deprecated
      */
     const OXSMTPPWD = 'oxsmtppwd';
 
@@ -5390,6 +6096,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Your company
      *
      * varchar(128)
+     * @deprecated
      */
     const OXCOMPANY = 'oxcompany';
 
@@ -5397,6 +6104,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Street
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSTREET = 'oxstreet';
 
@@ -5404,6 +6112,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * ZIP code
      *
      * varchar(255)
+     * @deprecated
      */
     const OXZIP = 'oxzip';
 
@@ -5411,6 +6120,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * City
      *
      * varchar(255)
+     * @deprecated
      */
     const OXCITY = 'oxcity';
 
@@ -5418,6 +6128,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Country
      *
      * varchar(255)
+     * @deprecated
      */
     const OXCOUNTRY = 'oxcountry';
 
@@ -5425,6 +6136,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Bank name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBANKNAME = 'oxbankname';
 
@@ -5432,6 +6144,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Account Number
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBANKNUMBER = 'oxbanknumber';
 
@@ -5439,6 +6152,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Routing Number
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBANKCODE = 'oxbankcode';
 
@@ -5446,6 +6160,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Sales Tax ID
      *
      * varchar(255)
+     * @deprecated
      */
     const OXVATNUMBER = 'oxvatnumber';
 
@@ -5453,6 +6168,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Tax ID
      *
      * varchar(255)
+     * @deprecated
      */
     const OXTAXNUMBER = 'oxtaxnumber';
 
@@ -5460,6 +6176,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Bank BIC
      *
      * varchar(255)
+     * @deprecated
      */
     const OXBICCODE = 'oxbiccode';
 
@@ -5467,6 +6184,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Bank IBAN
      *
      * varchar(255)
+     * @deprecated
      */
     const OXIBANNUMBER = 'oxibannumber';
 
@@ -5474,6 +6192,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * First name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXFNAME = 'oxfname';
 
@@ -5481,6 +6200,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Last name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXLNAME = 'oxlname';
 
@@ -5488,6 +6208,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Phone number
      *
      * varchar(255)
+     * @deprecated
      */
     const OXTELEFON = 'oxtelefon';
 
@@ -5495,6 +6216,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Fax number
      *
      * varchar(255)
+     * @deprecated
      */
     const OXTELEFAX = 'oxtelefax';
 
@@ -5502,6 +6224,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Shop url
      *
      * varchar(255)
+     * @deprecated
      */
     const OXURL = 'oxurl';
 
@@ -5509,6 +6232,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Default category id
      *
      * char(32)
+     * @deprecated
      */
     const OXDEFCAT = 'oxdefcat';
 
@@ -5516,6 +6240,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * CBR
      *
      * varchar(64)
+     * @deprecated
      */
     const OXHRBNR = 'oxhrbnr';
 
@@ -5523,6 +6248,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * District Court
      *
      * varchar(128)
+     * @deprecated
      */
     const OXCOURT = 'oxcourt';
 
@@ -5530,6 +6256,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Adbutler code (belboon.de) - deprecated
      *
      * varchar(64)
+     * @deprecated
      */
     const OXADBUTLERID = 'oxadbutlerid';
 
@@ -5537,6 +6264,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Affilinet code (webmasterplan.com) - deprecated
      *
      * varchar(64)
+     * @deprecated
      */
     const OXAFFILINETID = 'oxaffilinetid';
 
@@ -5544,6 +6272,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Superclix code (superclix.de) - deprecated
      *
      * varchar(64)
+     * @deprecated
      */
     const OXSUPERCLICKSID = 'oxsuperclicksid';
 
@@ -5551,6 +6280,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Affiliwelt code (affiliwelt.net) - deprecated
      *
      * varchar(64)
+     * @deprecated
      */
     const OXAFFILIWELTID = 'oxaffiliweltid';
 
@@ -5558,6 +6288,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Affili24 code (affili24.com) - deprecated
      *
      * varchar(64)
+     * @deprecated
      */
     const OXAFFILI24ID = 'oxaffili24id';
 
@@ -5565,6 +6296,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Shop Edition (CE,PE,EE (@deprecated since v6.0.0-RC.2 (2017-08-24))
      *
      * char(2)
+     * @deprecated
      */
     const OXEDITION = 'oxedition';
 
@@ -5572,6 +6304,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Shop Version (@deprecated since v6.0.0-RC.2 (2017-08-22))
      *
      * char(16)
+     * @deprecated
      */
     const OXVERSION = 'oxversion';
 
@@ -5579,6 +6312,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Seo active (multilanguage)
      *
      * tinyint-i18n(1) = 1
+     * @deprecated
      */
     const OXSEOACTIVE = 'oxseoactive';
 
@@ -5586,6 +6320,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSHOPS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5600,6 +6335,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSTATES
      * State id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5607,6 +6343,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSTATES
      * Country id (oxcountry)
      *
      * char(32)
+     * @deprecated
      */
     const OXCOUNTRYID = 'oxcountryid';
 
@@ -5614,6 +6351,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSTATES
      * Title (multilanguage)
      *
      * char-i18n(128)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -5621,6 +6359,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSTATES
      * SEO short name
      *
      * char(2)
+     * @deprecated
      */
     const OXISOALPHA2 = 'oxisoalpha2';
 
@@ -5628,6 +6367,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXSTATES
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5642,6 +6382,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Block id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5649,6 +6390,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Is active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -5656,6 +6398,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -5663,6 +6406,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Shop theme id
      *
      * char(128)
+     * @deprecated
      */
     const OXTHEME = 'oxtheme';
 
@@ -5670,6 +6414,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Template filename (with rel. path), where block is located
      *
      * char(255)
+     * @deprecated
      */
     const OXTEMPLATE = 'oxtemplate';
 
@@ -5677,6 +6422,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Block name
      *
      * char(128)
+     * @deprecated
      */
     const OXBLOCKNAME = 'oxblockname';
 
@@ -5684,6 +6430,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Sorting
      *
      * int(11)
+     * @deprecated
      */
     const OXPOS = 'oxpos';
 
@@ -5691,6 +6438,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Module template filename, where block replacement is located
      *
      * char(255)
+     * @deprecated
      */
     const OXFILE = 'oxfile';
 
@@ -5698,6 +6446,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Module, which uses this template
      *
      * varchar(100)
+     * @deprecated
      */
     const OXMODULE = 'oxmodule';
 
@@ -5705,6 +6454,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXTPLBLOCKS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5719,6 +6469,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETITEMS
      * Item id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5726,6 +6477,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETITEMS
      * Basket id (oxuserbaskets)
      *
      * char(32)
+     * @deprecated
      */
     const OXBASKETID = 'oxbasketid';
 
@@ -5733,6 +6485,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETITEMS
      * Article id (oxarticles)
      *
      * char(32)
+     * @deprecated
      */
     const OXARTID = 'oxartid';
 
@@ -5740,6 +6493,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETITEMS
      * Amount
      *
      * char(32)
+     * @deprecated
      */
     const OXAMOUNT = 'oxamount';
 
@@ -5747,6 +6501,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETITEMS
      * Selection list
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSELLIST = 'oxsellist';
 
@@ -5754,6 +6509,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETITEMS
      * Serialized persistent parameters
      *
      * text
+     * @deprecated
      */
     const OXPERSPARAM = 'oxpersparam';
 
@@ -5761,6 +6517,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETITEMS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5775,6 +6532,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETS
      * Basket id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5782,6 +6540,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETS
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -5789,6 +6548,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETS
      * Basket title
      *
      * varchar(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -5796,6 +6556,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 
@@ -5803,6 +6564,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETS
      * Is public
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXPUBLIC = 'oxpublic';
 
@@ -5810,6 +6572,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERBASKETS
      * Update timestamp
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXUPDATE = 'oxupdate';
 }
@@ -5824,6 +6587,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERPAYMENTS
      * Payment id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5831,6 +6595,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERPAYMENTS
      * User id (oxusers)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -5838,6 +6603,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERPAYMENTS
      * Payment id (oxpayments)
      *
      * char(32)
+     * @deprecated
      */
     const OXPAYMENTSID = 'oxpaymentsid';
 
@@ -5845,6 +6611,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERPAYMENTS
      * DYN payment values array as string
      *
      * blob
+     * @deprecated
      */
     const OXVALUE = 'oxvalue';
 
@@ -5852,6 +6619,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSERPAYMENTS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -5866,6 +6634,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * User id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -5873,6 +6642,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Is active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -5880,6 +6650,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * User rights: user, malladmin
      *
      * char(32)
+     * @deprecated
      */
     const OXRIGHTS = 'oxrights';
 
@@ -5887,6 +6658,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -5894,6 +6666,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Username
      *
      * varchar(255)
+     * @deprecated
      */
     const OXUSERNAME = 'oxusername';
 
@@ -5901,6 +6674,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Hashed password
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPASSWORD = 'oxpassword';
 
@@ -5908,6 +6682,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Password salt
      *
      * char(128)
+     * @deprecated
      */
     const OXPASSSALT = 'oxpasssalt';
 
@@ -5915,6 +6690,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Customer number
      *
      * int(11)
+     * @deprecated
      */
     const OXCUSTNR = 'oxcustnr';
 
@@ -5922,6 +6698,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * VAT ID No.
      *
      * varchar(255)
+     * @deprecated
      */
     const OXUSTID = 'oxustid';
 
@@ -5929,6 +6706,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Company
      *
      * varchar(255)
+     * @deprecated
      */
     const OXCOMPANY = 'oxcompany';
 
@@ -5936,6 +6714,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * First name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXFNAME = 'oxfname';
 
@@ -5943,6 +6722,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Last name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXLNAME = 'oxlname';
 
@@ -5950,6 +6730,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Street
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSTREET = 'oxstreet';
 
@@ -5957,6 +6738,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * House number
      *
      * varchar(16)
+     * @deprecated
      */
     const OXSTREETNR = 'oxstreetnr';
 
@@ -5964,6 +6746,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Additional info
      *
      * varchar(255)
+     * @deprecated
      */
     const OXADDINFO = 'oxaddinfo';
 
@@ -5971,6 +6754,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * City
      *
      * varchar(255)
+     * @deprecated
      */
     const OXCITY = 'oxcity';
 
@@ -5978,6 +6762,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Country id (oxcountry)
      *
      * char(32)
+     * @deprecated
      */
     const OXCOUNTRYID = 'oxcountryid';
 
@@ -5985,6 +6770,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * State id (oxstates)
      *
      * varchar(32)
+     * @deprecated
      */
     const OXSTATEID = 'oxstateid';
 
@@ -5992,6 +6778,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * ZIP code
      *
      * varchar(16)
+     * @deprecated
      */
     const OXZIP = 'oxzip';
 
@@ -5999,6 +6786,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Phone number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFON = 'oxfon';
 
@@ -6006,6 +6794,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Fax number
      *
      * varchar(128)
+     * @deprecated
      */
     const OXFAX = 'oxfax';
 
@@ -6013,6 +6802,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * User title (Mr/Mrs)
      *
      * varchar(128)
+     * @deprecated
      */
     const OXSAL = 'oxsal';
 
@@ -6020,6 +6810,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Credit points
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXBONI = 'oxboni';
 
@@ -6027,6 +6818,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Creation time
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXCREATE = 'oxcreate';
 
@@ -6034,6 +6826,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Registration time
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXREGISTER = 'oxregister';
 
@@ -6041,6 +6834,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Personal phone number
      *
      * varchar(64)
+     * @deprecated
      */
     const OXPRIVFON = 'oxprivfon';
 
@@ -6048,6 +6842,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Mobile phone number
      *
      * varchar(64)
+     * @deprecated
      */
     const OXMOBFON = 'oxmobfon';
 
@@ -6055,6 +6850,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Birthday date
      *
      * date = 0000-00-00
+     * @deprecated
      */
     const OXBIRTHDATE = 'oxbirthdate';
 
@@ -6062,6 +6858,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Url
      *
      * varchar(255)
+     * @deprecated
      */
     const OXURL = 'oxurl';
 
@@ -6069,6 +6866,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Update key
      *
      * varchar(32)
+     * @deprecated
      */
     const OXUPDATEKEY = 'oxupdatekey';
 
@@ -6076,6 +6874,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Update key expiration time
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXUPDATEEXP = 'oxupdateexp';
 
@@ -6083,6 +6882,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * User points (for registration, invitation, etc)
      *
      * double = 0
+     * @deprecated
      */
     const OXPOINTS = 'oxpoints';
 
@@ -6090,6 +6890,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXUSER
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -6104,6 +6905,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Vendor id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -6111,6 +6913,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -6118,6 +6921,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Active
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -6125,6 +6929,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Icon filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXICON = 'oxicon';
 
@@ -6132,6 +6937,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Title (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXTITLE = 'oxtitle';
 
@@ -6139,6 +6945,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Short description (multilanguage)
      *
      * varchar-i18n(255)
+     * @deprecated
      */
     const OXSHORTDESC = 'oxshortdesc';
 
@@ -6146,6 +6953,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Show SEO Suffix in Category
      *
      * tinyint(1) = 1
+     * @deprecated
      */
     const OXSHOWSUFFIX = 'oxshowsuffix';
 
@@ -6153,6 +6961,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVENDOR
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -6167,6 +6976,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Series id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -6174,6 +6984,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -6181,6 +6992,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Series name
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSERIENR = 'oxserienr';
 
@@ -6188,6 +7000,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Description
      *
      * varchar(255)
+     * @deprecated
      */
     const OXSERIEDESCRIPTION = 'oxseriedescription';
 
@@ -6195,6 +7008,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Discount amount
      *
      * float(9) = 0.00
+     * @deprecated
      */
     const OXDISCOUNT = 'oxdiscount';
 
@@ -6202,6 +7016,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Discount type (percent, absolute)
      *
      * enum(8) = absolute
+     * @deprecated
      */
     const OXDISCOUNTTYPE = 'oxdiscounttype';
 
@@ -6209,6 +7024,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Valid from
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXBEGINDATE = 'oxbegindate';
 
@@ -6216,6 +7032,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Valid to
      *
      * datetime = 0000-00-00 00:00:00
+     * @deprecated
      */
     const OXENDDATE = 'oxenddate';
 
@@ -6223,6 +7040,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Coupons of this series can be used with single order
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXALLOWSAMESERIES = 'oxallowsameseries';
 
@@ -6230,6 +7048,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Coupons of different series can be used with single order
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXALLOWOTHERSERIES = 'oxallowotherseries';
 
@@ -6237,6 +7056,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Coupons of this series can be used in multiple orders
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXALLOWUSEANOTHER = 'oxallowuseanother';
 
@@ -6244,6 +7064,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Minimum Order Sum
      *
      * float(9) = 0.00
+     * @deprecated
      */
     const OXMINIMUMVALUE = 'oxminimumvalue';
 
@@ -6251,6 +7072,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Calculate only once (valid only for product or category vouchers)
      *
      * tinyint(1) = 0
+     * @deprecated
      */
     const OXCALCULATEONCE = 'oxcalculateonce';
 
@@ -6258,6 +7080,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERSERIES
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -6272,6 +7095,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Date, when coupon was used (set on order complete)
      *
      * date
+     * @deprecated
      */
     const OXDATEUSED = 'oxdateused';
 
@@ -6279,6 +7103,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Order id (oxorder)
      *
      * char(32)
+     * @deprecated
      */
     const OXORDERID = 'oxorderid';
 
@@ -6286,6 +7111,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * User id (oxuser)
      *
      * char(32)
+     * @deprecated
      */
     const OXUSERID = 'oxuserid';
 
@@ -6293,6 +7119,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Time, when coupon is added to basket
      *
      * int(11) = 0
+     * @deprecated
      */
     const OXRESERVED = 'oxreserved';
 
@@ -6300,6 +7127,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Coupon number
      *
      * varchar(255)
+     * @deprecated
      */
     const OXVOUCHERNR = 'oxvouchernr';
 
@@ -6307,6 +7135,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Coupon Series id (oxvoucherseries)
      *
      * char(32)
+     * @deprecated
      */
     const OXVOUCHERSERIEID = 'oxvoucherserieid';
 
@@ -6314,6 +7143,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Discounted amount (if discount was used)
      *
      * float(9)
+     * @deprecated
      */
     const OXDISCOUNT = 'oxdiscount';
 
@@ -6321,6 +7151,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Coupon id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -6328,6 +7159,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXVOUCHERS
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -6342,6 +7174,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Wrapping id
      *
      * char(32)
+     * @deprecated
      */
     const OXID = 'oxid';
 
@@ -6349,6 +7182,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Shop id (oxshops)
      *
      * int(11) = 1
+     * @deprecated
      */
     const OXSHOPID = 'oxshopid';
 
@@ -6356,6 +7190,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Active (multilanguage)
      *
      * tinyint-i18n(1) = 1
+     * @deprecated
      */
     const OXACTIVE = 'oxactive';
 
@@ -6363,6 +7198,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Wrapping type: WRAP,CARD
      *
      * varchar(4) = WRAP
+     * @deprecated
      */
     const OXTYPE = 'oxtype';
 
@@ -6370,6 +7206,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Name (multilanguage)
      *
      * varchar-i18n(128)
+     * @deprecated
      */
     const OXNAME = 'oxname';
 
@@ -6377,6 +7214,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Image filename
      *
      * varchar(128)
+     * @deprecated
      */
     const OXPIC = 'oxpic';
 
@@ -6384,6 +7222,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Price
      *
      * double = 0
+     * @deprecated
      */
     const OXPRICE = 'oxprice';
 
@@ -6391,6 +7230,7 @@ namespace OxidEsales\Eshop\Core\Database\TABLE\OXWRAPPING
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
+     * @deprecated
      */
     const OXTIMESTAMP = 'oxtimestamp';
 }
@@ -6403,61 +7243,73 @@ namespace OxidEsales\Eshop\Application\Model\Actions
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const ID = TABLE\OXACTIONS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const SHOPID = TABLE\OXACTIONS\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const TYPE = TABLE\OXACTIONS\OXTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const TITLE = TABLE\OXACTIONS\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const LONGDESC = TABLE\OXACTIONS\OXLONGDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const ACTIVE = TABLE\OXACTIONS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const ACTIVEFROM = TABLE\OXACTIONS\OXACTIVEFROM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const ACTIVETO = TABLE\OXACTIONS\OXACTIVETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const PIC = TABLE\OXACTIONS\OXPIC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const LINK = TABLE\OXACTIONS\OXLINK;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const SORT = TABLE\OXACTIONS\OXSORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Actions
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXACTIONS\OXTIMESTAMP;
 }
@@ -6470,91 +7322,109 @@ namespace OxidEsales\Eshop\Application\Model\Address
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const ID = TABLE\OXADDRESS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const USERID = TABLE\OXADDRESS\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const ADDRESSUSERID = TABLE\OXADDRESS\OXADDRESSUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const COMPANY = TABLE\OXADDRESS\OXCOMPANY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const FNAME = TABLE\OXADDRESS\OXFNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const LNAME = TABLE\OXADDRESS\OXLNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const STREET = TABLE\OXADDRESS\OXSTREET;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const STREETNR = TABLE\OXADDRESS\OXSTREETNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const ADDINFO = TABLE\OXADDRESS\OXADDINFO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const CITY = TABLE\OXADDRESS\OXCITY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const COUNTRY = TABLE\OXADDRESS\OXCOUNTRY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const COUNTRYID = TABLE\OXADDRESS\OXCOUNTRYID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const STATEID = TABLE\OXADDRESS\OXSTATEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const ZIP = TABLE\OXADDRESS\OXZIP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const FON = TABLE\OXADDRESS\OXFON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const FAX = TABLE\OXADDRESS\OXFAX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const SAL = TABLE\OXADDRESS\OXSAL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Address
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXADDRESS\OXTIMESTAMP;
 }
@@ -6567,446 +7437,535 @@ namespace OxidEsales\Eshop\Application\Model\Article
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ID = TABLE\OXARTICLES\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SHOPID = TABLE\OXARTICLES\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PARENTID = TABLE\OXARTICLES\OXPARENTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ACTIVE = TABLE\OXARTICLES\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const HIDDEN = TABLE\OXARTICLES\OXHIDDEN;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ACTIVEFROM = TABLE\OXARTICLES\OXACTIVEFROM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ACTIVETO = TABLE\OXARTICLES\OXACTIVETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ARTNUM = TABLE\OXARTICLES\OXARTNUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const EAN = TABLE\OXARTICLES\OXEAN;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const DISTEAN = TABLE\OXARTICLES\OXDISTEAN;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const MPN = TABLE\OXARTICLES\OXMPN;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const TITLE = TABLE\OXARTICLES\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SHORTDESC = TABLE\OXARTICLES\OXSHORTDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PRICE = TABLE\OXARTICLES\OXPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const BLFIXEDPRICE = TABLE\OXARTICLES\OXBLFIXEDPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PRICEA = TABLE\OXARTICLES\OXPRICEA;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PRICEB = TABLE\OXARTICLES\OXPRICEB;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PRICEC = TABLE\OXARTICLES\OXPRICEC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const BPRICE = TABLE\OXARTICLES\OXBPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const TPRICE = TABLE\OXARTICLES\OXTPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const UNITNAME = TABLE\OXARTICLES\OXUNITNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const UNITQUANTITY = TABLE\OXARTICLES\OXUNITQUANTITY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const EXTURL = TABLE\OXARTICLES\OXEXTURL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const URLDESC = TABLE\OXARTICLES\OXURLDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const URLIMG = TABLE\OXARTICLES\OXURLIMG;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VAT = TABLE\OXARTICLES\OXVAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const THUMB = TABLE\OXARTICLES\OXTHUMB;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ICON = TABLE\OXARTICLES\OXICON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC1 = TABLE\OXARTICLES\OXPIC1;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC2 = TABLE\OXARTICLES\OXPIC2;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC3 = TABLE\OXARTICLES\OXPIC3;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC4 = TABLE\OXARTICLES\OXPIC4;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC5 = TABLE\OXARTICLES\OXPIC5;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC6 = TABLE\OXARTICLES\OXPIC6;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC7 = TABLE\OXARTICLES\OXPIC7;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC8 = TABLE\OXARTICLES\OXPIC8;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC9 = TABLE\OXARTICLES\OXPIC9;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC10 = TABLE\OXARTICLES\OXPIC10;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC11 = TABLE\OXARTICLES\OXPIC11;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const PIC12 = TABLE\OXARTICLES\OXPIC12;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const WEIGHT = TABLE\OXARTICLES\OXWEIGHT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const STOCK = TABLE\OXARTICLES\OXSTOCK;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const STOCKFLAG = TABLE\OXARTICLES\OXSTOCKFLAG;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const STOCKTEXT = TABLE\OXARTICLES\OXSTOCKTEXT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const NOSTOCKTEXT = TABLE\OXARTICLES\OXNOSTOCKTEXT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const DELIVERY = TABLE\OXARTICLES\OXDELIVERY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const INSERT = TABLE\OXARTICLES\OXINSERT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXARTICLES\OXTIMESTAMP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const LENGTH = TABLE\OXARTICLES\OXLENGTH;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const WIDTH = TABLE\OXARTICLES\OXWIDTH;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const HEIGHT = TABLE\OXARTICLES\OXHEIGHT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const FILE = TABLE\OXARTICLES\OXFILE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SEARCHKEYS = TABLE\OXARTICLES\OXSEARCHKEYS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const TEMPLATE = TABLE\OXARTICLES\OXTEMPLATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const QUESTIONEMAIL = TABLE\OXARTICLES\OXQUESTIONEMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ISSEARCH = TABLE\OXARTICLES\OXISSEARCH;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ISCONFIGURABLE = TABLE\OXARTICLES\OXISCONFIGURABLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VARNAME = TABLE\OXARTICLES\OXVARNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VARSTOCK = TABLE\OXARTICLES\OXVARSTOCK;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VARCOUNT = TABLE\OXARTICLES\OXVARCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VARSELECT = TABLE\OXARTICLES\OXVARSELECT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VARMINPRICE = TABLE\OXARTICLES\OXVARMINPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VARMAXPRICE = TABLE\OXARTICLES\OXVARMAXPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const BUNDLEID = TABLE\OXARTICLES\OXBUNDLEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const FOLDER = TABLE\OXARTICLES\OXFOLDER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SUBCLASS = TABLE\OXARTICLES\OXSUBCLASS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SORT = TABLE\OXARTICLES\OXSORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SOLDAMOUNT = TABLE\OXARTICLES\OXSOLDAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const NONMATERIAL = TABLE\OXARTICLES\OXNONMATERIAL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const FREESHIPPING = TABLE\OXARTICLES\OXFREESHIPPING;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const REMINDACTIVE = TABLE\OXARTICLES\OXREMINDACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const REMINDAMOUNT = TABLE\OXARTICLES\OXREMINDAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const AMITEMID = TABLE\OXARTICLES\OXAMITEMID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const AMTASKID = TABLE\OXARTICLES\OXAMTASKID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const VENDORID = TABLE\OXARTICLES\OXVENDORID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const MANUFACTURERID = TABLE\OXARTICLES\OXMANUFACTURERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SKIPDISCOUNTS = TABLE\OXARTICLES\OXSKIPDISCOUNTS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const RATING = TABLE\OXARTICLES\OXRATING;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const RATINGCNT = TABLE\OXARTICLES\OXRATINGCNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const MINDELTIME = TABLE\OXARTICLES\OXMINDELTIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const MAXDELTIME = TABLE\OXARTICLES\OXMAXDELTIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const DELTIMEUNIT = TABLE\OXARTICLES\OXDELTIMEUNIT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const UPDATEPRICE = TABLE\OXARTICLES\OXUPDATEPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const UPDATEPRICEA = TABLE\OXARTICLES\OXUPDATEPRICEA;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const UPDATEPRICEB = TABLE\OXARTICLES\OXUPDATEPRICEB;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const UPDATEPRICEC = TABLE\OXARTICLES\OXUPDATEPRICEC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const UPDATEPRICETIME = TABLE\OXARTICLES\OXUPDATEPRICETIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const ISDOWNLOADABLE = TABLE\OXARTICLES\OXISDOWNLOADABLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Article
+     * @deprecated
      */
     const SHOWCUSTOMAGREEMENT = TABLE\OXARTICLES\OXSHOWCUSTOMAGREEMENT;
 }
@@ -7019,31 +7978,37 @@ namespace OxidEsales\Eshop\Application\Model\Attribute
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Attribute
+     * @deprecated
      */
     const ID = TABLE\OXATTRIBUTE\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Attribute
+     * @deprecated
      */
     const SHOPID = TABLE\OXATTRIBUTE\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Attribute
+     * @deprecated
      */
     const TITLE = TABLE\OXATTRIBUTE\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Attribute
+     * @deprecated
      */
     const POS = TABLE\OXATTRIBUTE\OXPOS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Attribute
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXATTRIBUTE\OXTIMESTAMP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Attribute
+     * @deprecated
      */
     const DISPLAYINBASKET = TABLE\OXATTRIBUTE\OXDISPLAYINBASKET;
 }
@@ -7056,126 +8021,151 @@ namespace OxidEsales\Eshop\Application\Model\Category
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const ID = TABLE\OXCATEGORIES\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const PARENTID = TABLE\OXCATEGORIES\OXPARENTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const LEFT = TABLE\OXCATEGORIES\OXLEFT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const RIGHT = TABLE\OXCATEGORIES\OXRIGHT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const ROOTID = TABLE\OXCATEGORIES\OXROOTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const SORT = TABLE\OXCATEGORIES\OXSORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const ACTIVE = TABLE\OXCATEGORIES\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const HIDDEN = TABLE\OXCATEGORIES\OXHIDDEN;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const SHOPID = TABLE\OXCATEGORIES\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const TITLE = TABLE\OXCATEGORIES\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const DESC = TABLE\OXCATEGORIES\OXDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const LONGDESC = TABLE\OXCATEGORIES\OXLONGDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const THUMB = TABLE\OXCATEGORIES\OXTHUMB;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const EXTLINK = TABLE\OXCATEGORIES\OXEXTLINK;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const TEMPLATE = TABLE\OXCATEGORIES\OXTEMPLATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const DEFSORT = TABLE\OXCATEGORIES\OXDEFSORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const DEFSORTMODE = TABLE\OXCATEGORIES\OXDEFSORTMODE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const PRICEFROM = TABLE\OXCATEGORIES\OXPRICEFROM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const PRICETO = TABLE\OXCATEGORIES\OXPRICETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const ICON = TABLE\OXCATEGORIES\OXICON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const PROMOICON = TABLE\OXCATEGORIES\OXPROMOICON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const VAT = TABLE\OXCATEGORIES\OXVAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const SKIPDISCOUNTS = TABLE\OXCATEGORIES\OXSKIPDISCOUNTS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const SHOWSUFFIX = TABLE\OXCATEGORIES\OXSHOWSUFFIX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Category
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXCATEGORIES\OXTIMESTAMP;
 }
@@ -7188,66 +8178,79 @@ namespace OxidEsales\Eshop\Application\Model\Content
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const ID = TABLE\OXCONTENTS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const LOADID = TABLE\OXCONTENTS\OXLOADID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const SHOPID = TABLE\OXCONTENTS\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const SNIPPET = TABLE\OXCONTENTS\OXSNIPPET;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const TYPE = TABLE\OXCONTENTS\OXTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const ACTIVE = TABLE\OXCONTENTS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const POSITION = TABLE\OXCONTENTS\OXPOSITION;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const TITLE = TABLE\OXCONTENTS\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const CONTENT = TABLE\OXCONTENTS\OXCONTENT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const CATID = TABLE\OXCONTENTS\OXCATID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const FOLDER = TABLE\OXCONTENTS\OXFOLDER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const TERMVERSION = TABLE\OXCONTENTS\OXTERMVERSION;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Content
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXCONTENTS\OXTIMESTAMP;
 }
@@ -7260,61 +8263,73 @@ namespace OxidEsales\Eshop\Application\Model\Country
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const ID = TABLE\OXCOUNTRY\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const ACTIVE = TABLE\OXCOUNTRY\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const TITLE = TABLE\OXCOUNTRY\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const ISOALPHA2 = TABLE\OXCOUNTRY\OXISOALPHA2;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const ISOALPHA3 = TABLE\OXCOUNTRY\OXISOALPHA3;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const UNNUM3 = TABLE\OXCOUNTRY\OXUNNUM3;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const VATINPREFIX = TABLE\OXCOUNTRY\OXVATINPREFIX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const ORDER = TABLE\OXCOUNTRY\OXORDER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const SHORTDESC = TABLE\OXCOUNTRY\OXSHORTDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const LONGDESC = TABLE\OXCOUNTRY\OXLONGDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const VATSTATUS = TABLE\OXCOUNTRY\OXVATSTATUS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Country
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXCOUNTRY\OXTIMESTAMP;
 }
@@ -7327,41 +8342,49 @@ namespace OxidEsales\Eshop\Application\Model\DeliverySet
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const ID = TABLE\OXDELIVERYSET\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const SHOPID = TABLE\OXDELIVERYSET\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const ACTIVE = TABLE\OXDELIVERYSET\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const ACTIVEFROM = TABLE\OXDELIVERYSET\OXACTIVEFROM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const ACTIVETO = TABLE\OXDELIVERYSET\OXACTIVETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const TITLE = TABLE\OXDELIVERYSET\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const POS = TABLE\OXDELIVERYSET\OXPOS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\DeliverySet
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXDELIVERYSET\OXTIMESTAMP;
 }
@@ -7374,76 +8397,91 @@ namespace OxidEsales\Eshop\Application\Model\Delivery
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const ID = TABLE\OXDELIVERY\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const SHOPID = TABLE\OXDELIVERY\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const ACTIVE = TABLE\OXDELIVERY\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const ACTIVEFROM = TABLE\OXDELIVERY\OXACTIVEFROM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const ACTIVETO = TABLE\OXDELIVERY\OXACTIVETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const TITLE = TABLE\OXDELIVERY\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const ADDSUMTYPE = TABLE\OXDELIVERY\OXADDSUMTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const ADDSUM = TABLE\OXDELIVERY\OXADDSUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const DELTYPE = TABLE\OXDELIVERY\OXDELTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const PARAM = TABLE\OXDELIVERY\OXPARAM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const PARAMEND = TABLE\OXDELIVERY\OXPARAMEND;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const FIXED = TABLE\OXDELIVERY\OXFIXED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const SORT = TABLE\OXDELIVERY\OXSORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const FINALIZE = TABLE\OXDELIVERY\OXFINALIZE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Delivery
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXDELIVERY\OXTIMESTAMP;
 }
@@ -7456,86 +8494,103 @@ namespace OxidEsales\Eshop\Application\Model\Discount
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ID = TABLE\OXDISCOUNT\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const SHOPID = TABLE\OXDISCOUNT\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ACTIVE = TABLE\OXDISCOUNT\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ACTIVEFROM = TABLE\OXDISCOUNT\OXACTIVEFROM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ACTIVETO = TABLE\OXDISCOUNT\OXACTIVETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const TITLE = TABLE\OXDISCOUNT\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const AMOUNT = TABLE\OXDISCOUNT\OXAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const AMOUNTTO = TABLE\OXDISCOUNT\OXAMOUNTTO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const PRICETO = TABLE\OXDISCOUNT\OXPRICETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const PRICE = TABLE\OXDISCOUNT\OXPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ADDSUMTYPE = TABLE\OXDISCOUNT\OXADDSUMTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ADDSUM = TABLE\OXDISCOUNT\OXADDSUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ITMARTID = TABLE\OXDISCOUNT\OXITMARTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ITMAMOUNT = TABLE\OXDISCOUNT\OXITMAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const ITMMULTIPLE = TABLE\OXDISCOUNT\OXITMMULTIPLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const SORT = TABLE\OXDISCOUNT\OXSORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Discount
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXDISCOUNT\OXTIMESTAMP;
 }
@@ -7548,51 +8603,61 @@ namespace OxidEsales\Eshop\Application\Model\File
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const ID = TABLE\OXFILES\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const ARTID = TABLE\OXFILES\OXARTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const FILENAME = TABLE\OXFILES\OXFILENAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const STOREHASH = TABLE\OXFILES\OXSTOREHASH;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const PURCHASEDONLY = TABLE\OXFILES\OXPURCHASEDONLY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const MAXDOWNLOADS = TABLE\OXFILES\OXMAXDOWNLOADS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const MAXUNREGDOWNLOADS = TABLE\OXFILES\OXMAXUNREGDOWNLOADS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const LINKEXPTIME = TABLE\OXFILES\OXLINKEXPTIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const DOWNLOADEXPTIME = TABLE\OXFILES\OXDOWNLOADEXPTIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\File
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXFILES\OXTIMESTAMP;
 }
@@ -7605,21 +8670,25 @@ namespace OxidEsales\Eshop\Application\Model\Groups
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Groups
+     * @deprecated
      */
     const ID = TABLE\OXGROUPS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Groups
+     * @deprecated
      */
     const ACTIVE = TABLE\OXGROUPS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Groups
+     * @deprecated
      */
     const TITLE = TABLE\OXGROUPS\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Groups
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXGROUPS\OXTIMESTAMP;
 }
@@ -7632,36 +8701,43 @@ namespace OxidEsales\Eshop\Application\Model\Links
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Links
+     * @deprecated
      */
     const ID = TABLE\OXLINKS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Links
+     * @deprecated
      */
     const SHOPID = TABLE\OXLINKS\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Links
+     * @deprecated
      */
     const ACTIVE = TABLE\OXLINKS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Links
+     * @deprecated
      */
     const URL = TABLE\OXLINKS\OXURL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Links
+     * @deprecated
      */
     const URLDESC = TABLE\OXLINKS\OXURLDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Links
+     * @deprecated
      */
     const INSERT = TABLE\OXLINKS\OXINSERT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Links
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXLINKS\OXTIMESTAMP;
 }
@@ -7674,41 +8750,49 @@ namespace OxidEsales\Eshop\Application\Model\Manufacturer
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const ID = TABLE\OXMANUFACTURERS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const SHOPID = TABLE\OXMANUFACTURERS\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const ACTIVE = TABLE\OXMANUFACTURERS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const ICON = TABLE\OXMANUFACTURERS\OXICON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const TITLE = TABLE\OXMANUFACTURERS\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const SHORTDESC = TABLE\OXMANUFACTURERS\OXSHORTDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const SHOWSUFFIX = TABLE\OXMANUFACTURERS\OXSHOWSUFFIX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Manufacturer
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXMANUFACTURERS\OXTIMESTAMP;
 }
@@ -7721,31 +8805,37 @@ namespace OxidEsales\Eshop\Application\Model\MediaUrl
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\MediaUrl
+     * @deprecated
      */
     const ID = TABLE\OXMEDIAURLS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\MediaUrl
+     * @deprecated
      */
     const OBJECTID = TABLE\OXMEDIAURLS\OXOBJECTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\MediaUrl
+     * @deprecated
      */
     const URL = TABLE\OXMEDIAURLS\OXURL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\MediaUrl
+     * @deprecated
      */
     const DESC = TABLE\OXMEDIAURLS\OXDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\MediaUrl
+     * @deprecated
      */
     const ISUPLOADED = TABLE\OXMEDIAURLS\OXISUPLOADED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\MediaUrl
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXMEDIAURLS\OXTIMESTAMP;
 }
@@ -7758,61 +8848,73 @@ namespace OxidEsales\Eshop\Application\Model\NewsSubscribed
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const ID = TABLE\OXNEWSSUBSCRIBED\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const USERID = TABLE\OXNEWSSUBSCRIBED\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const SAL = TABLE\OXNEWSSUBSCRIBED\OXSAL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const FNAME = TABLE\OXNEWSSUBSCRIBED\OXFNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const LNAME = TABLE\OXNEWSSUBSCRIBED\OXLNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const EMAIL = TABLE\OXNEWSSUBSCRIBED\OXEMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const DBOPTIN = TABLE\OXNEWSSUBSCRIBED\OXDBOPTIN;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const EMAILFAILED = TABLE\OXNEWSSUBSCRIBED\OXEMAILFAILED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const SUBSCRIBED = TABLE\OXNEWSSUBSCRIBED\OXSUBSCRIBED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const UNSUBSCRIBED = TABLE\OXNEWSSUBSCRIBED\OXUNSUBSCRIBED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXNEWSSUBSCRIBED\OXTIMESTAMP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\NewsSubscribed
+     * @deprecated
      */
     const SHOPID = TABLE\OXNEWSSUBSCRIBED\OXSHOPID;
 }
@@ -7825,46 +8927,55 @@ namespace OxidEsales\Eshop\Application\Model\News
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const ID = TABLE\OXNEWS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const SHOPID = TABLE\OXNEWS\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const ACTIVE = TABLE\OXNEWS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const ACTIVEFROM = TABLE\OXNEWS\OXACTIVEFROM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const ACTIVETO = TABLE\OXNEWS\OXACTIVETO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const DATE = TABLE\OXNEWS\OXDATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const SHORTDESC = TABLE\OXNEWS\OXSHORTDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const LONGDESC = TABLE\OXNEWS\OXLONGDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\News
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXNEWS\OXTIMESTAMP;
 }
@@ -7877,36 +8988,43 @@ namespace OxidEsales\Eshop\Application\Model\Newsletter
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Newsletter
+     * @deprecated
      */
     const ID = TABLE\OXNEWSLETTER\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Newsletter
+     * @deprecated
      */
     const SHOPID = TABLE\OXNEWSLETTER\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Newsletter
+     * @deprecated
      */
     const TITLE = TABLE\OXNEWSLETTER\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Newsletter
+     * @deprecated
      */
     const TEMPLATE = TABLE\OXNEWSLETTER\OXTEMPLATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Newsletter
+     * @deprecated
      */
     const PLAINTEMPLATE = TABLE\OXNEWSLETTER\OXPLAINTEMPLATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Newsletter
+     * @deprecated
      */
     const SUBJECT = TABLE\OXNEWSLETTER\OXSUBJECT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Newsletter
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXNEWSLETTER\OXTIMESTAMP;
 }
@@ -7919,31 +9037,37 @@ namespace OxidEsales\Eshop\Application\Model\Object2Category
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Category
+     * @deprecated
      */
     const ID = TABLE\OXOBJECT2CATEGORY\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Category
+     * @deprecated
      */
     const OBJECTID = TABLE\OXOBJECT2CATEGORY\OXOBJECTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Category
+     * @deprecated
      */
     const CATNID = TABLE\OXOBJECT2CATEGORY\OXCATNID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Category
+     * @deprecated
      */
     const POS = TABLE\OXOBJECT2CATEGORY\OXPOS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Category
+     * @deprecated
      */
     const TIME = TABLE\OXOBJECT2CATEGORY\OXTIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Category
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXOBJECT2CATEGORY\OXTIMESTAMP;
 }
@@ -7956,26 +9080,31 @@ namespace OxidEsales\Eshop\Application\Model\Object2Group
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Group
+     * @deprecated
      */
     const ID = TABLE\OXOBJECT2GROUP\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Group
+     * @deprecated
      */
     const SHOPID = TABLE\OXOBJECT2GROUP\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Group
+     * @deprecated
      */
     const OBJECTID = TABLE\OXOBJECT2GROUP\OXOBJECTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Group
+     * @deprecated
      */
     const GROUPSID = TABLE\OXOBJECT2GROUP\OXGROUPSID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Object2Group
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXOBJECT2GROUP\OXTIMESTAMP;
 }
@@ -7988,221 +9117,265 @@ namespace OxidEsales\Eshop\Application\Model\OrderArticle
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const ID = TABLE\OXORDERARTICLES\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const ORDERID = TABLE\OXORDERARTICLES\OXORDERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const AMOUNT = TABLE\OXORDERARTICLES\OXAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const ARTID = TABLE\OXORDERARTICLES\OXARTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const ARTNUM = TABLE\OXORDERARTICLES\OXARTNUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const TITLE = TABLE\OXORDERARTICLES\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const SHORTDESC = TABLE\OXORDERARTICLES\OXSHORTDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const SELVARIANT = TABLE\OXORDERARTICLES\OXSELVARIANT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const NETPRICE = TABLE\OXORDERARTICLES\OXNETPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const BRUTPRICE = TABLE\OXORDERARTICLES\OXBRUTPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const VATPRICE = TABLE\OXORDERARTICLES\OXVATPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const VAT = TABLE\OXORDERARTICLES\OXVAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const PERSPARAM = TABLE\OXORDERARTICLES\OXPERSPARAM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const PRICE = TABLE\OXORDERARTICLES\OXPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const BPRICE = TABLE\OXORDERARTICLES\OXBPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const NPRICE = TABLE\OXORDERARTICLES\OXNPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const WRAPID = TABLE\OXORDERARTICLES\OXWRAPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const EXTURL = TABLE\OXORDERARTICLES\OXEXTURL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const URLDESC = TABLE\OXORDERARTICLES\OXURLDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const URLIMG = TABLE\OXORDERARTICLES\OXURLIMG;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const THUMB = TABLE\OXORDERARTICLES\OXTHUMB;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const PIC1 = TABLE\OXORDERARTICLES\OXPIC1;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const PIC2 = TABLE\OXORDERARTICLES\OXPIC2;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const PIC3 = TABLE\OXORDERARTICLES\OXPIC3;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const PIC4 = TABLE\OXORDERARTICLES\OXPIC4;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const PIC5 = TABLE\OXORDERARTICLES\OXPIC5;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const WEIGHT = TABLE\OXORDERARTICLES\OXWEIGHT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const STOCK = TABLE\OXORDERARTICLES\OXSTOCK;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const DELIVERY = TABLE\OXORDERARTICLES\OXDELIVERY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const INSERT = TABLE\OXORDERARTICLES\OXINSERT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXORDERARTICLES\OXTIMESTAMP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const LENGTH = TABLE\OXORDERARTICLES\OXLENGTH;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const WIDTH = TABLE\OXORDERARTICLES\OXWIDTH;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const HEIGHT = TABLE\OXORDERARTICLES\OXHEIGHT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const FILE = TABLE\OXORDERARTICLES\OXFILE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const SEARCHKEYS = TABLE\OXORDERARTICLES\OXSEARCHKEYS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const TEMPLATE = TABLE\OXORDERARTICLES\OXTEMPLATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const QUESTIONEMAIL = TABLE\OXORDERARTICLES\OXQUESTIONEMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const ISSEARCH = TABLE\OXORDERARTICLES\OXISSEARCH;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const FOLDER = TABLE\OXORDERARTICLES\OXFOLDER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const SUBCLASS = TABLE\OXORDERARTICLES\OXSUBCLASS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const STORNO = TABLE\OXORDERARTICLES\OXSTORNO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const ORDERSHOPID = TABLE\OXORDERARTICLES\OXORDERSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderArticle
+     * @deprecated
      */
     const ISBUNDLE = TABLE\OXORDERARTICLES\OXISBUNDLE;
 }
@@ -8215,76 +9388,91 @@ namespace OxidEsales\Eshop\Application\Model\OrderFile
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const ID = TABLE\OXORDERFILES\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const ORDERID = TABLE\OXORDERFILES\OXORDERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const FILENAME = TABLE\OXORDERFILES\OXFILENAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const FILEID = TABLE\OXORDERFILES\OXFILEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const SHOPID = TABLE\OXORDERFILES\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const ORDERARTICLEID = TABLE\OXORDERFILES\OXORDERARTICLEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const FIRSTDOWNLOAD = TABLE\OXORDERFILES\OXFIRSTDOWNLOAD;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const LASTDOWNLOAD = TABLE\OXORDERFILES\OXLASTDOWNLOAD;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const DOWNLOADCOUNT = TABLE\OXORDERFILES\OXDOWNLOADCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const MAXDOWNLOADCOUNT = TABLE\OXORDERFILES\OXMAXDOWNLOADCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const DOWNLOADEXPIRATIONTIME = TABLE\OXORDERFILES\OXDOWNLOADEXPIRATIONTIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const LINKEXPIRATIONTIME = TABLE\OXORDERFILES\OXLINKEXPIRATIONTIME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const RESETCOUNT = TABLE\OXORDERFILES\OXRESETCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const VALIDUNTIL = TABLE\OXORDERFILES\OXVALIDUNTIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\OrderFile
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXORDERFILES\OXTIMESTAMP;
 }
@@ -8297,376 +9485,451 @@ namespace OxidEsales\Eshop\Application\Model\Order
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ID = TABLE\OXORDER\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const SHOPID = TABLE\OXORDER\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const USERID = TABLE\OXORDER\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ORDERDATE = TABLE\OXORDER\OXORDERDATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ORDERNR = TABLE\OXORDER\OXORDERNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLCOMPANY = TABLE\OXORDER\OXBILLCOMPANY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLEMAIL = TABLE\OXORDER\OXBILLEMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLFNAME = TABLE\OXORDER\OXBILLFNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLLNAME = TABLE\OXORDER\OXBILLLNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLSTREET = TABLE\OXORDER\OXBILLSTREET;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLSTREETNR = TABLE\OXORDER\OXBILLSTREETNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLADDINFO = TABLE\OXORDER\OXBILLADDINFO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLUSTID = TABLE\OXORDER\OXBILLUSTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLCITY = TABLE\OXORDER\OXBILLCITY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLCOUNTRYID = TABLE\OXORDER\OXBILLCOUNTRYID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLSTATEID = TABLE\OXORDER\OXBILLSTATEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLZIP = TABLE\OXORDER\OXBILLZIP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLFON = TABLE\OXORDER\OXBILLFON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLFAX = TABLE\OXORDER\OXBILLFAX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLSAL = TABLE\OXORDER\OXBILLSAL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELCOMPANY = TABLE\OXORDER\OXDELCOMPANY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELFNAME = TABLE\OXORDER\OXDELFNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELLNAME = TABLE\OXORDER\OXDELLNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELSTREET = TABLE\OXORDER\OXDELSTREET;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELSTREETNR = TABLE\OXORDER\OXDELSTREETNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELADDINFO = TABLE\OXORDER\OXDELADDINFO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELCITY = TABLE\OXORDER\OXDELCITY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELCOUNTRYID = TABLE\OXORDER\OXDELCOUNTRYID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELSTATEID = TABLE\OXORDER\OXDELSTATEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELZIP = TABLE\OXORDER\OXDELZIP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELFON = TABLE\OXORDER\OXDELFON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELFAX = TABLE\OXORDER\OXDELFAX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELSAL = TABLE\OXORDER\OXDELSAL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const PAYMENTID = TABLE\OXORDER\OXPAYMENTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const PAYMENTTYPE = TABLE\OXORDER\OXPAYMENTTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const TOTALNETSUM = TABLE\OXORDER\OXTOTALNETSUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const TOTALBRUTSUM = TABLE\OXORDER\OXTOTALBRUTSUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const TOTALORDERSUM = TABLE\OXORDER\OXTOTALORDERSUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ARTVAT1 = TABLE\OXORDER\OXARTVAT1;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ARTVATPRICE1 = TABLE\OXORDER\OXARTVATPRICE1;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ARTVAT2 = TABLE\OXORDER\OXARTVAT2;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ARTVATPRICE2 = TABLE\OXORDER\OXARTVATPRICE2;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELCOST = TABLE\OXORDER\OXDELCOST;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELVAT = TABLE\OXORDER\OXDELVAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const PAYCOST = TABLE\OXORDER\OXPAYCOST;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const PAYVAT = TABLE\OXORDER\OXPAYVAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const WRAPCOST = TABLE\OXORDER\OXWRAPCOST;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const WRAPVAT = TABLE\OXORDER\OXWRAPVAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const GIFTCARDCOST = TABLE\OXORDER\OXGIFTCARDCOST;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const GIFTCARDVAT = TABLE\OXORDER\OXGIFTCARDVAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const CARDID = TABLE\OXORDER\OXCARDID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const CARDTEXT = TABLE\OXORDER\OXCARDTEXT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DISCOUNT = TABLE\OXORDER\OXDISCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const EXPORT = TABLE\OXORDER\OXEXPORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLNR = TABLE\OXORDER\OXBILLNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const BILLDATE = TABLE\OXORDER\OXBILLDATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const TRACKCODE = TABLE\OXORDER\OXTRACKCODE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const SENDDATE = TABLE\OXORDER\OXSENDDATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const REMARK = TABLE\OXORDER\OXREMARK;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const VOUCHERDISCOUNT = TABLE\OXORDER\OXVOUCHERDISCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const CURRENCY = TABLE\OXORDER\OXCURRENCY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const CURRATE = TABLE\OXORDER\OXCURRATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const FOLDER = TABLE\OXORDER\OXFOLDER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const TRANSID = TABLE\OXORDER\OXTRANSID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const PAYID = TABLE\OXORDER\OXPAYID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const XID = TABLE\OXORDER\OXXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const PAID = TABLE\OXORDER\OXPAID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const STORNO = TABLE\OXORDER\OXSTORNO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const IP = TABLE\OXORDER\OXIP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const TRANSSTATUS = TABLE\OXORDER\OXTRANSSTATUS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const LANG = TABLE\OXORDER\OXLANG;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const INVOICENR = TABLE\OXORDER\OXINVOICENR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const DELTYPE = TABLE\OXORDER\OXDELTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXORDER\OXTIMESTAMP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Order
+     * @deprecated
      */
     const ISNETTOMODE = TABLE\OXORDER\OXISNETTOMODE;
 }
@@ -8679,71 +9942,85 @@ namespace OxidEsales\Eshop\Application\Model\Payment
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const ID = TABLE\OXPAYMENTS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const ACTIVE = TABLE\OXPAYMENTS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const DESC = TABLE\OXPAYMENTS\OXDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const ADDSUM = TABLE\OXPAYMENTS\OXADDSUM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const ADDSUMTYPE = TABLE\OXPAYMENTS\OXADDSUMTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const ADDSUMRULES = TABLE\OXPAYMENTS\OXADDSUMRULES;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const FROMBONI = TABLE\OXPAYMENTS\OXFROMBONI;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const FROMAMOUNT = TABLE\OXPAYMENTS\OXFROMAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const TOAMOUNT = TABLE\OXPAYMENTS\OXTOAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const VALDESC = TABLE\OXPAYMENTS\OXVALDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const CHECKED = TABLE\OXPAYMENTS\OXCHECKED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const LONGDESC = TABLE\OXPAYMENTS\OXLONGDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const SORT = TABLE\OXPAYMENTS\OXSORT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Payment
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXPAYMENTS\OXTIMESTAMP;
 }
@@ -8756,56 +10033,67 @@ namespace OxidEsales\Eshop\Application\Model\PriceAlarm
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const ID = TABLE\OXPRICEALARM\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const SHOPID = TABLE\OXPRICEALARM\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const USERID = TABLE\OXPRICEALARM\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const EMAIL = TABLE\OXPRICEALARM\OXEMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const ARTID = TABLE\OXPRICEALARM\OXARTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const PRICE = TABLE\OXPRICEALARM\OXPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const CURRENCY = TABLE\OXPRICEALARM\OXCURRENCY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const LANG = TABLE\OXPRICEALARM\OXLANG;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const INSERT = TABLE\OXPRICEALARM\OXINSERT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const SENDED = TABLE\OXPRICEALARM\OXSENDED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\PriceAlarm
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXPRICEALARM\OXTIMESTAMP;
 }
@@ -8818,36 +10106,43 @@ namespace OxidEsales\Eshop\Application\Model\Rating
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Rating
+     * @deprecated
      */
     const ID = TABLE\OXRATINGS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Rating
+     * @deprecated
      */
     const SHOPID = TABLE\OXRATINGS\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Rating
+     * @deprecated
      */
     const USERID = TABLE\OXRATINGS\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Rating
+     * @deprecated
      */
     const TYPE = TABLE\OXRATINGS\OXTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Rating
+     * @deprecated
      */
     const OBJECTID = TABLE\OXRATINGS\OXOBJECTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Rating
+     * @deprecated
      */
     const RATING = TABLE\OXRATINGS\OXRATING;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Rating
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXRATINGS\OXTIMESTAMP;
 }
@@ -8860,46 +10155,55 @@ namespace OxidEsales\Eshop\Application\Model\RecommendationList
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const ID = TABLE\OXRECOMMLISTS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const SHOPID = TABLE\OXRECOMMLISTS\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const USERID = TABLE\OXRECOMMLISTS\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const AUTHOR = TABLE\OXRECOMMLISTS\OXAUTHOR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const TITLE = TABLE\OXRECOMMLISTS\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const DESC = TABLE\OXRECOMMLISTS\OXDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const RATINGCNT = TABLE\OXRECOMMLISTS\OXRATINGCNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const RATING = TABLE\OXRECOMMLISTS\OXRATING;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\RecommendationList
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXRECOMMLISTS\OXTIMESTAMP;
 }
@@ -8912,36 +10216,43 @@ namespace OxidEsales\Eshop\Application\Model\Remark
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Remark
+     * @deprecated
      */
     const ID = TABLE\OXREMARK\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Remark
+     * @deprecated
      */
     const PARENTID = TABLE\OXREMARK\OXPARENTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Remark
+     * @deprecated
      */
     const TYPE = TABLE\OXREMARK\OXTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Remark
+     * @deprecated
      */
     const HEADER = TABLE\OXREMARK\OXHEADER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Remark
+     * @deprecated
      */
     const TEXT = TABLE\OXREMARK\OXTEXT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Remark
+     * @deprecated
      */
     const CREATE = TABLE\OXREMARK\OXCREATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Remark
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXREMARK\OXTIMESTAMP;
 }
@@ -8954,51 +10265,61 @@ namespace OxidEsales\Eshop\Application\Model\Review
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const ID = TABLE\OXREVIEWS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const ACTIVE = TABLE\OXREVIEWS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const OBJECTID = TABLE\OXREVIEWS\OXOBJECTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const TYPE = TABLE\OXREVIEWS\OXTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const TEXT = TABLE\OXREVIEWS\OXTEXT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const USERID = TABLE\OXREVIEWS\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const CREATE = TABLE\OXREVIEWS\OXCREATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const LANG = TABLE\OXREVIEWS\OXLANG;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const RATING = TABLE\OXREVIEWS\OXRATING;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Review
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXREVIEWS\OXTIMESTAMP;
 }
@@ -9011,31 +10332,37 @@ namespace OxidEsales\Eshop\Application\Model\SelectList
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\SelectList
+     * @deprecated
      */
     const ID = TABLE\OXSELECTLIST\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\SelectList
+     * @deprecated
      */
     const SHOPID = TABLE\OXSELECTLIST\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\SelectList
+     * @deprecated
      */
     const TITLE = TABLE\OXSELECTLIST\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\SelectList
+     * @deprecated
      */
     const IDENT = TABLE\OXSELECTLIST\OXIDENT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\SelectList
+     * @deprecated
      */
     const VALDESC = TABLE\OXSELECTLIST\OXVALDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\SelectList
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXSELECTLIST\OXTIMESTAMP;
 }
@@ -9048,241 +10375,289 @@ namespace OxidEsales\Eshop\Application\Model\Shop
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const ID = TABLE\OXSHOPS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const ACTIVE = TABLE\OXSHOPS\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const PRODUCTIVE = TABLE\OXSHOPS\OXPRODUCTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const DEFCURRENCY = TABLE\OXSHOPS\OXDEFCURRENCY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const DEFLANGUAGE = TABLE\OXSHOPS\OXDEFLANGUAGE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const NAME = TABLE\OXSHOPS\OXNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const TITLEPREFIX = TABLE\OXSHOPS\OXTITLEPREFIX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const TITLESUFFIX = TABLE\OXSHOPS\OXTITLESUFFIX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const STARTTITLE = TABLE\OXSHOPS\OXSTARTTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const INFOEMAIL = TABLE\OXSHOPS\OXINFOEMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const ORDEREMAIL = TABLE\OXSHOPS\OXORDEREMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const OWNEREMAIL = TABLE\OXSHOPS\OXOWNEREMAIL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const ORDERSUBJECT = TABLE\OXSHOPS\OXORDERSUBJECT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const REGISTERSUBJECT = TABLE\OXSHOPS\OXREGISTERSUBJECT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const FORGOTPWDSUBJECT = TABLE\OXSHOPS\OXFORGOTPWDSUBJECT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const SENDEDNOWSUBJECT = TABLE\OXSHOPS\OXSENDEDNOWSUBJECT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const SMTP = TABLE\OXSHOPS\OXSMTP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const SMTPUSER = TABLE\OXSHOPS\OXSMTPUSER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const SMTPPWD = TABLE\OXSHOPS\OXSMTPPWD;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const COMPANY = TABLE\OXSHOPS\OXCOMPANY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const STREET = TABLE\OXSHOPS\OXSTREET;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const ZIP = TABLE\OXSHOPS\OXZIP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const CITY = TABLE\OXSHOPS\OXCITY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const COUNTRY = TABLE\OXSHOPS\OXCOUNTRY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const BANKNAME = TABLE\OXSHOPS\OXBANKNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const BANKNUMBER = TABLE\OXSHOPS\OXBANKNUMBER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const BANKCODE = TABLE\OXSHOPS\OXBANKCODE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const VATNUMBER = TABLE\OXSHOPS\OXVATNUMBER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const TAXNUMBER = TABLE\OXSHOPS\OXTAXNUMBER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const BICCODE = TABLE\OXSHOPS\OXBICCODE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const IBANNUMBER = TABLE\OXSHOPS\OXIBANNUMBER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const FNAME = TABLE\OXSHOPS\OXFNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const LNAME = TABLE\OXSHOPS\OXLNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const TELEFON = TABLE\OXSHOPS\OXTELEFON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const TELEFAX = TABLE\OXSHOPS\OXTELEFAX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const URL = TABLE\OXSHOPS\OXURL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const DEFCAT = TABLE\OXSHOPS\OXDEFCAT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const HRBNR = TABLE\OXSHOPS\OXHRBNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const COURT = TABLE\OXSHOPS\OXCOURT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const ADBUTLERID = TABLE\OXSHOPS\OXADBUTLERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const AFFILINETID = TABLE\OXSHOPS\OXAFFILINETID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const SUPERCLICKSID = TABLE\OXSHOPS\OXSUPERCLICKSID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const AFFILIWELTID = TABLE\OXSHOPS\OXAFFILIWELTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const AFFILI24ID = TABLE\OXSHOPS\OXAFFILI24ID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const EDITION = TABLE\OXSHOPS\OXEDITION;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const VERSION = TABLE\OXSHOPS\OXVERSION;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const SEOACTIVE = TABLE\OXSHOPS\OXSEOACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Shop
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXSHOPS\OXTIMESTAMP;
 }
@@ -9295,26 +10670,31 @@ namespace OxidEsales\Eshop\Application\Model\State
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\State
+     * @deprecated
      */
     const ID = TABLE\OXSTATES\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\State
+     * @deprecated
      */
     const COUNTRYID = TABLE\OXSTATES\OXCOUNTRYID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\State
+     * @deprecated
      */
     const TITLE = TABLE\OXSTATES\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\State
+     * @deprecated
      */
     const ISOALPHA2 = TABLE\OXSTATES\OXISOALPHA2;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\State
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXSTATES\OXTIMESTAMP;
 }
@@ -9327,36 +10707,43 @@ namespace OxidEsales\Eshop\Application\Model\UserBasketItem
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem
+     * @deprecated
      */
     const ID = TABLE\OXUSERBASKETITEMS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem
+     * @deprecated
      */
     const BASKETID = TABLE\OXUSERBASKETITEMS\OXBASKETID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem
+     * @deprecated
      */
     const ARTID = TABLE\OXUSERBASKETITEMS\OXARTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem
+     * @deprecated
      */
     const AMOUNT = TABLE\OXUSERBASKETITEMS\OXAMOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem
+     * @deprecated
      */
     const SELLIST = TABLE\OXUSERBASKETITEMS\OXSELLIST;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem
+     * @deprecated
      */
     const PERSPARAM = TABLE\OXUSERBASKETITEMS\OXPERSPARAM;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasketItem
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXUSERBASKETITEMS\OXTIMESTAMP;
 }
@@ -9369,31 +10756,37 @@ namespace OxidEsales\Eshop\Application\Model\UserBasket
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasket
+     * @deprecated
      */
     const ID = TABLE\OXUSERBASKETS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasket
+     * @deprecated
      */
     const USERID = TABLE\OXUSERBASKETS\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasket
+     * @deprecated
      */
     const TITLE = TABLE\OXUSERBASKETS\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasket
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXUSERBASKETS\OXTIMESTAMP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasket
+     * @deprecated
      */
     const PUBLIC_ = TABLE\OXUSERBASKETS\OXPUBLIC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserBasket
+     * @deprecated
      */
     const UPDATE = TABLE\OXUSERBASKETS\OXUPDATE;
 }
@@ -9406,26 +10799,31 @@ namespace OxidEsales\Eshop\Application\Model\UserPayment
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserPayment
+     * @deprecated
      */
     const ID = TABLE\OXUSERPAYMENTS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserPayment
+     * @deprecated
      */
     const USERID = TABLE\OXUSERPAYMENTS\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserPayment
+     * @deprecated
      */
     const PAYMENTSID = TABLE\OXUSERPAYMENTS\OXPAYMENTSID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserPayment
+     * @deprecated
      */
     const VALUE = TABLE\OXUSERPAYMENTS\OXVALUE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\UserPayment
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXUSERPAYMENTS\OXTIMESTAMP;
 }
@@ -9438,166 +10836,199 @@ namespace OxidEsales\Eshop\Application\Model\User
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const ID = TABLE\OXUSER\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const ACTIVE = TABLE\OXUSER\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const RIGHTS = TABLE\OXUSER\OXRIGHTS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const SHOPID = TABLE\OXUSER\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const USERNAME = TABLE\OXUSER\OXUSERNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const PASSWORD = TABLE\OXUSER\OXPASSWORD;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const PASSSALT = TABLE\OXUSER\OXPASSSALT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const CUSTNR = TABLE\OXUSER\OXCUSTNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const USTID = TABLE\OXUSER\OXUSTID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const COMPANY = TABLE\OXUSER\OXCOMPANY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const FNAME = TABLE\OXUSER\OXFNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const LNAME = TABLE\OXUSER\OXLNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const STREET = TABLE\OXUSER\OXSTREET;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const STREETNR = TABLE\OXUSER\OXSTREETNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const ADDINFO = TABLE\OXUSER\OXADDINFO;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const CITY = TABLE\OXUSER\OXCITY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const COUNTRYID = TABLE\OXUSER\OXCOUNTRYID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const STATEID = TABLE\OXUSER\OXSTATEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const ZIP = TABLE\OXUSER\OXZIP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const FON = TABLE\OXUSER\OXFON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const FAX = TABLE\OXUSER\OXFAX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const SAL = TABLE\OXUSER\OXSAL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const BONI = TABLE\OXUSER\OXBONI;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const CREATE = TABLE\OXUSER\OXCREATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const REGISTER = TABLE\OXUSER\OXREGISTER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const PRIVFON = TABLE\OXUSER\OXPRIVFON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const MOBFON = TABLE\OXUSER\OXMOBFON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const BIRTHDATE = TABLE\OXUSER\OXBIRTHDATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const URL = TABLE\OXUSER\OXURL;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const UPDATEKEY = TABLE\OXUSER\OXUPDATEKEY;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const UPDATEEXP = TABLE\OXUSER\OXUPDATEEXP;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const POINTS = TABLE\OXUSER\OXPOINTS;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\User
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXUSER\OXTIMESTAMP;
 }
@@ -9610,41 +11041,49 @@ namespace OxidEsales\Eshop\Application\Model\Vendor
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const ID = TABLE\OXVENDOR\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const SHOPID = TABLE\OXVENDOR\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const ACTIVE = TABLE\OXVENDOR\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const ICON = TABLE\OXVENDOR\OXICON;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const TITLE = TABLE\OXVENDOR\OXTITLE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const SHORTDESC = TABLE\OXVENDOR\OXSHORTDESC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const SHOWSUFFIX = TABLE\OXVENDOR\OXSHOWSUFFIX;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Vendor
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXVENDOR\OXTIMESTAMP;
 }
@@ -9657,71 +11096,85 @@ namespace OxidEsales\Eshop\Application\Model\VoucherSerie
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const ID = TABLE\OXVOUCHERSERIES\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const SHOPID = TABLE\OXVOUCHERSERIES\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const SERIENR = TABLE\OXVOUCHERSERIES\OXSERIENR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const SERIEDESCRIPTION = TABLE\OXVOUCHERSERIES\OXSERIEDESCRIPTION;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const DISCOUNT = TABLE\OXVOUCHERSERIES\OXDISCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const DISCOUNTTYPE = TABLE\OXVOUCHERSERIES\OXDISCOUNTTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const BEGINDATE = TABLE\OXVOUCHERSERIES\OXBEGINDATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const ENDDATE = TABLE\OXVOUCHERSERIES\OXENDDATE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const ALLOWSAMESERIES = TABLE\OXVOUCHERSERIES\OXALLOWSAMESERIES;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const ALLOWOTHERSERIES = TABLE\OXVOUCHERSERIES\OXALLOWOTHERSERIES;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const ALLOWUSEANOTHER = TABLE\OXVOUCHERSERIES\OXALLOWUSEANOTHER;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const MINIMUMVALUE = TABLE\OXVOUCHERSERIES\OXMINIMUMVALUE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const CALCULATEONCE = TABLE\OXVOUCHERSERIES\OXCALCULATEONCE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\VoucherSerie
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXVOUCHERSERIES\OXTIMESTAMP;
 }
@@ -9734,46 +11187,55 @@ namespace OxidEsales\Eshop\Application\Model\Voucher
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const ID = TABLE\OXVOUCHERS\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const DATEUSED = TABLE\OXVOUCHERS\OXDATEUSED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const ORDERID = TABLE\OXVOUCHERS\OXORDERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const USERID = TABLE\OXVOUCHERS\OXUSERID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const RESERVED = TABLE\OXVOUCHERS\OXRESERVED;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const VOUCHERNR = TABLE\OXVOUCHERS\OXVOUCHERNR;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const VOUCHERSERIEID = TABLE\OXVOUCHERS\OXVOUCHERSERIEID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const DISCOUNT = TABLE\OXVOUCHERS\OXDISCOUNT;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Voucher
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXVOUCHERS\OXTIMESTAMP;
 }
@@ -9786,41 +11248,49 @@ namespace OxidEsales\Eshop\Application\Model\Wrapping
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const ID = TABLE\OXWRAPPING\OXID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const SHOPID = TABLE\OXWRAPPING\OXSHOPID;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const ACTIVE = TABLE\OXWRAPPING\OXACTIVE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const TYPE = TABLE\OXWRAPPING\OXTYPE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const NAME = TABLE\OXWRAPPING\OXNAME;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const PIC = TABLE\OXWRAPPING\OXPIC;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const PRICE = TABLE\OXWRAPPING\OXPRICE;
 
     /**
      * @see \OxidEsales\Eshop\Application\Model\Wrapping
+     * @deprecated
      */
     const TIMESTAMP = TABLE\OXWRAPPING\OXTIMESTAMP;
 }
