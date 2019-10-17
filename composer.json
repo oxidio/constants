@@ -2,7 +2,7 @@
   "name": "oxidio/constants",
   "type": "library",
   "description": "oxidio constants",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "require": {
     "php": ">=7.1"
   },
