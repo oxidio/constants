@@ -12,34 +12,34 @@ interface Object2list
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Article id (oxarticles)
      *
      * char(32)
      */
-     public const OBJECTID = 'oxobjectid';
+    public const OBJECTID = 'oxobjectid';
 
     /**
      * Listmania id (oxrecommlists)
      *
      * char(32)
      */
-     public const LISTID = 'oxlistid';
+    public const LISTID = 'oxlistid';
 
     /**
      * Description
      *
      * text
      */
-     public const DESC = 'oxdesc';
+    public const DESC = 'oxdesc';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

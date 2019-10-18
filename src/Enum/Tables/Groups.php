@@ -12,27 +12,27 @@ interface Groups
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Active
      *
      * tinyint(1) = 1
      */
-     public const ACTIVE = 'oxactive';
+    public const ACTIVE = 'oxactive';
 
     /**
      * Title (multilanguage)
      *
      * varchar-i18n(128)
      */
-     public const TITLE = 'oxtitle';
+    public const TITLE = 'oxtitle';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

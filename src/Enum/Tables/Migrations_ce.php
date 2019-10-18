@@ -12,6 +12,6 @@ interface Migrations_ce
      *
      * varchar(255)
      */
-     public const VERSION = 'version';
+    public const VERSION = 'version';
 
 }

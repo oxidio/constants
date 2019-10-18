@@ -12,34 +12,34 @@ interface Object2action
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Action id (oxactions)
      *
      * char(32)
      */
-     public const ACTIONID = 'oxactionid';
+    public const ACTIONID = 'oxactionid';
 
     /**
      * Object id (table set by oxclass)
      *
      * char(32)
      */
-     public const OBJECTID = 'oxobjectid';
+    public const OBJECTID = 'oxobjectid';
 
     /**
      * Object table name
      *
      * char(32)
      */
-     public const CLASS_ = 'oxclass';
+    public const CLASS_ = 'oxclass';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

@@ -12,20 +12,20 @@ interface Counters
      *
      * char(32)
      */
-     public const IDENT = 'oxident';
+    public const IDENT = 'oxident';
 
     /**
      * Counted number
      *
      * int(11)
      */
-     public const COUNT = 'oxcount';
+    public const COUNT = 'oxcount';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

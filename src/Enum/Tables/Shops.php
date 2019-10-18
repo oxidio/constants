@@ -12,335 +12,335 @@ interface Shops
      *
      * int(11) = 1
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Active
      *
      * tinyint(1) = 1
      */
-     public const ACTIVE = 'oxactive';
+    public const ACTIVE = 'oxactive';
 
     /**
      * Productive Mode (if 0, debug info displayed)
      *
      * tinyint(1) = 0
      */
-     public const PRODUCTIVE = 'oxproductive';
+    public const PRODUCTIVE = 'oxproductive';
 
     /**
      * Default currency
      *
      * varchar(32)
      */
-     public const DEFCURRENCY = 'oxdefcurrency';
+    public const DEFCURRENCY = 'oxdefcurrency';
 
     /**
      * Default language id
      *
      * int(11) = 0
      */
-     public const DEFLANGUAGE = 'oxdeflanguage';
+    public const DEFLANGUAGE = 'oxdeflanguage';
 
     /**
      * Shop name
      *
      * varchar(255)
      */
-     public const NAME = 'oxname';
+    public const NAME = 'oxname';
 
     /**
      * Seo title prefix (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const TITLEPREFIX = 'oxtitleprefix';
+    public const TITLEPREFIX = 'oxtitleprefix';
 
     /**
      * Seo title suffix (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const TITLESUFFIX = 'oxtitlesuffix';
+    public const TITLESUFFIX = 'oxtitlesuffix';
 
     /**
      * Start page title (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const STARTTITLE = 'oxstarttitle';
+    public const STARTTITLE = 'oxstarttitle';
 
     /**
      * Informational email address
      *
      * varchar(255)
      */
-     public const INFOEMAIL = 'oxinfoemail';
+    public const INFOEMAIL = 'oxinfoemail';
 
     /**
      * Order email address
      *
      * varchar(255)
      */
-     public const ORDEREMAIL = 'oxorderemail';
+    public const ORDEREMAIL = 'oxorderemail';
 
     /**
      * Owner email address
      *
      * varchar(255)
      */
-     public const OWNEREMAIL = 'oxowneremail';
+    public const OWNEREMAIL = 'oxowneremail';
 
     /**
      * Order email subject (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const ORDERSUBJECT = 'oxordersubject';
+    public const ORDERSUBJECT = 'oxordersubject';
 
     /**
      * Registration email subject (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const REGISTERSUBJECT = 'oxregistersubject';
+    public const REGISTERSUBJECT = 'oxregistersubject';
 
     /**
      * Forgot password email subject (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const FORGOTPWDSUBJECT = 'oxforgotpwdsubject';
+    public const FORGOTPWDSUBJECT = 'oxforgotpwdsubject';
 
     /**
      * Order sent email subject (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const SENDEDNOWSUBJECT = 'oxsendednowsubject';
+    public const SENDEDNOWSUBJECT = 'oxsendednowsubject';
 
     /**
      * SMTP server
      *
      * varchar(255)
      */
-     public const SMTP = 'oxsmtp';
+    public const SMTP = 'oxsmtp';
 
     /**
      * SMTP user
      *
      * varchar(128)
      */
-     public const SMTPUSER = 'oxsmtpuser';
+    public const SMTPUSER = 'oxsmtpuser';
 
     /**
      * SMTP password
      *
      * varchar(128)
      */
-     public const SMTPPWD = 'oxsmtppwd';
+    public const SMTPPWD = 'oxsmtppwd';
 
     /**
      * Your company
      *
      * varchar(128)
      */
-     public const COMPANY = 'oxcompany';
+    public const COMPANY = 'oxcompany';
 
     /**
      * Street
      *
      * varchar(255)
      */
-     public const STREET = 'oxstreet';
+    public const STREET = 'oxstreet';
 
     /**
      * ZIP code
      *
      * varchar(255)
      */
-     public const ZIP = 'oxzip';
+    public const ZIP = 'oxzip';
 
     /**
      * City
      *
      * varchar(255)
      */
-     public const CITY = 'oxcity';
+    public const CITY = 'oxcity';
 
     /**
      * Country
      *
      * varchar(255)
      */
-     public const COUNTRY = 'oxcountry';
+    public const COUNTRY = 'oxcountry';
 
     /**
      * Bank name
      *
      * varchar(255)
      */
-     public const BANKNAME = 'oxbankname';
+    public const BANKNAME = 'oxbankname';
 
     /**
      * Account Number
      *
      * varchar(255)
      */
-     public const BANKNUMBER = 'oxbanknumber';
+    public const BANKNUMBER = 'oxbanknumber';
 
     /**
      * Routing Number
      *
      * varchar(255)
      */
-     public const BANKCODE = 'oxbankcode';
+    public const BANKCODE = 'oxbankcode';
 
     /**
      * Sales Tax ID
      *
      * varchar(255)
      */
-     public const VATNUMBER = 'oxvatnumber';
+    public const VATNUMBER = 'oxvatnumber';
 
     /**
      * Tax ID
      *
      * varchar(255)
      */
-     public const TAXNUMBER = 'oxtaxnumber';
+    public const TAXNUMBER = 'oxtaxnumber';
 
     /**
      * Bank BIC
      *
      * varchar(255)
      */
-     public const BICCODE = 'oxbiccode';
+    public const BICCODE = 'oxbiccode';
 
     /**
      * Bank IBAN
      *
      * varchar(255)
      */
-     public const IBANNUMBER = 'oxibannumber';
+    public const IBANNUMBER = 'oxibannumber';
 
     /**
      * First name
      *
      * varchar(255)
      */
-     public const FNAME = 'oxfname';
+    public const FNAME = 'oxfname';
 
     /**
      * Last name
      *
      * varchar(255)
      */
-     public const LNAME = 'oxlname';
+    public const LNAME = 'oxlname';
 
     /**
      * Phone number
      *
      * varchar(255)
      */
-     public const TELEFON = 'oxtelefon';
+    public const TELEFON = 'oxtelefon';
 
     /**
      * Fax number
      *
      * varchar(255)
      */
-     public const TELEFAX = 'oxtelefax';
+    public const TELEFAX = 'oxtelefax';
 
     /**
      * Shop url
      *
      * varchar(255)
      */
-     public const URL = 'oxurl';
+    public const URL = 'oxurl';
 
     /**
      * Default category id
      *
      * char(32)
      */
-     public const DEFCAT = 'oxdefcat';
+    public const DEFCAT = 'oxdefcat';
 
     /**
      * CBR
      *
      * varchar(64)
      */
-     public const HRBNR = 'oxhrbnr';
+    public const HRBNR = 'oxhrbnr';
 
     /**
      * District Court
      *
      * varchar(128)
      */
-     public const COURT = 'oxcourt';
+    public const COURT = 'oxcourt';
 
     /**
      * Adbutler code (belboon.de) - deprecated
      *
      * varchar(64)
      */
-     public const ADBUTLERID = 'oxadbutlerid';
+    public const ADBUTLERID = 'oxadbutlerid';
 
     /**
      * Affilinet code (webmasterplan.com) - deprecated
      *
      * varchar(64)
      */
-     public const AFFILINETID = 'oxaffilinetid';
+    public const AFFILINETID = 'oxaffilinetid';
 
     /**
      * Superclix code (superclix.de) - deprecated
      *
      * varchar(64)
      */
-     public const SUPERCLICKSID = 'oxsuperclicksid';
+    public const SUPERCLICKSID = 'oxsuperclicksid';
 
     /**
      * Affiliwelt code (affiliwelt.net) - deprecated
      *
      * varchar(64)
      */
-     public const AFFILIWELTID = 'oxaffiliweltid';
+    public const AFFILIWELTID = 'oxaffiliweltid';
 
     /**
      * Affili24 code (affili24.com) - deprecated
      *
      * varchar(64)
      */
-     public const AFFILI24ID = 'oxaffili24id';
+    public const AFFILI24ID = 'oxaffili24id';
 
     /**
      * Shop Edition (CE,PE,EE (@deprecated since v6.0.0-RC.2 (2017-08-24))
      *
      * char(2)
      */
-     public const EDITION = 'oxedition';
+    public const EDITION = 'oxedition';
 
     /**
      * Shop Version (@deprecated since v6.0.0-RC.2 (2017-08-22))
      *
      * char(16)
      */
-     public const VERSION = 'oxversion';
+    public const VERSION = 'oxversion';
 
     /**
      * Seo active (multilanguage)
      *
      * tinyint-i18n(1) = 1
      */
-     public const SEOACTIVE = 'oxseoactive';
+    public const SEOACTIVE = 'oxseoactive';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

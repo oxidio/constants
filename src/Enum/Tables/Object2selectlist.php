@@ -12,34 +12,34 @@ interface Object2selectlist
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Article id (oxarticles)
      *
      * char(32)
      */
-     public const OBJECTID = 'oxobjectid';
+    public const OBJECTID = 'oxobjectid';
 
     /**
      * Selection list id (oxselectlist)
      *
      * char(32)
      */
-     public const SELNID = 'oxselnid';
+    public const SELNID = 'oxselnid';
 
     /**
      * Sorting
      *
      * int(5) = 0
      */
-     public const SORT = 'oxsort';
+    public const SORT = 'oxsort';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

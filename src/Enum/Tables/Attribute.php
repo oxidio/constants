@@ -12,41 +12,41 @@ interface Attribute
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Title (multilanguage)
      *
      * varchar-i18n(128)
      */
-     public const TITLE = 'oxtitle';
+    public const TITLE = 'oxtitle';
 
     /**
      * Sorting
      *
      * int(11) = 9999
      */
-     public const POS = 'oxpos';
+    public const POS = 'oxpos';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
     /**
      * Display attribute`s value for articles in checkout
      *
      * tinyint(1) = 0
      */
-     public const DISPLAYINBASKET = 'oxdisplayinbasket';
+    public const DISPLAYINBASKET = 'oxdisplayinbasket';
 
 }

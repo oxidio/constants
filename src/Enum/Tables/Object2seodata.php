@@ -12,41 +12,41 @@ interface Object2seodata
      *
      * char(32)
      */
-     public const OBJECTID = 'oxobjectid';
+    public const OBJECTID = 'oxobjectid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Language id
      *
      * int(2) = 0
      */
-     public const LANG = 'oxlang';
+    public const LANG = 'oxlang';
 
     /**
      * Keywords
      *
      * text
      */
-     public const KEYWORDS = 'oxkeywords';
+    public const KEYWORDS = 'oxkeywords';
 
     /**
      * Description
      *
      * text
      */
-     public const DESCRIPTION = 'oxdescription';
+    public const DESCRIPTION = 'oxdescription';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

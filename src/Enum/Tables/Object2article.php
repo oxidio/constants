@@ -12,34 +12,34 @@ interface Object2article
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Cross-selling Article id (oxarticles)
      *
      * char(32)
      */
-     public const OBJECTID = 'oxobjectid';
+    public const OBJECTID = 'oxobjectid';
 
     /**
      * Main Article id (oxarticles)
      *
      * char(32)
      */
-     public const ARTICLENID = 'oxarticlenid';
+    public const ARTICLENID = 'oxarticlenid';
 
     /**
      * Sorting
      *
      * int(5) = 0
      */
-     public const SORT = 'oxsort';
+    public const SORT = 'oxsort';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

@@ -12,27 +12,27 @@ interface Del2delset
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Shipping cost rule id (oxdelivery)
      *
      * char(32)
      */
-     public const DELID = 'oxdelid';
+    public const DELID = 'oxdelid';
 
     /**
      * Delivery method id (oxdeliveryset)
      *
      * char(32)
      */
-     public const DELSETID = 'oxdelsetid';
+    public const DELSETID = 'oxdelsetid';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

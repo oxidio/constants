@@ -12,34 +12,34 @@ interface Object2delivery
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Delivery id (oxdelivery)
      *
      * char(32)
      */
-     public const DELIVERYID = 'oxdeliveryid';
+    public const DELIVERYID = 'oxdeliveryid';
 
     /**
      * Object id (table determined by oxtype)
      *
      * char(32)
      */
-     public const OBJECTID = 'oxobjectid';
+    public const OBJECTID = 'oxobjectid';
 
     /**
      * Record type
      *
      * char(32)
      */
-     public const TYPE = 'oxtype';
+    public const TYPE = 'oxtype';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

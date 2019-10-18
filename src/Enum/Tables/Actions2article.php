@@ -12,41 +12,41 @@ interface Actions2article
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Action id (oxactions)
      *
      * char(32)
      */
-     public const ACTIONID = 'oxactionid';
+    public const ACTIONID = 'oxactionid';
 
     /**
      * Article id (oxarticles)
      *
      * char(32)
      */
-     public const ARTID = 'oxartid';
+    public const ARTID = 'oxartid';
 
     /**
      * Sorting
      *
      * int(11) = 0
      */
-     public const SORT = 'oxsort';
+    public const SORT = 'oxsort';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

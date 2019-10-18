@@ -12,34 +12,34 @@ interface Userpayments
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * User id (oxusers)
      *
      * char(32)
      */
-     public const USERID = 'oxuserid';
+    public const USERID = 'oxuserid';
 
     /**
      * Payment id (oxpayments)
      *
      * char(32)
      */
-     public const PAYMENTSID = 'oxpaymentsid';
+    public const PAYMENTSID = 'oxpaymentsid';
 
     /**
      * DYN payment values array as string
      *
      * blob
      */
-     public const VALUE = 'oxvalue';
+    public const VALUE = 'oxvalue';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

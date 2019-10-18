@@ -12,55 +12,55 @@ interface Price2article
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Article id (oxarticles)
      *
      * char(32)
      */
-     public const ARTID = 'oxartid';
+    public const ARTID = 'oxartid';
 
     /**
      * Price, that will be used for specified article if basket amount is between oxamount and oxamountto
      *
      * double = 0
      */
-     public const ADDABS = 'oxaddabs';
+    public const ADDABS = 'oxaddabs';
 
     /**
      * Discount, that will be used for specified article if basket amount is between oxamount and oxamountto
      *
      * double = 0
      */
-     public const ADDPERC = 'oxaddperc';
+    public const ADDPERC = 'oxaddperc';
 
     /**
      * Quantity: From
      *
      * double = 0
      */
-     public const AMOUNT = 'oxamount';
+    public const AMOUNT = 'oxamount';
 
     /**
      * Quantity: To
      *
      * double = 0
      */
-     public const AMOUNTTO = 'oxamountto';
+    public const AMOUNTTO = 'oxamountto';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

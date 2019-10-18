@@ -12,34 +12,34 @@ interface States
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Country id (oxcountry)
      *
      * char(32)
      */
-     public const COUNTRYID = 'oxcountryid';
+    public const COUNTRYID = 'oxcountryid';
 
     /**
      * Title (multilanguage)
      *
      * char-i18n(128)
      */
-     public const TITLE = 'oxtitle';
+    public const TITLE = 'oxtitle';
 
     /**
      * SEO short name
      *
      * char(2)
      */
-     public const ISOALPHA2 = 'oxisoalpha2';
+    public const ISOALPHA2 = 'oxisoalpha2';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

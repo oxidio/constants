@@ -12,20 +12,20 @@ interface Artextends
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Long description (multilanguage)
      *
      * text-i18n
      */
-     public const LONGDESC = 'oxlongdesc';
+    public const LONGDESC = 'oxlongdesc';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

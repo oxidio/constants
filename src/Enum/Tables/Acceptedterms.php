@@ -12,34 +12,34 @@ interface Acceptedterms
      *
      * char(32)
      */
-     public const USERID = 'oxuserid';
+    public const USERID = 'oxuserid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Terms version
      *
      * char(32)
      */
-     public const TERMVERSION = 'oxtermversion';
+    public const TERMVERSION = 'oxtermversion';
 
     /**
      * Time, when terms were accepted
      *
      * datetime = 0000-00-00 00:00:00
      */
-     public const ACCEPTEDTIME = 'oxacceptedtime';
+    public const ACCEPTEDTIME = 'oxacceptedtime';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

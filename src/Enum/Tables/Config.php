@@ -12,48 +12,48 @@ interface Config
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Module or theme specific config (theme:themename, module:modulename)
      *
      * varchar(100)
      */
-     public const MODULE = 'oxmodule';
+    public const MODULE = 'oxmodule';
 
     /**
      * Variable name
      *
      * varchar(100)
      */
-     public const VARNAME = 'oxvarname';
+    public const VARNAME = 'oxvarname';
 
     /**
      * Variable type
      *
      * varchar(16)
      */
-     public const VARTYPE = 'oxvartype';
+    public const VARTYPE = 'oxvartype';
 
     /**
      * Variable value
      *
      * mediumblob
      */
-     public const VARVALUE = 'oxvarvalue';
+    public const VARVALUE = 'oxvarvalue';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

@@ -12,55 +12,55 @@ interface Vendor
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Active
      *
      * tinyint(1) = 1
      */
-     public const ACTIVE = 'oxactive';
+    public const ACTIVE = 'oxactive';
 
     /**
      * Icon filename
      *
      * varchar(128)
      */
-     public const ICON = 'oxicon';
+    public const ICON = 'oxicon';
 
     /**
      * Title (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const TITLE = 'oxtitle';
+    public const TITLE = 'oxtitle';
 
     /**
      * Short description (multilanguage)
      *
      * varchar-i18n(255)
      */
-     public const SHORTDESC = 'oxshortdesc';
+    public const SHORTDESC = 'oxshortdesc';
 
     /**
      * Show SEO Suffix in Category
      *
      * tinyint(1) = 1
      */
-     public const SHOWSUFFIX = 'oxshowsuffix';
+    public const SHOWSUFFIX = 'oxshowsuffix';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

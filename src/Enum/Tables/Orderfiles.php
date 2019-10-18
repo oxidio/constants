@@ -12,104 +12,104 @@ interface Orderfiles
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Order id (oxorder)
      *
      * char(32)
      */
-     public const ORDERID = 'oxorderid';
+    public const ORDERID = 'oxorderid';
 
     /**
      * Filename
      *
      * varchar(128)
      */
-     public const FILENAME = 'oxfilename';
+    public const FILENAME = 'oxfilename';
 
     /**
      * File id (oxfiles)
      *
      * char(32)
      */
-     public const FILEID = 'oxfileid';
+    public const FILEID = 'oxfileid';
 
     /**
      * Shop id (oxshops)
      *
      * int(11) = 1
      */
-     public const SHOPID = 'oxshopid';
+    public const SHOPID = 'oxshopid';
 
     /**
      * Ordered article id (oxorderarticles)
      *
      * char(32)
      */
-     public const ORDERARTICLEID = 'oxorderarticleid';
+    public const ORDERARTICLEID = 'oxorderarticleid';
 
     /**
      * First time downloaded time
      *
      * timestamp = 0000-00-00 00:00:00
      */
-     public const FIRSTDOWNLOAD = 'oxfirstdownload';
+    public const FIRSTDOWNLOAD = 'oxfirstdownload';
 
     /**
      * Last time downloaded time
      *
      * timestamp = 0000-00-00 00:00:00
      */
-     public const LASTDOWNLOAD = 'oxlastdownload';
+    public const LASTDOWNLOAD = 'oxlastdownload';
 
     /**
      * Downloads count
      *
      * int(10)
      */
-     public const DOWNLOADCOUNT = 'oxdownloadcount';
+    public const DOWNLOADCOUNT = 'oxdownloadcount';
 
     /**
      * Maximum count of downloads
      *
      * int(10)
      */
-     public const MAXDOWNLOADCOUNT = 'oxmaxdownloadcount';
+    public const MAXDOWNLOADCOUNT = 'oxmaxdownloadcount';
 
     /**
      * Download expiration time in hours
      *
      * int(10)
      */
-     public const DOWNLOADEXPIRATIONTIME = 'oxdownloadexpirationtime';
+    public const DOWNLOADEXPIRATIONTIME = 'oxdownloadexpirationtime';
 
     /**
      * Link expiration time in hours
      *
      * int(10)
      */
-     public const LINKEXPIRATIONTIME = 'oxlinkexpirationtime';
+    public const LINKEXPIRATIONTIME = 'oxlinkexpirationtime';
 
     /**
      * Count of resets
      *
      * int(10)
      */
-     public const RESETCOUNT = 'oxresetcount';
+    public const RESETCOUNT = 'oxresetcount';
 
     /**
      * Download is valid until time specified
      *
      * datetime
      */
-     public const VALIDUNTIL = 'oxvaliduntil';
+    public const VALIDUNTIL = 'oxvaliduntil';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }

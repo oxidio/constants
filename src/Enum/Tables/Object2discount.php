@@ -12,34 +12,34 @@ interface Object2discount
      *
      * char(32)
      */
-     public const ID = 'oxid';
+    public const ID = 'oxid';
 
     /**
      * Discount id (oxdiscount)
      *
      * char(32)
      */
-     public const DISCOUNTID = 'oxdiscountid';
+    public const DISCOUNTID = 'oxdiscountid';
 
     /**
      * Object id (table determined by oxtype)
      *
      * char(32)
      */
-     public const OBJECTID = 'oxobjectid';
+    public const OBJECTID = 'oxobjectid';
 
     /**
      * Record type
      *
      * char(32)
      */
-     public const TYPE = 'oxtype';
+    public const TYPE = 'oxtype';
 
     /**
      * Timestamp
      *
      * timestamp = CURRENT_TIMESTAMP
      */
-     public const TIMESTAMP = 'oxtimestamp';
+    public const TIMESTAMP = 'oxtimestamp';
 
 }
