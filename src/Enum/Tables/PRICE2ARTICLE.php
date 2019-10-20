@@ -62,5 +62,4 @@ interface PRICE2ARTICLE
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

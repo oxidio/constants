@@ -41,5 +41,4 @@ interface O2DISCOUNT
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

@@ -55,5 +55,4 @@ interface CONFIGDISPLAY
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

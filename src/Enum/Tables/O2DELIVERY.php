@@ -41,5 +41,4 @@ interface O2DELIVERY
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

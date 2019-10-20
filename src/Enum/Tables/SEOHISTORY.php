@@ -55,5 +55,4 @@ interface SEOHISTORY
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

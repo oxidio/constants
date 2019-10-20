@@ -90,5 +90,4 @@ interface COUNTRY
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

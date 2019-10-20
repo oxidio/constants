@@ -48,5 +48,4 @@ interface O2CATEGORY
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

@@ -34,5 +34,4 @@ interface DEL2DELSET
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

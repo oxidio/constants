@@ -106,7 +106,7 @@ interface ARTICLES
     public const PRICE = 'oxprice';
 
     /**
-     * No Promotions (Price Alert)
+     * No Promotions (Price Alert) 
      *
      * tinyint(1) = 0
      */
@@ -512,14 +512,14 @@ interface ARTICLES
     public const REMINDAMOUNT = 'oxremindamount';
 
     /**
-     *
+     * 
      *
      * varchar(32)
      */
     public const AMITEMID = 'oxamitemid';
 
     /**
-     *
+     * 
      *
      * varchar(16) = 0
      */
@@ -629,5 +629,4 @@ interface ARTICLES
      * tinyint(1) = 1
      */
     public const SHOWCUSTOMAGREEMENT = 'oxshowcustomagreement';
-
 }

@@ -48,5 +48,4 @@ interface ATTRIBUTE
      * tinyint(1) = 0
      */
     public const DISPLAYINBASKET = 'oxdisplayinbasket';
-
 }

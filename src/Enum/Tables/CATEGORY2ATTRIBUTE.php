@@ -41,5 +41,4 @@ interface CATEGORY2ATTRIBUTE
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

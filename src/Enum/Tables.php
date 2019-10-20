@@ -376,14 +376,14 @@ interface Tables
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2ACTION = 'oxobject2action';
+    public const O2ACTION = 'oxobject2action';
 
     /**
      * Shows many-to-many relationship between cross-selling articles [InnoDB]
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2ARTICLE = 'oxobject2article';
+    public const O2ARTICLE = 'oxobject2article';
 
     /**
      * Shows many-to-many relationship between articles and attributes [InnoDB]
@@ -411,7 +411,7 @@ interface Tables
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2LIST = 'oxobject2list';
+    public const O2LIST = 'oxobject2list';
 
     /**
      * Shows many-to-many relationship between payments and objects (table determined by oxtype) [InnoDB]
@@ -425,14 +425,14 @@ interface Tables
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2SELECTLIST = 'oxobject2selectlist';
+    public const O2SELECTLIST = 'oxobject2selectlist';
 
     /**
      * Seo entries [InnoDB]
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2SEODATA = 'oxobject2seodata';
+    public const O2SEODATA = 'oxobject2seodata';
 
     /**
      * Article scale prices [InnoDB]

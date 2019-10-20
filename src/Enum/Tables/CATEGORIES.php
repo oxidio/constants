@@ -162,7 +162,7 @@ interface CATEGORIES
     public const VAT = 'oxvat';
 
     /**
-     * Skip all negative Discounts for articles in this category (Discounts, Vouchers, Delivery ...)
+     * Skip all negative Discounts for articles in this category (Discounts, Vouchers, Delivery ...) 
      *
      * tinyint(1) = 0
      */
@@ -181,5 +181,4 @@ interface CATEGORIES
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

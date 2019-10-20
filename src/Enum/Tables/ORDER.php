@@ -456,14 +456,14 @@ interface ORDER
     public const TRANSID = 'oxtransid';
 
     /**
-     *
+     * 
      *
      * varchar(64)
      */
     public const PAYID = 'oxpayid';
 
     /**
-     *
+     * 
      *
      * varchar(64)
      */
@@ -531,5 +531,4 @@ interface ORDER
      * tinyint(1) = 0
      */
     public const ISNETTOMODE = 'oxisnettomode';
-
 }

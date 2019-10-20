@@ -41,5 +41,4 @@ interface O2GROUP
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }

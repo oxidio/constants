@@ -50,7 +50,7 @@ interface PAYMENTS
     public const ADDSUMRULES = 'oxaddsumrules';
 
     /**
-     * Minimal Credit Rating
+     * Minimal Credit Rating 
      *
      * int(11) = 0
      */
@@ -104,5 +104,4 @@ interface PAYMENTS
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
-
 }
