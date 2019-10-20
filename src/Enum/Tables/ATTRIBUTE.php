@@ -5,35 +5,28 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Object2attribute
+interface ATTRIBUTE
 {
     /**
-     * Record id
+     * Attribute id
      *
      * char(32)
      */
     public const ID = 'oxid';
 
     /**
-     * Article id (oxarticles)
+     * Shop id (oxshops)
      *
-     * char(32)
+     * int(11) = 1
      */
-    public const OBJECTID = 'oxobjectid';
+    public const SHOPID = 'oxshopid';
 
     /**
-     * Attribute id (oxattributes)
+     * Title (multilanguage)
      *
-     * char(32)
+     * varchar-i18n(128)
      */
-    public const ATTRID = 'oxattrid';
-
-    /**
-     * Attribute value (multilanguage)
-     *
-     * varchar-i18n(255)
-     */
-    public const VALUE = 'oxvalue';
+    public const TITLE = 'oxtitle';
 
     /**
      * Sorting
@@ -48,5 +41,12 @@ interface Object2attribute
      * timestamp = CURRENT_TIMESTAMP
      */
     public const TIMESTAMP = 'oxtimestamp';
+
+    /**
+     * Display attribute`s value for articles in checkout
+     *
+     * tinyint(1) = 0
+     */
+    public const DISPLAYINBASKET = 'oxdisplayinbasket';
 
 }

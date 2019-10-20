@@ -5,10 +5,10 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Actions
+interface DELIVERYSET
 {
     /**
-     * Action id
+     * Delivery method id
      *
      * char(32)
      */
@@ -22,30 +22,9 @@ interface Actions
     public const SHOPID = 'oxshopid';
 
     /**
-     * Action type: 0 or 1 - action, 2 - promotion, 3 - banner
-     *
-     * tinyint(1)
-     */
-    public const TYPE = 'oxtype';
-
-    /**
-     * Title (multilanguage)
-     *
-     * varchar-i18n(128)
-     */
-    public const TITLE = 'oxtitle';
-
-    /**
-     * Long description, used for promotion (multilanguage)
-     *
-     * text-i18n
-     */
-    public const LONGDESC = 'oxlongdesc';
-
-    /**
      * Active
      *
-     * tinyint(1) = 1
+     * tinyint(1) = 0
      */
     public const ACTIVE = 'oxactive';
 
@@ -64,28 +43,21 @@ interface Actions
     public const ACTIVETO = 'oxactiveto';
 
     /**
-     * Picture filename, used for banner (multilanguage)
+     * Title (multilanguage)
      *
-     * varchar-i18n(128)
+     * varchar-i18n(255)
      */
-    public const PIC = 'oxpic';
-
-    /**
-     * Link, used on banner (multilanguage)
-     *
-     * varchar-i18n(128)
-     */
-    public const LINK = 'oxlink';
+    public const TITLE = 'oxtitle';
 
     /**
      * Sorting
      *
-     * int(5) = 0
+     * int(11) = 0
      */
-    public const SORT = 'oxsort';
+    public const POS = 'oxpos';
 
     /**
-     * Timestamp
+     * Creation time
      *
      * timestamp = CURRENT_TIMESTAMP
      */

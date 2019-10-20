@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Category2attribute
+interface CATEGORY2ATTRIBUTE
 {
     /**
      * Record id

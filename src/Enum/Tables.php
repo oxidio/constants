@@ -138,14 +138,14 @@ interface Tables
      *
      * @see \OxidEsales\Eshop\Application\Model\Object2Category
      */
-    public const OBJECT2CATEGORY = 'oxobject2category';
+    public const O2CATEGORY = 'oxobject2category';
 
     /**
      * Shows many-to-many relationship between users and groups [InnoDB]
      *
      * @see \OxidEsales\Eshop\Application\Model\Object2Group
      */
-    public const OBJECT2GROUP = 'oxobject2group';
+    public const O2GROUP = 'oxobject2group';
 
     /**
      * Shop orders information [InnoDB]
@@ -390,21 +390,21 @@ interface Tables
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2ATTRIBUTE = 'oxobject2attribute';
+    public const O2ATTRIBUTE = 'oxobject2attribute';
 
     /**
      * Shows many-to-many relationship between delivery cost rules and objects (table determined by oxtype) [InnoDB]
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2DELIVERY = 'oxobject2delivery';
+    public const O2DELIVERY = 'oxobject2delivery';
 
     /**
      * Shows many-to-many relationship between discounts and objects (table determined by oxtype) [InnoDB]
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2DISCOUNT = 'oxobject2discount';
+    public const O2DISCOUNT = 'oxobject2discount';
 
     /**
      * Shows many-to-many relationship between articles and listmania lists [InnoDB]
@@ -418,7 +418,7 @@ interface Tables
      *
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
-    public const OBJECT2PAYMENT = 'oxobject2payment';
+    public const O2PAYMENT = 'oxobject2payment';
 
     /**
      * Shows many-to-many relationship between articles and selection lists [InnoDB]
@@ -468,5 +468,4 @@ interface Tables
      * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const TPLBLOCKS = 'oxtplblocks';
-
 }

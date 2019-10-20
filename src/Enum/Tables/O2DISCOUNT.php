@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Del2delset
+interface O2DISCOUNT
 {
     /**
      * Record id
@@ -15,18 +15,25 @@ interface Del2delset
     public const ID = 'oxid';
 
     /**
-     * Shipping cost rule id (oxdelivery)
+     * Discount id (oxdiscount)
      *
      * char(32)
      */
-    public const DELID = 'oxdelid';
+    public const DISCOUNTID = 'oxdiscountid';
 
     /**
-     * Delivery method id (oxdeliveryset)
+     * Object id (table determined by oxtype)
      *
      * char(32)
      */
-    public const DELSETID = 'oxdelsetid';
+    public const OBJECTID = 'oxobjectid';
+
+    /**
+     * Record type
+     *
+     * char(32)
+     */
+    public const TYPE = 'oxtype';
 
     /**
      * Timestamp

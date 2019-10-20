@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Discount
+interface DISCOUNT
 {
     /**
      * Discount id

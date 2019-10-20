@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Delivery
+interface DELIVERY
 {
     /**
      * Delivery shipping cost rule id

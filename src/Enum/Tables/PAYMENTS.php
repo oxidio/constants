@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Payments
+interface PAYMENTS
 {
     /**
      * Payment id
@@ -50,7 +50,7 @@ interface Payments
     public const ADDSUMRULES = 'oxaddsumrules';
 
     /**
-     * Minimal Credit Rating 
+     * Minimal Credit Rating
      *
      * int(11) = 0
      */

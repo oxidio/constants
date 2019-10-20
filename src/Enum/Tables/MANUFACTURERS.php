@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Manufacturers
+interface MANUFACTURERS
 {
     /**
      * Manufacturer id

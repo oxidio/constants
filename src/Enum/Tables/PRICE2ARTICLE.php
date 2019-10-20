@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Price2article
+interface PRICE2ARTICLE
 {
     /**
      * Record id

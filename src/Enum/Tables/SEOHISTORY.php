@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Seohistory
+interface SEOHISTORY
 {
     /**
      * Object id

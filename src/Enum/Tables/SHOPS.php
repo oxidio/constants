@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Shops
+interface SHOPS
 {
     /**
      * Shop id

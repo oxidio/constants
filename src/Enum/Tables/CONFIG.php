@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Config
+interface CONFIG
 {
     /**
      * Config id

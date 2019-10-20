@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Country
+interface COUNTRY
 {
     /**
      * Country id

@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Order
+interface ORDER
 {
     /**
      * Order id
@@ -456,14 +456,14 @@ interface Order
     public const TRANSID = 'oxtransid';
 
     /**
-     * 
+     *
      *
      * varchar(64)
      */
     public const PAYID = 'oxpayid';
 
     /**
-     * 
+     *
      *
      * varchar(64)
      */

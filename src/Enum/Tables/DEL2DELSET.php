@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Object2delivery
+interface DEL2DELSET
 {
     /**
      * Record id
@@ -15,25 +15,18 @@ interface Object2delivery
     public const ID = 'oxid';
 
     /**
-     * Delivery id (oxdelivery)
+     * Shipping cost rule id (oxdelivery)
      *
      * char(32)
      */
-    public const DELIVERYID = 'oxdeliveryid';
+    public const DELID = 'oxdelid';
 
     /**
-     * Object id (table determined by oxtype)
+     * Delivery method id (oxdeliveryset)
      *
      * char(32)
      */
-    public const OBJECTID = 'oxobjectid';
-
-    /**
-     * Record type
-     *
-     * char(32)
-     */
-    public const TYPE = 'oxtype';
+    public const DELSETID = 'oxdelsetid';
 
     /**
      * Timestamp

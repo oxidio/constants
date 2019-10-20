@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Artextends
+interface ARTEXTENDS
 {
     /**
      * Article id (extends oxarticles article with this id)

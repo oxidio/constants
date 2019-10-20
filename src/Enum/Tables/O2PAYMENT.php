@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Object2category
+interface O2PAYMENT
 {
     /**
      * Record id
@@ -15,32 +15,25 @@ interface Object2category
     public const ID = 'oxid';
 
     /**
-     * Article id (oxarticles)
+     * Payment id (oxpayments)
+     *
+     * char(32)
+     */
+    public const PAYMENTID = 'oxpaymentid';
+
+    /**
+     * Object id (table determined by oxtype)
      *
      * char(32)
      */
     public const OBJECTID = 'oxobjectid';
 
     /**
-     * Category id (oxcategory)
+     * Record type
      *
      * char(32)
      */
-    public const CATNID = 'oxcatnid';
-
-    /**
-     * Sorting
-     *
-     * int(11) = 0
-     */
-    public const POS = 'oxpos';
-
-    /**
-     * Creation time
-     *
-     * int(11) = 0
-     */
-    public const TIME = 'oxtime';
+    public const TYPE = 'oxtype';
 
     /**
      * Timestamp

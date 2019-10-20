@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Articles
+interface ARTICLES
 {
     /**
      * Article id
@@ -106,7 +106,7 @@ interface Articles
     public const PRICE = 'oxprice';
 
     /**
-     * No Promotions (Price Alert) 
+     * No Promotions (Price Alert)
      *
      * tinyint(1) = 0
      */
@@ -512,14 +512,14 @@ interface Articles
     public const REMINDAMOUNT = 'oxremindamount';
 
     /**
-     * 
+     *
      *
      * varchar(32)
      */
     public const AMITEMID = 'oxamitemid';
 
     /**
-     * 
+     *
      *
      * varchar(16) = 0
      */

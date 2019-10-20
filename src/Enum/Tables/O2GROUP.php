@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Object2discount
+interface O2GROUP
 {
     /**
      * Record id
@@ -15,25 +15,25 @@ interface Object2discount
     public const ID = 'oxid';
 
     /**
-     * Discount id (oxdiscount)
+     * Shop id (oxshops)
      *
-     * char(32)
+     * int(11) = 1
      */
-    public const DISCOUNTID = 'oxdiscountid';
+    public const SHOPID = 'oxshopid';
 
     /**
-     * Object id (table determined by oxtype)
+     * User id
      *
      * char(32)
      */
     public const OBJECTID = 'oxobjectid';
 
     /**
-     * Record type
+     * Group id
      *
      * char(32)
      */
-    public const TYPE = 'oxtype';
+    public const GROUPSID = 'oxgroupsid';
 
     /**
      * Timestamp

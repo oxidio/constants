@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Object2group
+interface O2CATEGORY
 {
     /**
      * Record id
@@ -15,25 +15,32 @@ interface Object2group
     public const ID = 'oxid';
 
     /**
-     * Shop id (oxshops)
-     *
-     * int(11) = 1
-     */
-    public const SHOPID = 'oxshopid';
-
-    /**
-     * User id
+     * Article id (oxarticles)
      *
      * char(32)
      */
     public const OBJECTID = 'oxobjectid';
 
     /**
-     * Group id
+     * Category id (oxcategory)
      *
      * char(32)
      */
-    public const GROUPSID = 'oxgroupsid';
+    public const CATNID = 'oxcatnid';
+
+    /**
+     * Sorting
+     *
+     * int(11) = 0
+     */
+    public const POS = 'oxpos';
+
+    /**
+     * Creation time
+     *
+     * int(11) = 0
+     */
+    public const TIME = 'oxtime';
 
     /**
      * Timestamp

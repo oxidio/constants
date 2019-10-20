@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Object2payment
+interface O2DELIVERY
 {
     /**
      * Record id
@@ -15,11 +15,11 @@ interface Object2payment
     public const ID = 'oxid';
 
     /**
-     * Payment id (oxpayments)
+     * Delivery id (oxdelivery)
      *
      * char(32)
      */
-    public const PAYMENTID = 'oxpaymentid';
+    public const DELIVERYID = 'oxdeliveryid';
 
     /**
      * Object id (table determined by oxtype)

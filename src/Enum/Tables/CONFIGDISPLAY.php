@@ -5,7 +5,7 @@
 
 namespace Oxidio\Enum\Tables;
 
-interface Configdisplay
+interface CONFIGDISPLAY
 {
     /**
      * Config id (extends oxconfig record with this id)
