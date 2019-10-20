@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between Shipping cost rules (oxdelivery) and delivery methods (oxdeliveryset) [InnoDB]
+ */
 interface DEL2DELSET
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Seo urls information [InnoDB]
+ */
 interface SEO
 {
     /**

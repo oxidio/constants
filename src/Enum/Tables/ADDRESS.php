@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Stores user shipping addresses [InnoDB]
+ */
 interface ADDRESS
 {
     /**

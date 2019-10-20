@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between actions (oxactions) and objects (table set by oxclass) [InnoDB]
+ */
 interface O2ACTION
 {
     /**

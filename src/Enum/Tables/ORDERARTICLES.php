@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Ordered articles information [InnoDB]
+ */
 interface ORDERARTICLES
 {
     /**

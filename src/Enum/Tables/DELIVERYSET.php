@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Delivery (shipping) methods [InnoDB]
+ */
 interface DELIVERYSET
 {
     /**

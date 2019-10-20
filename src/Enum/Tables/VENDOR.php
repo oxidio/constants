@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Distributors list [InnoDB]
+ */
 interface VENDOR
 {
     /**

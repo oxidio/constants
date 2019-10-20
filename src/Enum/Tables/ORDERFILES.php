@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Files, given to users to download after order [InnoDB]
+ */
 interface ORDERFILES
 {
     /**

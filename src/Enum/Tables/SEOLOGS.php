@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Seo logging. Logs bad requests [InnoDB]
+ */
 interface SEOLOGS
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Files available for users to download [InnoDB]
+ */
 interface FILES
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shop administrators and users [InnoDB]
+ */
 interface USER
 {
     /**

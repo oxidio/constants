@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Coupon series [InnoDB]
+ */
 interface VOUCHERSERIES
 {
     /**

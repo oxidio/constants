@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Stores objects media [InnoDB]
+ */
 interface MEDIAURLS
 {
     /**

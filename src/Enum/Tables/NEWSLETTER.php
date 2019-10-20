@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Templates for sending newsletters [InnoDB]
+ */
 interface NEWSLETTER
 {
     /**

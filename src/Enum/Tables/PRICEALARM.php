@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Price fall alarm requests [InnoDB]
+ */
 interface PRICEALARM
 {
     /**

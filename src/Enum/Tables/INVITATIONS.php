@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * User sent invitations [InnoDB]
+ */
 interface INVITATIONS
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Delivery shipping cost rules [InnoDB]
+ */
 interface DELIVERY
 {
     /**

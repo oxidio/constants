@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * US States list [InnoDB]
+ */
 interface STATES
 {
     /**

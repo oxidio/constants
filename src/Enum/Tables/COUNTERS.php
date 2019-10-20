@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shop counters [InnoDB]
+ */
 interface COUNTERS
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ *  [InnoDB]
+ */
 interface MIGRATIONS_CE
 {
     /**

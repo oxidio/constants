@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows which users has accepted shop terms [InnoDB]
+ */
 interface ACCEPTEDTERMS
 {
     /**

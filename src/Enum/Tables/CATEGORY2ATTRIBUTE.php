@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between categories and attributes [InnoDB]
+ */
 interface CATEGORY2ATTRIBUTE
 {
     /**

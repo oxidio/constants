@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Generated coupons [InnoDB]
+ */
 interface VOUCHERS
 {
     /**

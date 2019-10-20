@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Seo entries [InnoDB]
+ */
 interface O2SEODATA
 {
     /**

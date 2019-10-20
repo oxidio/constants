@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Listmania [InnoDB]
+ */
 interface RECOMMLISTS
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Seo urls history. If url does not exists in oxseo, then checks here and redirects [InnoDB]
+ */
 interface SEOHISTORY
 {
     /**

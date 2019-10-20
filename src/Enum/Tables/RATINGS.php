@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Articles and Listmania ratings [InnoDB]
+ */
 interface RATINGS
 {
     /**

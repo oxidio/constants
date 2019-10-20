@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum;
 
+/**
+ * 
+ */
 interface Tables
 {
     /**
@@ -289,183 +292,131 @@ interface Tables
 
     /**
      * Shows which users has accepted shop terms [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const ACCEPTEDTERMS = 'oxacceptedterms';
 
     /**
      * Shows many-to-many relationship between article and its accessory articles [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const ACCESSOIRE2ARTICLE = 'oxaccessoire2article';
 
     /**
      * Shows many-to-many relationship between actions and articles [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const ACTIONS2ARTICLE = 'oxactions2article';
 
     /**
      * Logs admin actions [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const ADMINLOG = 'oxadminlog';
 
     /**
      * Additional information for articles [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const ARTEXTENDS = 'oxartextends';
 
     /**
      * Shows many-to-many relationship between categories and attributes [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const CATEGORY2ATTRIBUTE = 'oxcategory2attribute';
 
     /**
      * Shop configuration values [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const CONFIG = 'oxconfig';
 
     /**
      * Additional configuraion fields [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const CONFIGDISPLAY = 'oxconfigdisplay';
 
     /**
      * Shop counters [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const COUNTERS = 'oxcounters';
 
     /**
      * Shows many-to-many relationship between Shipping cost rules (oxdelivery) and delivery methods (oxdeliveryset) [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const DEL2DELSET = 'oxdel2delset';
 
     /**
      * User sent invitations [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const INVITATIONS = 'oxinvitations';
 
     /**
      *  [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const MIGRATIONS_CE = 'oxmigrations_ce';
 
     /**
      * Shows many-to-many relationship between actions (oxactions) and objects (table set by oxclass) [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2ACTION = 'oxobject2action';
 
     /**
      * Shows many-to-many relationship between cross-selling articles [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2ARTICLE = 'oxobject2article';
 
     /**
      * Shows many-to-many relationship between articles and attributes [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2ATTRIBUTE = 'oxobject2attribute';
 
     /**
      * Shows many-to-many relationship between delivery cost rules and objects (table determined by oxtype) [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2DELIVERY = 'oxobject2delivery';
 
     /**
      * Shows many-to-many relationship between discounts and objects (table determined by oxtype) [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2DISCOUNT = 'oxobject2discount';
 
     /**
      * Shows many-to-many relationship between articles and listmania lists [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2LIST = 'oxobject2list';
 
     /**
      * Shows many-to-many relationship between payments and objects (table determined by oxtype) [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2PAYMENT = 'oxobject2payment';
 
     /**
      * Shows many-to-many relationship between articles and selection lists [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2SELECTLIST = 'oxobject2selectlist';
 
     /**
      * Seo entries [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const O2SEODATA = 'oxobject2seodata';
 
     /**
      * Article scale prices [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const PRICE2ARTICLE = 'oxprice2article';
 
     /**
      * Seo urls information [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const SEO = 'oxseo';
 
     /**
      * Seo urls history. If url does not exists in oxseo, then checks here and redirects [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const SEOHISTORY = 'oxseohistory';
 
     /**
      * Seo logging. Logs bad requests [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const SEOLOGS = 'oxseologs';
 
     /**
      * Module template blocks [InnoDB]
-     *
-     * @see \OxidEsales\Eshop\Core\Model\BaseModel
      */
     public const TPLBLOCKS = 'oxtplblocks';
 }

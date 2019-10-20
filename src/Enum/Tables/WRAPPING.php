@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Wrappings [InnoDB]
+ */
 interface WRAPPING
 {
     /**

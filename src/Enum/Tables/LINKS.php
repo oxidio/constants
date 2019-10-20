@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Links [InnoDB]
+ */
 interface LINKS
 {
     /**

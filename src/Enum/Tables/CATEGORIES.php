@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Article categories [InnoDB]
+ */
 interface CATEGORIES
 {
     /**

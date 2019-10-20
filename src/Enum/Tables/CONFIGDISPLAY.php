@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Additional configuraion fields [InnoDB]
+ */
 interface CONFIGDISPLAY
 {
     /**

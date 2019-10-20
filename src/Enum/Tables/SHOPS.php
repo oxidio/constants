@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shop config [InnoDB]
+ */
 interface SHOPS
 {
     /**

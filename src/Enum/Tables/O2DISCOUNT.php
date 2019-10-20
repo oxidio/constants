@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between discounts and objects (table determined by oxtype) [InnoDB]
+ */
 interface O2DISCOUNT
 {
     /**

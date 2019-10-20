@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Article discounts [InnoDB]
+ */
 interface DISCOUNT
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between articles and attributes [InnoDB]
+ */
 interface O2ATTRIBUTE
 {
     /**

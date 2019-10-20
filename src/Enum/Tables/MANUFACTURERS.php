@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shop manufacturers [InnoDB]
+ */
 interface MANUFACTURERS
 {
     /**

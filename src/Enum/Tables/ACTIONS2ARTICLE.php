@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between actions and articles [InnoDB]
+ */
 interface ACTIONS2ARTICLE
 {
     /**

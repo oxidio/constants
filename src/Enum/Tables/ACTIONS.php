@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Stores information about actions, promotions and banners [InnoDB]
+ */
 interface ACTIONS
 {
     /**

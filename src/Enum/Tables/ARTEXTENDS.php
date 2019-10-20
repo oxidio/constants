@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Additional information for articles [InnoDB]
+ */
 interface ARTEXTENDS
 {
     /**

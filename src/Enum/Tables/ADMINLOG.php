@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Logs admin actions [InnoDB]
+ */
 interface ADMINLOG
 {
     /**

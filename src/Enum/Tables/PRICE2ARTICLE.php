@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Article scale prices [InnoDB]
+ */
 interface PRICE2ARTICLE
 {
     /**

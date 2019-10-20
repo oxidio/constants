@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * User groups [InnoDB]
+ */
 interface GROUPS
 {
     /**

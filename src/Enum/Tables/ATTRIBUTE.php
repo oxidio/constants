@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Article attributes [InnoDB]
+ */
 interface ATTRIBUTE
 {
     /**

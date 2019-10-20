@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * User History [InnoDB]
+ */
 interface REMARK
 {
     /**

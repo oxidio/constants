@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Active User baskets [InnoDB]
+ */
 interface USERBASKETS
 {
     /**

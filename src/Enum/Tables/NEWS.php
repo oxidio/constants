@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shop news [InnoDB]
+ */
 interface NEWS
 {
     /**

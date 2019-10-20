@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Content pages (Snippets, Menu, Categories, Manual) [InnoDB]
+ */
 interface CONTENTS
 {
     /**

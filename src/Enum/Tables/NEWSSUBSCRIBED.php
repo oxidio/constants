@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * User subscriptions [InnoDB]
+ */
 interface NEWSSUBSCRIBED
 {
     /**

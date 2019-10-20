@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between cross-selling articles [InnoDB]
+ */
 interface O2ARTICLE
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between articles and listmania lists [InnoDB]
+ */
 interface O2LIST
 {
     /**

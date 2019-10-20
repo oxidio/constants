@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Module template blocks [InnoDB]
+ */
 interface TPLBLOCKS
 {
     /**

@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Selection lists [InnoDB]
+ */
 interface SELECTLIST
 {
     /**

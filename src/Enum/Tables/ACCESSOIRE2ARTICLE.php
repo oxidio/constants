@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Shows many-to-many relationship between article and its accessory articles [InnoDB]
+ */
 interface ACCESSOIRE2ARTICLE
 {
     /**

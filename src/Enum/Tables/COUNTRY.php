@@ -5,6 +5,9 @@
 
 namespace Oxidio\Enum\Tables;
 
+/**
+ * Countries list [InnoDB]
+ */
 interface COUNTRY
 {
     /**
